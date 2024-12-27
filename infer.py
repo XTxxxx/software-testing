@@ -1,5 +1,6 @@
+from operator import truediv
+from optparse import check_choice
 import os
-from readline import append_history_file
 import subprocess
 from typing import List, Dict, Any
 import typer
@@ -19,28 +20,79 @@ DEFAULT_REPOS = [
     "ratis"
 ]
 JAVA_HOMES = {
-    "commons-io": "JAVA8_HOME",
+    "commons-io": "JAVA11_HOME",
     "commons-lang": "JAVA11_HOME",   
     "opennlp": "JAVA17_HOME",
     "pdfbox": "JAVA8_HOME",
     "ratis": "JAVA8_HOME"
 }
 
-class BugReport:
-    def __init__(self, bug_type: str, qualifier: str, severity: str, line: int, column: int, procedure: str, procedure_start_line: int, file: str, bug_trace: List[Dict[str, Any]], key: str, node_key: str, hash: str, bug_type_hum: str):
-        self.bug_type = bug_type
-        self.qualifier = qualifier
-        self.severity = severity
-        self.line = line
-        self.column = column
-        self.procedure = procedure
-        self.procedure_start_line = procedure_start_line
-        self.file = file
-        self.bug_trace = bug_trace
-        self.key = key
-        self.node_key = node_key
-        self.hash = hash
-        self.bug_type_hum = bug_type_hum
+TOOL_SETTINGS = {
+    "infer": {
+    },
+    "spotbugs": {
+    }
+    # Add other tools here as needed
+}
+
+def infer_run():
+    subprocess.run(
+        [
+            "infer", "run",
+            "--", "mvn", "clean", "install",
+            "-Drat.skip=true", "-Dmaven.test.skip=true", "-Dmdep.analyze.skip=true", "-Dskip=true", "-Danimal.sniffer.skip=true"
+        ],
+        check=True,
+        capture_output=not VERBOSE,
+    )
+
+def spotbugs_run():
+    p1 = subprocess.Popen(["find", ".", "-name", "*class", "!", "-path", "*/opennlp-distr/*"], stdout=subprocess.PIPE)
+    p2 = subprocess.Popen(["spotbugs", "-textui", "-xargs", "-sarif=spotbugs.sarif"], stdin=p1.stdout, stdout=subprocess.PIPE)
+
+    p1.stdout.close()
+    p2.communicate()
+
+def codeql_run():
+    # Create the database
+    subprocess.run(
+        [
+            "codeql", "database", "create", "java-database", 
+            "--language=java", "--source-root=.", "--no-run-unnecessary-builds", "--overwrite"
+        ],
+        check=True,
+        capture_output=not VERBOSE,
+    )
+
+    subprocess.run(
+        [
+            "codeql", "database", "analyze", "java-database",
+            "--format=sarif-latest", "--output=codeql.sarif",
+            "java-security-and-quality.qls"
+        ],
+        check=True,
+        capture_output=not VERBOSE,
+    )
+
+    # Remove the database
+    subprocess.run(
+        [
+            "rm", "-rf", "java-database" 
+        ],
+        check = True,
+        capture_output=not VERBOSE,
+    )
+
+def pmd_run():
+    subprocess.run(
+        [
+            "pmd", "check", "-d", ".", "-f", "sarif", "-r", "pmd.sarif", "-R", "rulesets/java/quickstart.xml"
+        ],
+        check=True,
+        capture_output=not VERBOSE,
+    )
+
+
 
 
 """Sort tags"""
@@ -51,29 +103,51 @@ def set_java_home(repo: str):
     java_home = JAVA_HOMES[repo]
     os.environ["JAVA_HOME"] = os.getenv(java_home)
 
-def compare_reports(repo: str, base_tag: str, compare_tag: str) -> str:
-    base_path = Path(f"./repos/{repo}/{base_tag}").glob("*/infer-out/report.json")
-    compare_path = Path(f"./repos/{repo}/{compare_tag}").glob("*/infer-out/report.json")
-    
-    base_report = next(base_path)
-    compare_report = next(compare_path)
-    
-    output_dir = Path(f"./reports/{repo}")
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_dir = output_dir / f"{compare_tag}"
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    cwd = os.getcwd()
-    os.chdir(output_dir.resolve())
-    
+def compare_reports_infer(config, repo: str, base_report, compare_report, output_dir, cwd):
     subprocess.run([
         "infer", "reportdiff",
         "--report-previous", os.path.join(cwd, str(base_report)),
         "--report-current", os.path.join(cwd, str(compare_report)),
     ], check=True, capture_output=not VERBOSE)
-    
+
+def compare_reports_spots_bugs():
+    # TODO
+    os.abort()
+
+def compare_reports_codeql():
+    # TODO
+    os.abort()
+
+def compare_reports_pmd():
+    # TODO
+    os.abort()
+
+def compare_tool_reports(tool: str, repo: str, base_report, compare_report, output_dir, cwd):
+    config = TOOL_SETTINGS[tool]
+    if tool == "infer":
+        compare_reports_infer(config, repo, base_report, compare_report, output_dir, cwd)
+    elif tool == "spotbugs":
+        compare_reports_spots_bugs()
+    elif tool == "codeql":
+        compare_reports_codeql()
+    elif tool == "pmd":
+        compare_reports_pmd()
+    # ...extend for other tools...
+
+
+def compare_reports(tool: str, repo: str, base_tag: str, compare_tag: str) -> str:
+    config = TOOL_SETTINGS[tool]
+    base_path = Path(f"./repos/{tool}/{repo}/{base_tag}").glob(f"*/{config['report_dir']}/{config['report_file']}")
+    compare_path = Path(f"./repos/{tool}/{repo}/{compare_tag}").glob(f"*/{config['report_dir']}/{config['report_file']}")
+    base_report = next(base_path)
+    compare_report = next(compare_path)
+    output_dir = Path(f"./reports/{repo}/{compare_tag}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    cwd = os.getcwd()
+    os.chdir(output_dir.resolve())
+    compare_tool_reports(tool, repo, base_report, compare_report, output_dir, cwd)
     os.chdir(cwd)
-    return str(output_dir / "infer-out" / "differential" / "fixed.json")
+    return str(output_dir / f"{config['report_dir']}" / "differential" / config['fixed_file'])
 
 def get_warning_key(warning):
     """Create a unique key for a warning based on its identifying attributes"""
@@ -85,13 +159,13 @@ def get_warning_key(warning):
         warning.get('hash')
     )
 
-def process_reports(repo: str, tags: List[str]):
+def process_reports(tool: str, repo: str, tags: List[str]):
     base_tag = tags[0]  # tag_1
     fixed_reports = []
     
     for tag in tags[1:]:
         try:
-            fixed_json = compare_reports(repo, base_tag, tag)
+            fixed_json = compare_reports(tool, repo, base_tag, tag)
             fixed_reports.append(fixed_json)
         except Exception as e:
             if VERBOSE:
@@ -119,6 +193,13 @@ def process_reports(repo: str, tags: List[str]):
     with open(output_path, "w") as f:
         json.dump(combined_warnings, f, indent=2)
 
+TOOL_RUNNERS = {
+    "infer": infer_run,
+    "spotbugs": spotbugs_run,
+    "codeql": codeql_run,
+    "pmd": pmd_run
+}
+
 @app.command()
 def main(
     repos: List[str] = typer.Option([], "--repos", "-r", help="List of repos to process"),
@@ -127,6 +208,7 @@ def main(
     verbose: bool = typer.Option(False, "--verbose", "-v"),
     analyze: bool = typer.Option(False, "--analyze", "-a"),
     report: bool = typer.Option(False, "--report"),
+    tool: str = typer.Option("infer", "--tool", help="Analysis tool to use"),
     ):
     global VERBOSE
     VERBOSE = verbose
@@ -146,7 +228,7 @@ def main(
         tags = get_sorted_tags(tags)
         
         if report:
-            process_reports(repo, tags)
+            process_reports(tool, repo, tags)
             continue
 
         if VERBOSE:
@@ -164,14 +246,11 @@ def main(
             os.chdir(repo_path)
             try:
                 print(f"Processing {repo_path}")
-                # Run the script
-                subprocess.run(["infer", "run", "--", "mvn", "clean", "install",
-                                "-Drat.skip=true", "-Dmaven.test.skip=true", "-Dmdep.analyze.skip=true", "-Dskip=true", "-Danimal.sniffer.skip=true"], 
-                                check=True,
-                                capture_output=not VERBOSE,
-                )
-
-                print("Infer run successfully")
+                if tool in TOOL_RUNNERS:
+                    TOOL_RUNNERS[tool]()
+                else:
+                    raise ValueError(f"Unknown tool: {tool}")
+                print(f"{tool} run successfully")
             except subprocess.CalledProcessError as e:
                 if VERBOSE:
                     print(f"Error: {e}")
