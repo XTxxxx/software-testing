@@ -1,0 +1,102 @@
+[
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `primitiveToWrapper(varArgComponentType)` could be null and is dereferenced by call to `newInstance(...)` at line 476.",
+    "severity": "ERROR",
+    "line": 476,
+    "column": -1,
+    "procedure": "org.apache.commons.lang3.reflect.MethodUtils.getVarArgs(java.lang.Object[],java.lang.Class[]):java.lang.Object[]",
+    "procedure_start_line": 459,
+    "file": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+        "line_number": 459,
+        "column_number": -1,
+        "description": "start of procedure getVarArgs(...)"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+        "line_number": 460,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+        "line_number": 467,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+        "line_number": 470,
+        "column_number": -1,
+        "description": "Skipping arraycopy(...): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+        "line_number": 473,
+        "column_number": -1,
+        "description": "Skipping getComponentType(): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+        "line_number": 474,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+        "line_number": 476,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+        "line_number": 1483,
+        "column_number": -1,
+        "description": "start of procedure primitiveToWrapper(...)"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+        "line_number": 1484,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+        "line_number": 1485,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/lang3/ClassUtils.java",
+        "line_number": 1488,
+        "column_number": -1,
+        "description": "return from a call to Class ClassUtils.primitiveToWrapper(Class)"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/lang3/reflect/MethodUtils.java",
+        "line_number": 476,
+        "column_number": -1,
+        "description": ""
+      }
+    ],
+    "key": "MethodUtils.java|getVarArgs|NULL_DEREFERENCE",
+    "node_key": "22104a214f27e4c1b8cb15bc1875b6bf",
+    "hash": "422a75b0b6d9ace02897252f7005da12",
+    "bug_type_hum": "Null Dereference"
+  }
+]

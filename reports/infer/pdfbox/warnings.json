@@ -1,0 +1,2843 @@
+[
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `createMemoryOnlyStreamCache()` could be null and is dereferenced at line 124.",
+    "severity": "ERROR",
+    "line": 124,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.cos.COSStream.getStreamCache():org.apache.pdfbox.io.RandomAccessStreamCache",
+    "procedure_start_line": 120,
+    "file": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 120,
+        "column_number": -1,
+        "description": "start of procedure getStreamCache()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 122,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 124,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 320,
+        "column_number": -1,
+        "description": "start of procedure createMemoryOnlyStreamCache()"
+      },
+      {
+        "level": 1,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 322,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "start of procedure setupMainMemoryOnly()"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 119,
+        "column_number": -1,
+        "description": "start of procedure setupMainMemoryOnly(...)"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 121,
+        "column_number": -1,
+        "description": "Skipping MemoryUsageSetting(...): empty list of specs"
+      },
+      {
+        "level": 4,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 66,
+        "column_number": -1,
+        "description": "Definition of MemoryUsageSetting(...)"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 121,
+        "column_number": -1,
+        "description": "return from a call to MemoryUsageSetting MemoryUsageSetting.setupMainMemoryOnly(long)"
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "return from a call to MemoryUsageSetting MemoryUsageSetting.setupMainMemoryOnly()"
+      },
+      {
+        "level": 1,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 322,
+        "column_number": -1,
+        "description": "return from a call to RandomAccessStreamCache$StreamCacheCreateFunction IOUtils.createMemoryOnlyStreamCache()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 124,
+        "column_number": -1,
+        "description": ""
+      }
+    ],
+    "key": "COSStream.java|getStreamCache|NULL_DEREFERENCE",
+    "node_key": "698080661520605f53b7648daeba6ff7",
+    "hash": "2e2c2135adabbd9db3064873f6ccc864",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `createMemoryOnlyStreamCache()` could be null and is dereferenced at line 163.",
+    "severity": "ERROR",
+    "line": 163,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.cos.COSDocument.getStreamCache(org.apache.pdfbox.io.RandomAccessStreamCache$StreamCacheCreateFunction):org.apache.pdfbox.io.RandomAccessStreamCache",
+    "procedure_start_line": 140,
+    "file": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "start of procedure getStreamCache(...)"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 142,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 146,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 148,
+        "column_number": -1,
+        "description": "Skipping create(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessStreamCache.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of create()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 148,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 159,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 163,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 320,
+        "column_number": -1,
+        "description": "start of procedure createMemoryOnlyStreamCache()"
+      },
+      {
+        "level": 1,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 322,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "start of procedure setupMainMemoryOnly()"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 119,
+        "column_number": -1,
+        "description": "start of procedure setupMainMemoryOnly(...)"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 121,
+        "column_number": -1,
+        "description": "Skipping MemoryUsageSetting(...): empty list of specs"
+      },
+      {
+        "level": 4,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 66,
+        "column_number": -1,
+        "description": "Definition of MemoryUsageSetting(...)"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 121,
+        "column_number": -1,
+        "description": "return from a call to MemoryUsageSetting MemoryUsageSetting.setupMainMemoryOnly(long)"
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "return from a call to MemoryUsageSetting MemoryUsageSetting.setupMainMemoryOnly()"
+      },
+      {
+        "level": 1,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 322,
+        "column_number": -1,
+        "description": "return from a call to RandomAccessStreamCache$StreamCacheCreateFunction IOUtils.createMemoryOnlyStreamCache()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 163,
+        "column_number": -1,
+        "description": ""
+      }
+    ],
+    "key": "COSDocument.java|getStreamCache|NULL_DEREFERENCE",
+    "node_key": "698080661520605f53b7648daeba6ff7",
+    "hash": "91c98cf7ecb626b8595604c02447421b",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object `inputStream` last assigned on line 300 could be null and is dereferenced by call to `getContentStreamDocument(...)` at line 307.",
+    "severity": "ERROR",
+    "line": 307,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.debugger.streampane.StreamPane$DocumentCreator.doInBackground():javax.swing.text.StyledDocument",
+    "procedure_start_line": 290,
+    "file": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 290,
+        "column_number": -1,
+        "description": "start of procedure doInBackground()"
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 293,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 294,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 296,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": "start of procedure isXmlMetadata()"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": "return from a call to boolean Stream.isXmlMetadata()"
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 296,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 300,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 135,
+        "column_number": -1,
+        "description": "start of procedure getStream(...)"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 139,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 141,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 170,
+        "column_number": -1,
+        "description": "start of procedure createInputStream()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 173,
+        "column_number": -1,
+        "description": "start of procedure createInputStream(...)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 175,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 136,
+        "column_number": -1,
+        "description": "start of procedure createRawInputStream()"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 138,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 109,
+        "column_number": -1,
+        "description": "start of procedure checkClosed()"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 111,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 118,
+        "column_number": -1,
+        "description": "return from a call to void COSStream.checkClosed()"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 139,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 143,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 145,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 147,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 83,
+        "column_number": -1,
+        "description": "start of procedure seek(...)"
+      },
+      {
+        "level": 5,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 198,
+        "column_number": -1,
+        "description": "start of procedure checkClosed()"
+      },
+      {
+        "level": 6,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 200,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 7,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 156,
+        "column_number": -1,
+        "description": "start of procedure isClosed()"
+      },
+      {
+        "level": 7,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 158,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 8,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessRead.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of isClosed()"
+      },
+      {
+        "level": 7,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 158,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 7,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 158,
+        "column_number": -1,
+        "description": "return from a call to boolean RandomAccessReadView.isClosed()"
+      },
+      {
+        "level": 6,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 200,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 6,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 203,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 205,
+        "column_number": -1,
+        "description": "exception java.io.IOException"
+      },
+      {
+        "level": 6,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 205,
+        "column_number": -1,
+        "description": "return from a call to void RandomAccessReadView.checkClosed()"
+      },
+      {
+        "level": 5,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 92,
+        "column_number": -1,
+        "description": "exception java.io.IOException"
+      },
+      {
+        "level": 5,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadView.java",
+        "line_number": 92,
+        "column_number": -1,
+        "description": "return from a call to void RandomAccessReadView.seek(long)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 158,
+        "column_number": -1,
+        "description": "exception java.io.IOException"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 158,
+        "column_number": -1,
+        "description": "return from a call to InputStream COSStream.createRawInputStream()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 176,
+        "column_number": -1,
+        "description": "exception java.io.IOException"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 176,
+        "column_number": -1,
+        "description": "return from a call to COSInputStream COSStream.createInputStream(DecodeOptions)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 170,
+        "column_number": -1,
+        "description": "exception java.io.IOException"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSStream.java",
+        "line_number": 170,
+        "column_number": -1,
+        "description": "return from a call to COSInputStream COSStream.createInputStream()"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 152,
+        "column_number": -1,
+        "description": "Switch condition is true. Entering switch case"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 154,
+        "column_number": -1,
+        "description": "Skipping error(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 156,
+        "column_number": -1,
+        "description": "return from a call to InputStream Stream.getStream(String)"
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 301,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 301,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 303,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": "start of procedure isXmlMetadata()"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/Stream.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": "return from a call to boolean Stream.isXmlMetadata()"
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 303,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 307,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 403,
+        "column_number": -1,
+        "description": "start of procedure getContentStreamDocument(...)"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 405,
+        "column_number": -1,
+        "description": "Skipping DefaultStyledDocument(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "debugger/src/main/java/org/apache/pdfbox/debugger/streampane/StreamPane.java",
+        "line_number": 410,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 82,
+        "column_number": -1,
+        "description": "start of procedure toByteArray(...)"
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 84,
+        "column_number": -1,
+        "description": "Skipping ByteArrayOutputStream(): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "start of procedure copy(...)"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 99,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 100,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 101,
+        "column_number": -1,
+        "description": ""
+      }
+    ],
+    "key": "StreamPane.java|doInBackground|NULL_DEREFERENCE",
+    "node_key": "0d5a2f2639f34d56cc8af6d106187976",
+    "hash": "2c7bbed83760a502e7bd3de9003c8c09",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `getProperty(\"file.separator\")` could be null and is dereferenced at line 113.",
+    "severity": "ERROR",
+    "line": 113,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.examples.lucene.LucenePDFDocument.<clinit>():void",
+    "procedure_start_line": 113,
+    "file": "examples/src/main/java/org/apache/pdfbox/examples/lucene/LucenePDFDocument.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "examples/src/main/java/org/apache/pdfbox/examples/lucene/LucenePDFDocument.java",
+        "line_number": 113,
+        "column_number": -1,
+        "description": "start of procedure <clinit>()"
+      }
+    ],
+    "key": "LucenePDFDocument.java|<clinit>|NULL_DEREFERENCE",
+    "node_key": "8fe6896617fe48d976e5405cc17d2e7a",
+    "hash": "5bbe8312ee7ac5b29f2f0272b29a3bda",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `java.io.FileOutputStream` acquired by call to `FileOutputStream(...)` at line 145 is not released after line 145.",
+    "severity": "ERROR",
+    "line": 145,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.tools.ExtractText.call():java.lang.Integer",
+    "procedure_start_line": 133,
+    "file": "tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java",
+        "line_number": 133,
+        "column_number": -1,
+        "description": "start of procedure call()"
+      },
+      {
+        "level": 0,
+        "filename": "tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java",
+        "line_number": 136,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java",
+        "line_number": 138,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java",
+        "line_number": 144,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 280,
+        "column_number": -1,
+        "description": "start of procedure loadPDF(...)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 282,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 320,
+        "column_number": -1,
+        "description": "start of procedure createMemoryOnlyStreamCache()"
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 322,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "start of procedure setupMainMemoryOnly()"
+      },
+      {
+        "level": 4,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 119,
+        "column_number": -1,
+        "description": "start of procedure setupMainMemoryOnly(...)"
+      },
+      {
+        "level": 4,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 121,
+        "column_number": -1,
+        "description": "Skipping MemoryUsageSetting(...): empty list of specs"
+      },
+      {
+        "level": 5,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 66,
+        "column_number": -1,
+        "description": "Definition of MemoryUsageSetting(...)"
+      },
+      {
+        "level": 4,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 121,
+        "column_number": -1,
+        "description": "return from a call to MemoryUsageSetting MemoryUsageSetting.setupMainMemoryOnly(long)"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/MemoryUsageSetting.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "return from a call to MemoryUsageSetting MemoryUsageSetting.setupMainMemoryOnly()"
+      },
+      {
+        "level": 2,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/IOUtils.java",
+        "line_number": 322,
+        "column_number": -1,
+        "description": "return from a call to RandomAccessStreamCache$StreamCacheCreateFunction IOUtils.createMemoryOnlyStreamCache()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 282,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 340,
+        "column_number": -1,
+        "description": "start of procedure loadPDF(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 343,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 347,
+        "column_number": -1,
+        "description": "Skipping RandomAccessReadBufferedFile(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "io/src/main/java/org/apache/pdfbox/io/RandomAccessReadBufferedFile.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "Definition of RandomAccessReadBufferedFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 348,
+        "column_number": -1,
+        "description": "Skipping loadPDF(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 460,
+        "column_number": -1,
+        "description": "Definition of loadPDF(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 348,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 353,
+        "column_number": -1,
+        "description": "return from a call to PDDocument Loader.loadPDF(File,String,InputStream,String,RandomAccessStreamCache$StreamCacheCreateFunction)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/Loader.java",
+        "line_number": 282,
+        "column_number": -1,
+        "description": "return from a call to PDDocument Loader.loadPDF(File,String)"
+      },
+      {
+        "level": 0,
+        "filename": "tools/src/main/java/org/apache/pdfbox/tools/ExtractText.java",
+        "line_number": 145,
+        "column_number": -1,
+        "description": "Taking false branch"
+      }
+    ],
+    "key": "ExtractText.java|call|RESOURCE_LEAK",
+    "node_key": "22da44150f13a552b295c3bb0873de5a",
+    "hash": "6169acb1bad1d69fdff171b654ca1865",
+    "bug_type_hum": "Resource Leak"
+  },
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `tb.getImage()` could be null and is dereferenced by call to `decodeBase64(...)` at line 200.",
+    "severity": "ERROR",
+    "line": 200,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.preflight.process.MetadataValidationProcess.checkThumbnail(org.apache.xmpbox.type.ThumbnailType,org.apache.pdfbox.preflight.PreflightContext):void",
+    "procedure_start_line": 195,
+    "file": "preflight/src/main/java/org/apache/pdfbox/preflight/process/MetadataValidationProcess.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "preflight/src/main/java/org/apache/pdfbox/preflight/process/MetadataValidationProcess.java",
+        "line_number": 195,
+        "column_number": -1,
+        "description": "start of procedure checkThumbnail(...)"
+      },
+      {
+        "level": 0,
+        "filename": "preflight/src/main/java/org/apache/pdfbox/preflight/process/MetadataValidationProcess.java",
+        "line_number": 200,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ThumbnailType.java",
+        "line_number": 117,
+        "column_number": -1,
+        "description": "start of procedure getImage()"
+      },
+      {
+        "level": 1,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ThumbnailType.java",
+        "line_number": 119,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/AbstractComplexProperty.java",
+        "line_number": 131,
+        "column_number": -1,
+        "description": "start of procedure getFirstEquivalentProperty(...)"
+      },
+      {
+        "level": 2,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/AbstractComplexProperty.java",
+        "line_number": 133,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": "start of procedure getFirstEquivalentProperty(...)"
+      },
+      {
+        "level": 3,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 61,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 104,
+        "column_number": -1,
+        "description": "start of procedure getPropertiesByLocalName(...)"
+      },
+      {
+        "level": 4,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 107,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 92,
+        "column_number": -1,
+        "description": "start of procedure getAllProperties()"
+      },
+      {
+        "level": 5,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 94,
+        "column_number": -1,
+        "description": "return from a call to List ComplexPropertyContainer.getAllProperties()"
+      },
+      {
+        "level": 4,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 107,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 107,
+        "column_number": -1,
+        "description": "start of procedure callsite_org.apache.xmpbox.type.ComplexPropertyContainer$Lambda$_6_10(...)"
+      },
+      {
+        "level": 5,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 107,
+        "column_number": -1,
+        "description": "return from a call to Predicate ComplexPropertyContainer.callsite_org.apache.xmpbox.type.ComplexPropertyContainer$Lambda$_6_10(String)"
+      },
+      {
+        "level": 4,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "Skipping filter(...): unknown method"
+      },
+      {
+        "level": 4,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 109,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 110,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 4,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 112,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 116,
+        "column_number": -1,
+        "description": "return from a call to List ComplexPropertyContainer.getPropertiesByLocalName(String)"
+      },
+      {
+        "level": 3,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 62,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 3,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ComplexPropertyContainer.java",
+        "line_number": 72,
+        "column_number": -1,
+        "description": "return from a call to AbstractField ComplexPropertyContainer.getFirstEquivalentProperty(String,Class)"
+      },
+      {
+        "level": 2,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/AbstractComplexProperty.java",
+        "line_number": 133,
+        "column_number": -1,
+        "description": "return from a call to AbstractField AbstractComplexProperty.getFirstEquivalentProperty(String,Class)"
+      },
+      {
+        "level": 1,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ThumbnailType.java",
+        "line_number": 120,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "xmpbox/src/main/java/org/apache/xmpbox/type/ThumbnailType.java",
+        "line_number": 124,
+        "column_number": -1,
+        "description": "return from a call to String ThumbnailType.getImage()"
+      },
+      {
+        "level": 0,
+        "filename": "preflight/src/main/java/org/apache/pdfbox/preflight/process/MetadataValidationProcess.java",
+        "line_number": 200,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/Hex.java",
+        "line_number": 207,
+        "column_number": -1,
+        "description": "start of procedure decodeBase64(...)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/Hex.java",
+        "line_number": 209,
+        "column_number": -1,
+        "description": "Skipping replaceAll(...): unknown method"
+      }
+    ],
+    "key": "MetadataValidationProcess.java|checkThumbnail|NULL_DEREFERENCE",
+    "node_key": "09e5c4f3b1fdd2ad7fa33b90979cdcf7",
+    "hash": "12af47db959cf3c1307787b32a8f3712",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `getPartialName()` could be null and is dereferenced by call to `setPartialFieldName(...)` at line 145.",
+    "severity": "ERROR",
+    "line": 145,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.pdmodel.interactive.form.PDTerminalField.exportFDF():org.apache.pdfbox.pdmodel.fdf.FDFField",
+    "procedure_start_line": 142,
+    "file": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.java",
+        "line_number": 142,
+        "column_number": -1,
+        "description": "start of procedure exportFDF()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.java",
+        "line_number": 144,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": "start of procedure FDFField()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 67,
+        "column_number": -1,
+        "description": "start of procedure COSDictionary()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure COSBase()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "return from a call to COSBase.<init>()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 60,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/SmallMap.java",
+        "line_number": 45,
+        "column_number": -1,
+        "description": "start of procedure SmallMap()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/SmallMap.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": "return from a call to SmallMap.<init>()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 60,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 54,
+        "column_number": -1,
+        "description": "start of procedure COSUpdateState(...)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": "return from a call to COSUpdateState.<init>(COSDictionary)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "return from a call to COSDictionary.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": "return from a call to FDFField.<init>()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.java",
+        "line_number": 145,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 380,
+        "column_number": -1,
+        "description": "start of procedure getPartialName()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 382,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 713,
+        "column_number": -1,
+        "description": "start of procedure getString(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 715,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 716,
+        "column_number": -1,
+        "description": "Skipping getDictionaryObject(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 181,
+        "column_number": -1,
+        "description": "Definition of getDictionaryObject(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 717,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 721,
+        "column_number": -1,
+        "description": "return from a call to String COSDictionary.getString(COSName)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 382,
+        "column_number": -1,
+        "description": "return from a call to String PDField.getPartialName()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTerminalField.java",
+        "line_number": 145,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 220,
+        "column_number": -1,
+        "description": "start of procedure setPartialFieldName(...)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 222,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 369,
+        "column_number": -1,
+        "description": "start of procedure setString(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 371,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 372,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 374,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 74,
+        "column_number": -1,
+        "description": "start of procedure COSString(...)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure COSBase()"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "return from a call to COSBase.<init>()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "Skipping toCharArray(): unknown method"
+      }
+    ],
+    "key": "PDTerminalField.java|exportFDF|NULL_DEREFERENCE",
+    "node_key": "54cc168433989e7cd614e0e0dd6b931a",
+    "hash": "5ca8d2fb1557d41327bfc0f937cdbc79",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `getPartialName()` could be null and is dereferenced by call to `setPartialFieldName(...)` at line 104.",
+    "severity": "ERROR",
+    "line": 104,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.pdmodel.interactive.form.PDNonTerminalField.exportFDF():org.apache.pdfbox.pdmodel.fdf.FDFField",
+    "procedure_start_line": 101,
+    "file": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDNonTerminalField.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDNonTerminalField.java",
+        "line_number": 101,
+        "column_number": -1,
+        "description": "start of procedure exportFDF()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDNonTerminalField.java",
+        "line_number": 103,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": "start of procedure FDFField()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 67,
+        "column_number": -1,
+        "description": "start of procedure COSDictionary()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure COSBase()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "return from a call to COSBase.<init>()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 60,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/SmallMap.java",
+        "line_number": 45,
+        "column_number": -1,
+        "description": "start of procedure SmallMap()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/SmallMap.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": "return from a call to SmallMap.<init>()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 60,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 54,
+        "column_number": -1,
+        "description": "start of procedure COSUpdateState(...)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": "return from a call to COSUpdateState.<init>(COSDictionary)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "return from a call to COSDictionary.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": "return from a call to FDFField.<init>()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDNonTerminalField.java",
+        "line_number": 104,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 380,
+        "column_number": -1,
+        "description": "start of procedure getPartialName()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 382,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 713,
+        "column_number": -1,
+        "description": "start of procedure getString(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 715,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 716,
+        "column_number": -1,
+        "description": "Skipping getDictionaryObject(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 181,
+        "column_number": -1,
+        "description": "Definition of getDictionaryObject(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 717,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 721,
+        "column_number": -1,
+        "description": "return from a call to String COSDictionary.getString(COSName)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 382,
+        "column_number": -1,
+        "description": "return from a call to String PDField.getPartialName()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDNonTerminalField.java",
+        "line_number": 104,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 220,
+        "column_number": -1,
+        "description": "start of procedure setPartialFieldName(...)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFField.java",
+        "line_number": 222,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 369,
+        "column_number": -1,
+        "description": "start of procedure setString(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 371,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 372,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 374,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 74,
+        "column_number": -1,
+        "description": "start of procedure COSString(...)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure COSBase()"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "return from a call to COSBase.<init>()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "Skipping toCharArray(): unknown method"
+      }
+    ],
+    "key": "PDNonTerminalField.java|exportFDF|NULL_DEREFERENCE",
+    "node_key": "54cc168433989e7cd614e0e0dd6b931a",
+    "hash": "954dbd69dbb1078796a0f790b2abd38e",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `appearanceStream.getBBox()` could be null and is dereferenced by call to `applyPadding(...)` at line 699.",
+    "severity": "ERROR",
+    "line": 699,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.pdmodel.interactive.form.AppearanceGeneratorHelper.insertGeneratedCombAppearance(org.apache.pdfbox.pdmodel.PDAppearanceContentStream,org.apache.pdfbox.pdmodel.interactive.annotation.PDAppearanceStream,org.apache.pdfbox.pdmodel.font.PDFont,float):void",
+    "procedure_start_line": 692,
+    "file": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+        "line_number": 692,
+        "column_number": -1,
+        "description": "start of procedure insertGeneratedCombAppearance(...)"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+        "line_number": 695,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTextField.java",
+        "line_number": 193,
+        "column_number": -1,
+        "description": "start of procedure getMaxLen()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTextField.java",
+        "line_number": 195,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 370,
+        "column_number": -1,
+        "description": "start of procedure getCOSObject()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 372,
+        "column_number": -1,
+        "description": "return from a call to COSDictionary PDField.getCOSObject()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTextField.java",
+        "line_number": 195,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 967,
+        "column_number": -1,
+        "description": "start of procedure getInt(...)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 993,
+        "column_number": -1,
+        "description": "start of procedure getInt(...)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1018,
+        "column_number": -1,
+        "description": "start of procedure getInt(...)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1020,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1021,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 165,
+        "column_number": -1,
+        "description": "start of procedure getDictionaryObject(...)"
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 181,
+        "column_number": -1,
+        "description": "Definition of getDictionaryObject(...)"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 166,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 170,
+        "column_number": -1,
+        "description": "return from a call to COSBase COSDictionary.getDictionaryObject(COSName,COSName)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1022,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1024,
+        "column_number": -1,
+        "description": "Skipping intValue(): unknown method"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSNumber.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of intValue()"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1026,
+        "column_number": -1,
+        "description": "return from a call to int COSDictionary.getInt(COSName,COSName,int)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 993,
+        "column_number": -1,
+        "description": "return from a call to int COSDictionary.getInt(COSName,int)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 967,
+        "column_number": -1,
+        "description": "return from a call to int COSDictionary.getInt(COSName)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDTextField.java",
+        "line_number": 195,
+        "column_number": -1,
+        "description": "return from a call to int PDTextField.getMaxLen()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+        "line_number": 696,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java",
+        "line_number": 176,
+        "column_number": -1,
+        "description": "start of procedure getQ()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java",
+        "line_number": 178,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java",
+        "line_number": 180,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": "start of procedure getInheritableAttribute(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1289,
+        "column_number": -1,
+        "description": "start of procedure containsKey(...)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1291,
+        "column_number": -1,
+        "description": "return from a call to boolean COSDictionary.containsKey(COSName)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 92,
+        "column_number": -1,
+        "description": "Skipping getDictionaryObject(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 181,
+        "column_number": -1,
+        "description": "Definition of getDictionaryObject(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 92,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 100,
+        "column_number": -1,
+        "description": "return from a call to COSBase PDField.getInheritableAttribute(COSName)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java",
+        "line_number": 180,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java",
+        "line_number": 182,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java",
+        "line_number": 184,
+        "column_number": -1,
+        "description": "Skipping intValue(): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSNumber.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of intValue()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDVariableText.java",
+        "line_number": 186,
+        "column_number": -1,
+        "description": "return from a call to int PDVariableText.getQ()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+        "line_number": 697,
+        "column_number": -1,
+        "description": "Skipping min(...): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+        "line_number": 699,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.java",
+        "line_number": 198,
+        "column_number": -1,
+        "description": "start of procedure getBBox()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.java",
+        "line_number": 200,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDXObject.java",
+        "line_number": 137,
+        "column_number": -1,
+        "description": "start of procedure getCOSObject()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDXObject.java",
+        "line_number": 139,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDStream.java",
+        "line_number": 152,
+        "column_number": -1,
+        "description": "start of procedure getCOSObject()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/common/PDStream.java",
+        "line_number": 154,
+        "column_number": -1,
+        "description": "return from a call to COSStream PDStream.getCOSObject()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/PDXObject.java",
+        "line_number": 139,
+        "column_number": -1,
+        "description": "return from a call to COSStream PDXObject.getCOSObject()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.java",
+        "line_number": 200,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 601,
+        "column_number": -1,
+        "description": "start of procedure getCOSArray(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 603,
+        "column_number": -1,
+        "description": "Skipping getDictionaryObject(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 181,
+        "column_number": -1,
+        "description": "Definition of getDictionaryObject(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 604,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 608,
+        "column_number": -1,
+        "description": "return from a call to COSArray COSDictionary.getCOSArray(COSName)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.java",
+        "line_number": 201,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/graphics/form/PDFormXObject.java",
+        "line_number": 201,
+        "column_number": -1,
+        "description": "return from a call to PDRectangle PDFormXObject.getBBox()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+        "line_number": 699,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+        "line_number": 1004,
+        "column_number": -1,
+        "description": "start of procedure applyPadding(...)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/AppearanceGeneratorHelper.java",
+        "line_number": 1006,
+        "column_number": -1,
+        "description": ""
+      }
+    ],
+    "key": "AppearanceGeneratorHelper.java|insertGeneratedCombAppearance|NULL_DEREFERENCE",
+    "node_key": "42f56fda1ad408e362508b93a175bb0c",
+    "hash": "7526a4b25f81e6a9ecba4bfb2bebcaeb",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object `null` is dereferenced by call to `setSelectedOptionsIndex(...)` at line 380.",
+    "severity": "ERROR",
+    "line": 380,
+    "column": -1,
+    "procedure": "org.apache.pdfbox.pdmodel.interactive.form.PDChoice.setValue(java.lang.String):void",
+    "procedure_start_line": 375,
+    "file": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 375,
+        "column_number": -1,
+        "description": "start of procedure setValue(...)"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 377,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 370,
+        "column_number": -1,
+        "description": "start of procedure getCOSObject()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 372,
+        "column_number": -1,
+        "description": "return from a call to COSDictionary PDField.getCOSObject()"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 377,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 369,
+        "column_number": -1,
+        "description": "start of procedure setString(...)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 371,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 372,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 374,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 74,
+        "column_number": -1,
+        "description": "start of procedure COSString(...)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure COSBase()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSBase.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "return from a call to COSBase.<init>()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 86,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/PDFDocEncoding.java",
+        "line_number": 141,
+        "column_number": -1,
+        "description": "start of procedure getBytes(...)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/PDFDocEncoding.java",
+        "line_number": 143,
+        "column_number": -1,
+        "description": "Skipping ByteArrayOutputStream(): unknown method"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/PDFDocEncoding.java",
+        "line_number": 144,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/PDFDocEncoding.java",
+        "line_number": 156,
+        "column_number": -1,
+        "description": "return from a call to byte[] PDFDocEncoding.getBytes(String)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSString.java",
+        "line_number": 100,
+        "column_number": -1,
+        "description": "return from a call to COSString.<init>(String)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 376,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 201,
+        "column_number": -1,
+        "description": "start of procedure setItem(...)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 203,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 209,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/SmallMap.java",
+        "line_number": 103,
+        "column_number": -1,
+        "description": "start of procedure size()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/SmallMap.java",
+        "line_number": 105,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/util/SmallMap.java",
+        "line_number": 105,
+        "column_number": -1,
+        "description": "return from a call to int SmallMap.size()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 209,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 213,
+        "column_number": -1,
+        "description": "Skipping put(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 214,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1420,
+        "column_number": -1,
+        "description": "start of procedure getUpdateState()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1422,
+        "column_number": -1,
+        "description": "return from a call to COSUpdateState COSDictionary.getUpdateState()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 214,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 254,
+        "column_number": -1,
+        "description": "start of procedure update(...)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 218,
+        "column_number": -1,
+        "description": "start of procedure update()"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 230,
+        "column_number": -1,
+        "description": "start of procedure update(...)"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 232,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 192,
+        "column_number": -1,
+        "description": "start of procedure isAcceptingUpdates()"
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 194,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 7,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocumentState.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "start of procedure isAcceptingUpdates()"
+      },
+      {
+        "level": 7,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocumentState.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 7,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocumentState.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": "return from a call to boolean COSDocumentState.isAcceptingUpdates()"
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 194,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 194,
+        "column_number": -1,
+        "description": "return from a call to boolean COSUpdateState.isAcceptingUpdates()"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 232,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 236,
+        "column_number": -1,
+        "description": "return from a call to void COSUpdateState.update(boolean)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 219,
+        "column_number": -1,
+        "description": "return from a call to void COSUpdateState.update()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 255,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSUpdateState.java",
+        "line_number": 259,
+        "column_number": -1,
+        "description": "return from a call to void COSUpdateState.update(COSBase)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 216,
+        "column_number": -1,
+        "description": "return from a call to void COSDictionary.setItem(COSName,COSString)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 377,
+        "column_number": -1,
+        "description": "return from a call to void COSDictionary.setString(COSName,String)"
+      },
+      {
+        "level": 0,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 380,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 244,
+        "column_number": -1,
+        "description": "start of procedure setSelectedOptionsIndex(...)"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 246,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 246,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 248,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 293,
+        "column_number": -1,
+        "description": "start of procedure isMultiSelect()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 295,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 370,
+        "column_number": -1,
+        "description": "start of procedure getCOSObject()"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDField.java",
+        "line_number": 372,
+        "column_number": -1,
+        "description": "return from a call to COSDictionary PDField.getCOSObject()"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 295,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1150,
+        "column_number": -1,
+        "description": "start of procedure getFlag(...)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1152,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 993,
+        "column_number": -1,
+        "description": "start of procedure getInt(...)"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1018,
+        "column_number": -1,
+        "description": "start of procedure getInt(...)"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1020,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1021,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 165,
+        "column_number": -1,
+        "description": "start of procedure getDictionaryObject(...)"
+      },
+      {
+        "level": 7,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 181,
+        "column_number": -1,
+        "description": "Definition of getDictionaryObject(...)"
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 166,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 170,
+        "column_number": -1,
+        "description": "return from a call to COSBase COSDictionary.getDictionaryObject(COSName,COSName)"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1022,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1024,
+        "column_number": -1,
+        "description": "Skipping intValue(): unknown method"
+      },
+      {
+        "level": 6,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSNumber.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of intValue()"
+      },
+      {
+        "level": 5,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1026,
+        "column_number": -1,
+        "description": "return from a call to int COSDictionary.getInt(COSName,COSName,int)"
+      },
+      {
+        "level": 4,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 993,
+        "column_number": -1,
+        "description": "return from a call to int COSDictionary.getInt(COSName,int)"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1153,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 3,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/cos/COSDictionary.java",
+        "line_number": 1153,
+        "column_number": -1,
+        "description": "return from a call to boolean COSDictionary.getFlag(COSName,int)"
+      },
+      {
+        "level": 2,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 295,
+        "column_number": -1,
+        "description": "return from a call to boolean PDChoice.isMultiSelect()"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 248,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 250,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 259,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalArgumentException"
+      },
+      {
+        "level": 1,
+        "filename": "pdfbox/src/main/java/org/apache/pdfbox/pdmodel/interactive/form/PDChoice.java",
+        "line_number": 259,
+        "column_number": -1,
+        "description": "return from a call to void PDChoice.setSelectedOptionsIndex(List)"
+      }
+    ],
+    "key": "PDChoice.java|setValue|NULL_DEREFERENCE",
+    "node_key": "181f94d252498509bbd057437cc46d11",
+    "hash": "6e3fc0b73ad6cff99a5e059875180b49",
+    "bug_type_hum": "Null Dereference"
+  }
+]

@@ -1,0 +1,12 @@
+*.iml
+.idea
+target
+.classpath
+.project
+.settings
+nbactions.xml
+nb-configuration.xml
+*.DS_Store
+.checkstyle
+*.onnx
+vocab.txt

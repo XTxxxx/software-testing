@@ -1,0 +1,5301 @@
+[
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `java.io.FileOutputStream` acquired by call to `FileOutputStream(...)` at line 81 is not released after line 97.\n**Note**: potential exception at line 115",
+    "severity": "ERROR",
+    "line": 97,
+    "column": -1,
+    "procedure": "opennlp.tools.cmdline.langdetect.LanguageDetectorEvaluatorTool.run(java.lang.String,java.lang.String[]):void",
+    "procedure_start_line": 65,
+    "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": "start of procedure run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 66,
+        "column_number": -1,
+        "description": "Skipping run(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractEvaluatorTool.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Definition of run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorModelLoader.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorModelLoader()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "start of procedure ModelLoader(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "return from a call to ModelLoader.<init>(String)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorModelLoader.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorModelLoader.<init>()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure load(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "Skipping currentTimeMillis(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "start of procedure checkInputFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": "return from a call to void CmdLineUtil.checkInputFile(String,File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "Skipping print(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 151,
+        "column_number": -1,
+        "description": "start of procedure openInFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 153,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 155,
+        "column_number": -1,
+        "description": "return from a call to FileInputStream CmdLineUtil.openInFile(File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": "Skipping BufferedInputStream(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 58,
+        "column_number": -1,
+        "description": "Skipping loadModel(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Skipping printf(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": "return from a call to Object ModelLoader.load(File)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 70,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": "Skipping getReportOutputFile(): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 79,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 104,
+        "column_number": -1,
+        "description": "start of procedure checkOutputFile(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 106,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 131,
+        "column_number": -1,
+        "description": "Skipping getParentFile(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 133,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 133,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "Skipping makeConcatWithConstants(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 146,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 149,
+        "column_number": -1,
+        "description": "return from a call to void CmdLineUtil.checkOutputFile(String,File)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 82,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorFineGrainedReportListener.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorFineGrainedReportListener(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 58,
+        "column_number": -1,
+        "description": "start of procedure FineGrainedReportListener(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": "Skipping FineGrainedReportListener$Stats(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 753,
+        "column_number": -1,
+        "description": "Definition of FineGrainedReportListener$Stats(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 60,
+        "column_number": -1,
+        "description": "return from a call to FineGrainedReportListener.<init>(OutputStream)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorFineGrainedReportListener.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorFineGrainedReportListener.<init>(FileOutputStream)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 83,
+        "column_number": -1,
+        "description": "Skipping add(...): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 74,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorME(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorModel.java",
+        "line_number": 103,
+        "column_number": -1,
+        "description": "start of procedure getFactory()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorModel.java",
+        "line_number": 104,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorFactory LanguageDetectorModel.getFactory()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "start of procedure getContextGenerator()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/EmojiCharSequenceNormalizer.java",
+        "line_number": 31,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/EmojiCharSequenceNormalizer.java",
+        "line_number": 32,
+        "column_number": -1,
+        "description": "return from a call to EmojiCharSequenceNormalizer EmojiCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/UrlCharSequenceNormalizer.java",
+        "line_number": 35,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/UrlCharSequenceNormalizer.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "return from a call to UrlCharSequenceNormalizer UrlCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 54,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/TwitterCharSequenceNormalizer.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/TwitterCharSequenceNormalizer.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "return from a call to TwitterCharSequenceNormalizer TwitterCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 54,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/NumberCharSequenceNormalizer.java",
+        "line_number": 33,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/NumberCharSequenceNormalizer.java",
+        "line_number": 34,
+        "column_number": -1,
+        "description": "return from a call to NumberCharSequenceNormalizer NumberCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/ShrinkCharSequenceNormalizer.java",
+        "line_number": 35,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/ShrinkCharSequenceNormalizer.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "return from a call to ShrinkCharSequenceNormalizer ShrinkCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 45,
+        "column_number": -1,
+        "description": "start of procedure DefaultLanguageDetectorContextGenerator(...)"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/AggregateCharSequenceNormalizer.java",
+        "line_number": 30,
+        "column_number": -1,
+        "description": "start of procedure AggregateCharSequenceNormalizer(...)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/AggregateCharSequenceNormalizer.java",
+        "line_number": 31,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/AggregateCharSequenceNormalizer.java",
+        "line_number": 32,
+        "column_number": -1,
+        "description": "return from a call to AggregateCharSequenceNormalizer.<init>(CharSequenceNormalizer[])"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to DefaultLanguageDetectorContextGenerator.<init>(int,int,CharSequenceNormalizer[])"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorContextGenerator LanguageDetectorFactory.getContextGenerator()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorME.<init>(LanguageDetectorModel)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorEvaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure Evaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "Skipping ArrayList(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "Skipping add(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to Evaluator.<init>(EvaluationMonitor[])"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java",
+        "line_number": 24,
+        "column_number": -1,
+        "description": "start of procedure Mean()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java",
+        "line_number": 24,
+        "column_number": -1,
+        "description": "return from a call to Mean.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorEvaluator.<init>(LanguageDetectorME,LanguageDetectorEvaluationMonitor[])"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 95,
+        "column_number": -1,
+        "description": "Skipping PerformanceMonitor(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": "Definition of PerformanceMonitor(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 97,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 97,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorEvaluatorTool$1(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 97,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorEvaluatorTool$1.<init>(LanguageDetectorEvaluatorTool,PerformanceMonitor)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 115,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "start of procedure startAndPrintThroughput()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": "start of procedure start()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "start of procedure isStarted()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "return from a call to boolean PerformanceMonitor.isStarted()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.start()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.startAndPrintThroughput()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 97,
+        "column_number": -1,
+        "description": ""
+      }
+    ],
+    "key": "LanguageDetectorEvaluatorTool.java|run|RESOURCE_LEAK",
+    "node_key": "f645aafdf4c7de4e5a37ff7e8f2268a3",
+    "hash": "69e16170ba8f613d81e8e2965e25b463",
+    "bug_type_hum": "Resource Leak"
+  },
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `java.io.FileOutputStream` acquired by call to `FileOutputStream(...)` at line 82 is not released after line 98.\n**Note**: potential exception at line 116",
+    "severity": "ERROR",
+    "line": 98,
+    "column": -1,
+    "procedure": "opennlp.tools.cmdline.doccat.DoccatEvaluatorTool.run(java.lang.String,java.lang.String[]):void",
+    "procedure_start_line": 66,
+    "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 66,
+        "column_number": -1,
+        "description": "start of procedure run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 67,
+        "column_number": -1,
+        "description": "Skipping run(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractEvaluatorTool.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Definition of run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatModelLoader.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "start of procedure DoccatModelLoader()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "start of procedure ModelLoader(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "return from a call to ModelLoader.<init>(String)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatModelLoader.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": "return from a call to DoccatModelLoader.<init>()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure load(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "Skipping currentTimeMillis(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "start of procedure checkInputFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": "return from a call to void CmdLineUtil.checkInputFile(String,File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "Skipping print(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 151,
+        "column_number": -1,
+        "description": "start of procedure openInFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 153,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 155,
+        "column_number": -1,
+        "description": "return from a call to FileInputStream CmdLineUtil.openInFile(File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": "Skipping BufferedInputStream(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 58,
+        "column_number": -1,
+        "description": "Skipping loadModel(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Skipping printf(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": "return from a call to Object ModelLoader.load(File)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 72,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "Skipping getReportOutputFile(): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 79,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 80,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 104,
+        "column_number": -1,
+        "description": "start of procedure checkOutputFile(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 106,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 108,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 131,
+        "column_number": -1,
+        "description": "Skipping getParentFile(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 133,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 133,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "Skipping makeConcatWithConstants(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 146,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 149,
+        "column_number": -1,
+        "description": "return from a call to void CmdLineUtil.checkOutputFile(String,File)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 82,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 83,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatFineGrainedReportListener.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": "start of procedure DoccatFineGrainedReportListener(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 58,
+        "column_number": -1,
+        "description": "start of procedure FineGrainedReportListener(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": "Skipping FineGrainedReportListener$Stats(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 753,
+        "column_number": -1,
+        "description": "Definition of FineGrainedReportListener$Stats(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/FineGrainedReportListener.java",
+        "line_number": 60,
+        "column_number": -1,
+        "description": "return from a call to FineGrainedReportListener.<init>(OutputStream)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatFineGrainedReportListener.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "return from a call to DoccatFineGrainedReportListener.<init>(FileOutputStream)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 84,
+        "column_number": -1,
+        "description": "Skipping add(...): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 92,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "start of procedure DocumentCategorizerME(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatModel.java",
+        "line_number": 113,
+        "column_number": -1,
+        "description": "start of procedure getFactory()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatModel.java",
+        "line_number": 114,
+        "column_number": -1,
+        "description": "return from a call to DoccatFactory DoccatModel.getFactory()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 130,
+        "column_number": -1,
+        "description": "start of procedure getFeatureGenerators()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 131,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 132,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 134,
+        "column_number": -1,
+        "description": "Skipping getManifestProperty(...): unknown method"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/model/ArtifactProvider.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of getManifestProperty(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 135,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 139,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 141,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/BagOfWordsFeatureGenerator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "start of procedure BagOfWordsFeatureGenerator()"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/BagOfWordsFeatureGenerator.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure BagOfWordsFeatureGenerator(...)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/BagOfWordsFeatureGenerator.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/BagOfWordsFeatureGenerator.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "return from a call to BagOfWordsFeatureGenerator.<init>(boolean)"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/BagOfWordsFeatureGenerator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "return from a call to BagOfWordsFeatureGenerator.<init>()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 141,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 144,
+        "column_number": -1,
+        "description": "return from a call to FeatureGenerator[] DoccatFactory.getFeatureGenerators()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerContextGenerator.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure DocumentCategorizerContextGenerator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerContextGenerator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerContextGenerator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "return from a call to DocumentCategorizerContextGenerator.<init>(FeatureGenerator[])"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "return from a call to DocumentCategorizerME.<init>(DoccatModel)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 94,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure DocumentCategorizerEvaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure Evaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "Skipping ArrayList(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "Skipping add(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to Evaluator.<init>(EvaluationMonitor[])"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java",
+        "line_number": 24,
+        "column_number": -1,
+        "description": "start of procedure Mean()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java",
+        "line_number": 24,
+        "column_number": -1,
+        "description": "return from a call to Mean.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "return from a call to DocumentCategorizerEvaluator.<init>(DocumentCategorizerME,DoccatEvaluationMonitor[])"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "Skipping PerformanceMonitor(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": "Definition of PerformanceMonitor(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": "start of procedure DoccatEvaluatorTool$1(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": "return from a call to DoccatEvaluatorTool$1.<init>(DoccatEvaluatorTool,PerformanceMonitor)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 116,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "start of procedure startAndPrintThroughput()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": "start of procedure start()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "start of procedure isStarted()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "return from a call to boolean PerformanceMonitor.isStarted()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.start()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.startAndPrintThroughput()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      }
+    ],
+    "key": "DoccatEvaluatorTool.java|run|RESOURCE_LEAK",
+    "node_key": "f645aafdf4c7de4e5a37ff7e8f2268a3",
+    "hash": "36d4d432ac2bbbf5aea4d271393928d8",
+    "bug_type_hum": "Resource Leak"
+  },
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `opennlp.tools.cmdline.namefind.TokenNameFinderEvaluatorTool$1` acquired by call to `new()` at line 118 is not released after line 138.\n**Note**: potential exception at line 136",
+    "severity": "ERROR",
+    "line": 138,
+    "column": -1,
+    "procedure": "opennlp.tools.cmdline.namefind.TokenNameFinderEvaluatorTool.run(java.lang.String,java.lang.String[]):void",
+    "procedure_start_line": 74,
+    "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 74,
+        "column_number": -1,
+        "description": "start of procedure run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": "Skipping run(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractEvaluatorTool.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Definition of run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderModelLoader.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "start of procedure TokenNameFinderModelLoader()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "start of procedure ModelLoader(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "return from a call to ModelLoader.<init>(String)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderModelLoader.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": "return from a call to TokenNameFinderModelLoader.<init>()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure load(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "Skipping currentTimeMillis(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "start of procedure checkInputFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": "return from a call to void CmdLineUtil.checkInputFile(String,File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "Skipping print(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 151,
+        "column_number": -1,
+        "description": "start of procedure openInFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 153,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 155,
+        "column_number": -1,
+        "description": "return from a call to FileInputStream CmdLineUtil.openInFile(File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": "Skipping BufferedInputStream(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 58,
+        "column_number": -1,
+        "description": "Skipping loadModel(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Skipping printf(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": "return from a call to Object ModelLoader.load(File)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 79,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 80,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 83,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 84,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": "Skipping getReportOutputFile(): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 107,
+        "column_number": -1,
+        "description": "Skipping getNameTypes(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of getNameTypes()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 107,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 112,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "start of procedure NameFinderME(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "start of procedure BioCodec()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "return from a call to BioCodec.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 72,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/AdditionalContextFeatureGenerator.java",
+        "line_number": 27,
+        "column_number": -1,
+        "description": "start of procedure AdditionalContextFeatureGenerator()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/AdditionalContextFeatureGenerator.java",
+        "line_number": 27,
+        "column_number": -1,
+        "description": "return from a call to AdditionalContextFeatureGenerator.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 72,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 83,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 288,
+        "column_number": -1,
+        "description": "start of procedure getFactory()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 289,
+        "column_number": -1,
+        "description": "return from a call to TokenNameFinderFactory TokenNameFinderModel.getFactory()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 185,
+        "column_number": -1,
+        "description": "start of procedure createSequenceCodec()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 187,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 188,
+        "column_number": -1,
+        "description": "Skipping getManifestProperty(...): unknown method"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/model/ArtifactProvider.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of getManifestProperty(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 191,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": "start of procedure instantiateSequenceCodec(...)"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 301,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 312,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "start of procedure BioCodec()"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "return from a call to BioCodec.<init>()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 312,
+        "column_number": -1,
+        "description": "return from a call to SequenceCodec TokenNameFinderFactory.instantiateSequenceCodec(String)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 191,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 198,
+        "column_number": -1,
+        "description": "return from a call to SequenceCodec TokenNameFinderFactory.createSequenceCodec()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 86,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "start of procedure createSequenceValidator()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 122,
+        "column_number": -1,
+        "description": "start of procedure createSequenceValidator()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 123,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderSequenceValidator.java",
+        "line_number": 29,
+        "column_number": -1,
+        "description": "start of procedure NameFinderSequenceValidator()"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderSequenceValidator.java",
+        "line_number": 29,
+        "column_number": -1,
+        "description": "return from a call to NameFinderSequenceValidator.<init>()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 123,
+        "column_number": -1,
+        "description": "return from a call to NameFinderSequenceValidator BioCodec.createSequenceValidator()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/BioCodec.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "return from a call to SequenceValidator BioCodec.createSequenceValidator()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 86,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 251,
+        "column_number": -1,
+        "description": "start of procedure getNameFinderSequenceModel()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 253,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 255,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 256,
+        "column_number": -1,
+        "description": "Skipping getProperty(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 258,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 259,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 260,
+        "column_number": -1,
+        "description": "Skipping parseInt(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 263,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 62,
+        "column_number": -1,
+        "description": "start of procedure BeamSearch(...)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 72,
+        "column_number": -1,
+        "description": "start of procedure BeamSearch(...)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 74,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "Skipping getNumOutcomes(): unknown method"
+      },
+      {
+        "level": 5,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/model/MaxentModel.java",
+        "line_number": -1,
+        "column_number": -1,
+        "description": "Definition of getNumOutcomes()"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 82,
+        "column_number": -1,
+        "description": "return from a call to BeamSearch.<init>(int,MaxentModel,int)"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/ml/BeamSearch.java",
+        "line_number": 63,
+        "column_number": -1,
+        "description": "return from a call to BeamSearch.<init>(int,MaxentModel)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 263,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderModel.java",
+        "line_number": 269,
+        "column_number": -1,
+        "description": "return from a call to SequenceClassificationModel TokenNameFinderModel.getNameFinderSequenceModel()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 210,
+        "column_number": -1,
+        "description": "start of procedure createContextGenerator()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 212,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 240,
+        "column_number": -1,
+        "description": "start of procedure createFeatureGenerators()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 242,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 247,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 251,
+        "column_number": -1,
+        "description": "Skipping ByteArrayInputStream(...): unknown method"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 255,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 255,
+        "column_number": -1,
+        "description": "start of procedure callsite_opennlp.tools.namefind.TokenNameFinderFactory$Lambda$_5_60(...)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 255,
+        "column_number": -1,
+        "description": "return from a call to FeatureGeneratorResourceProvider TokenNameFinderFactory.callsite_opennlp.tools.namefind.TokenNameFinderFactory$Lambda$_5_60(TokenNameFinderFactory)"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 255,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 581,
+        "column_number": -1,
+        "description": "start of procedure create(...)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 584,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 548,
+        "column_number": -1,
+        "description": "start of procedure createDOM(...)"
+      },
+      {
+        "level": 5,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 551,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/XmlUtil.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure createDocumentBuilder()"
+      },
+      {
+        "level": 6,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/XmlUtil.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "Skipping newInstance(): unknown method"
+      },
+      {
+        "level": 6,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/XmlUtil.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Skipping setFeature(...): unknown method"
+      },
+      {
+        "level": 6,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/XmlUtil.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/XmlUtil.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "return from a call to DocumentBuilder XmlUtil.createDocumentBuilder()"
+      },
+      {
+        "level": 5,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 556,
+        "column_number": -1,
+        "description": "Skipping parse(...): unknown method"
+      },
+      {
+        "level": 5,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 560,
+        "column_number": -1,
+        "description": "return from a call to Document GeneratorFactory.createDOM(InputStream)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 586,
+        "column_number": -1,
+        "description": "Skipping getDocumentElement(): unknown method"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 589,
+        "column_number": -1,
+        "description": "Skipping createGenerator(...): empty list of specs"
+      },
+      {
+        "level": 5,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 448,
+        "column_number": -1,
+        "description": "Definition of createGenerator(...)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 589,
+        "column_number": -1,
+        "description": "return from a call to AdaptiveFeatureGenerator GeneratorFactory.create(ByteArrayInputStream,TokenNameFinderFactory$Lambda$_5_60)"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 280,
+        "column_number": -1,
+        "description": "return from a call to AdaptiveFeatureGenerator TokenNameFinderFactory.createFeatureGenerators()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 214,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 224,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/DefaultNameContextGenerator.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "start of procedure DefaultNameContextGenerator(...)"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/DefaultNameContextGenerator.java",
+        "line_number": 70,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/DefaultNameContextGenerator.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/DefaultNameContextGenerator.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "return from a call to DefaultNameContextGenerator.<init>(AdaptiveFeatureGenerator[])"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderFactory.java",
+        "line_number": 224,
+        "column_number": -1,
+        "description": "return from a call to NameContextGenerator TokenNameFinderFactory.createContextGenerator()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGenerator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "start of procedure WindowFeatureGenerator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGenerator.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGenerator.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGenerator.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGenerator.java",
+        "line_number": 54,
+        "column_number": -1,
+        "description": "return from a call to WindowFeatureGenerator.<init>(AdditionalContextFeatureGenerator,int,int)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": "Skipping addFeatureGenerator(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/NameFinderME.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "return from a call to NameFinderME.<init>(TokenNameFinderModel)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 114,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderEvaluator.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": "start of procedure TokenNameFinderEvaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure Evaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "Skipping ArrayList(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "Skipping add(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to Evaluator.<init>(EvaluationMonitor[])"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderEvaluator.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/FMeasure.java",
+        "line_number": 34,
+        "column_number": -1,
+        "description": "start of procedure FMeasure()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/FMeasure.java",
+        "line_number": 34,
+        "column_number": -1,
+        "description": "return from a call to FMeasure.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderEvaluator.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderEvaluator.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/namefind/TokenNameFinderEvaluator.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "return from a call to TokenNameFinderEvaluator.<init>(NameFinderME,TokenNameFinderEvaluationMonitor[])"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 116,
+        "column_number": -1,
+        "description": "Skipping PerformanceMonitor(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": "Definition of PerformanceMonitor(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 118,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 118,
+        "column_number": -1,
+        "description": "start of procedure TokenNameFinderEvaluatorTool$1(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 118,
+        "column_number": -1,
+        "description": "return from a call to TokenNameFinderEvaluatorTool$1.<init>(TokenNameFinderEvaluatorTool,PerformanceMonitor)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 136,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "start of procedure startAndPrintThroughput()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": "start of procedure start()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "start of procedure isStarted()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "return from a call to boolean PerformanceMonitor.isStarted()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.start()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.startAndPrintThroughput()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 118,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 138,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      }
+    ],
+    "key": "TokenNameFinderEvaluatorTool.java|run|RESOURCE_LEAK",
+    "node_key": "938719110654ddb2da0e23ba23928e97",
+    "hash": "9e5002cc9bd69bedb4a104461c980ccb",
+    "bug_type_hum": "Resource Leak"
+  },
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `opennlp.tools.cmdline.langdetect.LanguageDetectorEvaluatorTool$1` acquired by call to `new()` at line 97 is not released after line 117.\n**Note**: potential exception at line 115",
+    "severity": "ERROR",
+    "line": 117,
+    "column": -1,
+    "procedure": "opennlp.tools.cmdline.langdetect.LanguageDetectorEvaluatorTool.run(java.lang.String,java.lang.String[]):void",
+    "procedure_start_line": 65,
+    "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": "start of procedure run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 66,
+        "column_number": -1,
+        "description": "Skipping run(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractEvaluatorTool.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Definition of run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorModelLoader.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorModelLoader()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "start of procedure ModelLoader(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "return from a call to ModelLoader.<init>(String)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorModelLoader.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorModelLoader.<init>()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure load(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "Skipping currentTimeMillis(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "start of procedure checkInputFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": "return from a call to void CmdLineUtil.checkInputFile(String,File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "Skipping print(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 151,
+        "column_number": -1,
+        "description": "start of procedure openInFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 153,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 155,
+        "column_number": -1,
+        "description": "return from a call to FileInputStream CmdLineUtil.openInFile(File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": "Skipping BufferedInputStream(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 58,
+        "column_number": -1,
+        "description": "Skipping loadModel(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Skipping printf(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": "return from a call to Object ModelLoader.load(File)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 70,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": "Skipping getReportOutputFile(): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 74,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorME(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorModel.java",
+        "line_number": 103,
+        "column_number": -1,
+        "description": "start of procedure getFactory()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorModel.java",
+        "line_number": 104,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorFactory LanguageDetectorModel.getFactory()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "start of procedure getContextGenerator()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/EmojiCharSequenceNormalizer.java",
+        "line_number": 31,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/EmojiCharSequenceNormalizer.java",
+        "line_number": 32,
+        "column_number": -1,
+        "description": "return from a call to EmojiCharSequenceNormalizer EmojiCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/UrlCharSequenceNormalizer.java",
+        "line_number": 35,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/UrlCharSequenceNormalizer.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "return from a call to UrlCharSequenceNormalizer UrlCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 54,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/TwitterCharSequenceNormalizer.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/TwitterCharSequenceNormalizer.java",
+        "line_number": 44,
+        "column_number": -1,
+        "description": "return from a call to TwitterCharSequenceNormalizer TwitterCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 54,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/NumberCharSequenceNormalizer.java",
+        "line_number": 33,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/NumberCharSequenceNormalizer.java",
+        "line_number": 34,
+        "column_number": -1,
+        "description": "return from a call to NumberCharSequenceNormalizer NumberCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 55,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/ShrinkCharSequenceNormalizer.java",
+        "line_number": 35,
+        "column_number": -1,
+        "description": "start of procedure getInstance()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/ShrinkCharSequenceNormalizer.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "return from a call to ShrinkCharSequenceNormalizer ShrinkCharSequenceNormalizer.getInstance()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 45,
+        "column_number": -1,
+        "description": "start of procedure DefaultLanguageDetectorContextGenerator(...)"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/AggregateCharSequenceNormalizer.java",
+        "line_number": 30,
+        "column_number": -1,
+        "description": "start of procedure AggregateCharSequenceNormalizer(...)"
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/AggregateCharSequenceNormalizer.java",
+        "line_number": 31,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/normalizer/AggregateCharSequenceNormalizer.java",
+        "line_number": 32,
+        "column_number": -1,
+        "description": "return from a call to AggregateCharSequenceNormalizer.<init>(CharSequenceNormalizer[])"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/DefaultLanguageDetectorContextGenerator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to DefaultLanguageDetectorContextGenerator.<init>(int,int,CharSequenceNormalizer[])"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorFactory.java",
+        "line_number": 56,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorContextGenerator LanguageDetectorFactory.getContextGenerator()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorME.<init>(LanguageDetectorModel)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorEvaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure Evaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "Skipping ArrayList(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "Skipping add(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to Evaluator.<init>(EvaluationMonitor[])"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java",
+        "line_number": 24,
+        "column_number": -1,
+        "description": "start of procedure Mean()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java",
+        "line_number": 24,
+        "column_number": -1,
+        "description": "return from a call to Mean.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEvaluator.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorEvaluator.<init>(LanguageDetectorME,LanguageDetectorEvaluationMonitor[])"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 95,
+        "column_number": -1,
+        "description": "Skipping PerformanceMonitor(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": "Definition of PerformanceMonitor(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 97,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 97,
+        "column_number": -1,
+        "description": "start of procedure LanguageDetectorEvaluatorTool$1(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 97,
+        "column_number": -1,
+        "description": "return from a call to LanguageDetectorEvaluatorTool$1.<init>(LanguageDetectorEvaluatorTool,PerformanceMonitor)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 115,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "start of procedure startAndPrintThroughput()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": "start of procedure start()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "start of procedure isStarted()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "return from a call to boolean PerformanceMonitor.isStarted()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.start()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.startAndPrintThroughput()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 97,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/langdetect/LanguageDetectorEvaluatorTool.java",
+        "line_number": 117,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      }
+    ],
+    "key": "LanguageDetectorEvaluatorTool.java|run|RESOURCE_LEAK",
+    "node_key": "938719110654ddb2da0e23ba23928e97",
+    "hash": "e7f0a6aecc571060973fadf0068e86ab",
+    "bug_type_hum": "Resource Leak"
+  },
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `opennlp.tools.cmdline.doccat.DoccatEvaluatorTool$1` acquired by call to `new()` at line 98 is not released after line 118.\n**Note**: potential exception at line 116",
+    "severity": "ERROR",
+    "line": 118,
+    "column": -1,
+    "procedure": "opennlp.tools.cmdline.doccat.DoccatEvaluatorTool.run(java.lang.String,java.lang.String[]):void",
+    "procedure_start_line": 66,
+    "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 66,
+        "column_number": -1,
+        "description": "start of procedure run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 67,
+        "column_number": -1,
+        "description": "Skipping run(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractEvaluatorTool.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Definition of run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatModelLoader.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "start of procedure DoccatModelLoader()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "start of procedure ModelLoader(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "return from a call to ModelLoader.<init>(String)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatModelLoader.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": "return from a call to DoccatModelLoader.<init>()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure load(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "Skipping currentTimeMillis(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "start of procedure checkInputFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": "return from a call to void CmdLineUtil.checkInputFile(String,File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "Skipping print(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 151,
+        "column_number": -1,
+        "description": "start of procedure openInFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 153,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 155,
+        "column_number": -1,
+        "description": "return from a call to FileInputStream CmdLineUtil.openInFile(File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": "Skipping BufferedInputStream(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 58,
+        "column_number": -1,
+        "description": "Skipping loadModel(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Skipping printf(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": "return from a call to Object ModelLoader.load(File)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 72,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": "Skipping getReportOutputFile(): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 79,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 92,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "start of procedure DocumentCategorizerME(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatModel.java",
+        "line_number": 113,
+        "column_number": -1,
+        "description": "start of procedure getFactory()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatModel.java",
+        "line_number": 114,
+        "column_number": -1,
+        "description": "return from a call to DoccatFactory DoccatModel.getFactory()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 130,
+        "column_number": -1,
+        "description": "start of procedure getFeatureGenerators()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 131,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DoccatFactory.java",
+        "line_number": 144,
+        "column_number": -1,
+        "description": "return from a call to FeatureGenerator[] DoccatFactory.getFeatureGenerators()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerContextGenerator.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure DocumentCategorizerContextGenerator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerContextGenerator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerContextGenerator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "return from a call to DocumentCategorizerContextGenerator.<init>(FeatureGenerator[])"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 52,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerME.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "return from a call to DocumentCategorizerME.<init>(DoccatModel)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 94,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure DocumentCategorizerEvaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure Evaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "Skipping ArrayList(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "Skipping add(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to Evaluator.<init>(EvaluationMonitor[])"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java",
+        "line_number": 24,
+        "column_number": -1,
+        "description": "start of procedure Mean()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Mean.java",
+        "line_number": 24,
+        "column_number": -1,
+        "description": "return from a call to Mean.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/doccat/DocumentCategorizerEvaluator.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "return from a call to DocumentCategorizerEvaluator.<init>(DocumentCategorizerME,DoccatEvaluationMonitor[])"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "Skipping PerformanceMonitor(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": "Definition of PerformanceMonitor(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": "start of procedure DoccatEvaluatorTool$1(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": "return from a call to DoccatEvaluatorTool$1.<init>(DoccatEvaluatorTool,PerformanceMonitor)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 116,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "start of procedure startAndPrintThroughput()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": "start of procedure start()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "start of procedure isStarted()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "return from a call to boolean PerformanceMonitor.isStarted()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.start()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.startAndPrintThroughput()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/doccat/DoccatEvaluatorTool.java",
+        "line_number": 118,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      }
+    ],
+    "key": "DoccatEvaluatorTool.java|run|RESOURCE_LEAK",
+    "node_key": "938719110654ddb2da0e23ba23928e97",
+    "hash": "fdda3ae9c2553e11bc4611522397f3c8",
+    "bug_type_hum": "Resource Leak"
+  },
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `opennlp.tools.cmdline.chunker.ChunkerEvaluatorTool$1` acquired by call to `new()` at line 81 is not released after line 98.\n**Note**: potential exception at line 96",
+    "severity": "ERROR",
+    "line": 98,
+    "column": -1,
+    "procedure": "opennlp.tools.cmdline.chunker.ChunkerEvaluatorTool.run(java.lang.String,java.lang.String[]):void",
+    "procedure_start_line": 61,
+    "file": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 61,
+        "column_number": -1,
+        "description": "start of procedure run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 62,
+        "column_number": -1,
+        "description": "Skipping run(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/AbstractEvaluatorTool.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Definition of run(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 64,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerModelLoader.java",
+        "line_number": 36,
+        "column_number": -1,
+        "description": "start of procedure ChunkerModelLoader()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "start of procedure ModelLoader(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "return from a call to ModelLoader.<init>(String)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerModelLoader.java",
+        "line_number": 37,
+        "column_number": -1,
+        "description": "return from a call to ChunkerModelLoader.<init>()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 64,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": "start of procedure load(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": "Skipping currentTimeMillis(): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 51,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "start of procedure checkInputFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 75,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 85,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 88,
+        "column_number": -1,
+        "description": "return from a call to void CmdLineUtil.checkInputFile(String,File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 53,
+        "column_number": -1,
+        "description": "Skipping print(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 151,
+        "column_number": -1,
+        "description": "start of procedure openInFile(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 153,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/CmdLineUtil.java",
+        "line_number": 155,
+        "column_number": -1,
+        "description": "return from a call to FileInputStream CmdLineUtil.openInFile(File)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 57,
+        "column_number": -1,
+        "description": "Skipping BufferedInputStream(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 58,
+        "column_number": -1,
+        "description": "Skipping loadModel(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 59,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Skipping printf(...): unknown method"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/ModelLoader.java",
+        "line_number": 73,
+        "column_number": -1,
+        "description": "return from a call to Object ModelLoader.load(File)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 64,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 66,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 67,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 71,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 76,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerME.java",
+        "line_number": 100,
+        "column_number": -1,
+        "description": "start of procedure ChunkerME(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerME.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "Definition of ChunkerME(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerME.java",
+        "line_number": 101,
+        "column_number": -1,
+        "description": "return from a call to ChunkerME.<init>(ChunkerModel)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 77,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerEvaluator.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": "start of procedure ChunkerEvaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 38,
+        "column_number": -1,
+        "description": "start of procedure Evaluator(...)"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 39,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 40,
+        "column_number": -1,
+        "description": "Skipping ArrayList(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 42,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 43,
+        "column_number": -1,
+        "description": "Skipping add(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 41,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/Evaluator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to Evaluator.<init>(EvaluationMonitor[])"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerEvaluator.java",
+        "line_number": 34,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/FMeasure.java",
+        "line_number": 34,
+        "column_number": -1,
+        "description": "start of procedure FMeasure()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/util/eval/FMeasure.java",
+        "line_number": 34,
+        "column_number": -1,
+        "description": "return from a call to FMeasure.<init>()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerEvaluator.java",
+        "line_number": 34,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerEvaluator.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/chunker/ChunkerEvaluator.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to ChunkerEvaluator.<init>(ChunkerME,ChunkerEvaluationMonitor[])"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 79,
+        "column_number": -1,
+        "description": "Skipping PerformanceMonitor(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 65,
+        "column_number": -1,
+        "description": "Definition of PerformanceMonitor(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "start of procedure ChunkerEvaluatorTool$1(...)"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "return from a call to ChunkerEvaluatorTool$1.<init>(ChunkerEvaluatorTool,PerformanceMonitor)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 96,
+        "column_number": -1,
+        "description": "start of procedure startAndPrintThroughput()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 87,
+        "column_number": -1,
+        "description": "start of procedure start()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "start of procedure isStarted()"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 3,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 69,
+        "column_number": -1,
+        "description": "return from a call to boolean PerformanceMonitor.isStarted()"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 89,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 2,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 93,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.start()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "exception java.lang.IllegalStateException"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/PerformanceMonitor.java",
+        "line_number": 140,
+        "column_number": -1,
+        "description": "return from a call to void PerformanceMonitor.startAndPrintThroughput()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 81,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 98,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      }
+    ],
+    "key": "ChunkerEvaluatorTool.java|run|RESOURCE_LEAK",
+    "node_key": "938719110654ddb2da0e23ba23928e97",
+    "hash": "f64e02c29a14f4718d74c82cc560fd06",
+    "bug_type_hum": "Resource Leak"
+  },
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `opennlp.tools.formats.masc.MascDocumentStream` acquired by call to `new()` at line 92 is not released after line 92.",
+    "severity": "ERROR",
+    "line": 92,
+    "column": -1,
+    "procedure": "opennlp.tools.formats.masc.MascDocumentStream.<init>(java.io.File)",
+    "procedure_start_line": 90,
+    "file": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": "start of procedure MascDocumentStream(...)"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 86,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": "start of procedure callsite_opennlp.tools.formats.masc.MascDocumentStream$Lambda$_1_15()"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": "return from a call to FileFilter MascDocumentStream.callsite_opennlp.tools.formats.masc.MascDocumentStream$Lambda$_1_15()"
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 92,
+        "column_number": -1,
+        "description": "Skipping MascDocumentStream(...): empty list of specs"
+      },
+      {
+        "level": 1,
+        "filename": "opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 106,
+        "column_number": -1,
+        "description": "Definition of MascDocumentStream(...)"
+      }
+    ],
+    "key": "MascDocumentStream.java|<init>|RESOURCE_LEAK",
+    "node_key": "7faf2ea9cc66c12363dd8adfe511d40d",
+    "hash": "260bf183b176d2cb46b7bbec654b8578",
+    "bug_type_hum": "Resource Leak"
+  }
+]

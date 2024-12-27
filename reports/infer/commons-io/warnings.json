@@ -1,0 +1,1390 @@
+[
+  {
+    "bug_type": "NULL_DEREFERENCE",
+    "qualifier": "object returned by `visitor1.getDirList()` could be null and is dereferenced at line 129.",
+    "severity": "ERROR",
+    "line": 129,
+    "column": -1,
+    "procedure": "org.apache.commons.io.file.PathUtils$RelativeSortedPaths.<init>(java.nio.file.Path,java.nio.file.Path,int,java.nio.file.LinkOption[],java.nio.file.FileVisitOption[])",
+    "procedure_start_line": 112,
+    "file": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 112,
+        "column_number": -1,
+        "description": "start of procedure PathUtils$RelativeSortedPaths(...)"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 115,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 116,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 117,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 119,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 119,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 119,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 122,
+        "column_number": -1,
+        "description": "Skipping notExists(...): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 123,
+        "column_number": -1,
+        "description": "Skipping notExists(...): unknown method"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 124,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 124,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 127,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 216,
+        "column_number": -1,
+        "description": "start of procedure accumulate(...)"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 217,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": "start of procedure withLongCounters()"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 431,
+        "column_number": -1,
+        "description": "start of procedure longPathCounters()"
+      },
+      {
+        "level": 3,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 432,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": "start of procedure Counters$LongPathCounters()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 422,
+        "column_number": -1,
+        "description": "start of procedure longCounter()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "start of procedure Counters$LongCounter()"
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "return from a call to Counters$LongCounter.<init>()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": "return from a call to Counters$Counter Counters.longCounter()"
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 422,
+        "column_number": -1,
+        "description": "start of procedure longCounter()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "start of procedure Counters$LongCounter()"
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "return from a call to Counters$LongCounter.<init>()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": "return from a call to Counters$Counter Counters.longCounter()"
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 422,
+        "column_number": -1,
+        "description": "start of procedure longCounter()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "start of procedure Counters$LongCounter()"
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "return from a call to Counters$LongCounter.<init>()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": "return from a call to Counters$Counter Counters.longCounter()"
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": "start of procedure Counters$AbstractPathCounters(...)"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to Counters$AbstractPathCounters.<init>(Counters$LongCounter,Counters$LongCounter,Counters$LongCounter)"
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 299,
+        "column_number": -1,
+        "description": "return from a call to Counters$LongPathCounters.<init>()"
+      },
+      {
+        "level": 3,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 432,
+        "column_number": -1,
+        "description": "return from a call to Counters$PathCounters Counters.longPathCounters()"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": "Skipping AccumulatorPathVisitor(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 125,
+        "column_number": -1,
+        "description": "Definition of AccumulatorPathVisitor(...)"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": "return from a call to AccumulatorPathVisitor AccumulatorPathVisitor.withLongCounters()"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 217,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1596,
+        "column_number": -1,
+        "description": "start of procedure toFileVisitOptionSet(...)"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1597,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1597,
+        "column_number": -1,
+        "description": "return from a call to Set PathUtils.toFileVisitOptionSet(FileVisitOption[])"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 217,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1653,
+        "column_number": -1,
+        "description": "start of procedure visitFileTree(...)"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1655,
+        "column_number": -1,
+        "description": "Skipping walkFileTree(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1656,
+        "column_number": -1,
+        "description": "return from a call to FileVisitor PathUtils.visitFileTree(AccumulatorPathVisitor,Path,Set,int)"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 217,
+        "column_number": -1,
+        "description": "return from a call to AccumulatorPathVisitor PathUtils.accumulate(Path,int,FileVisitOption[])"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 128,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 216,
+        "column_number": -1,
+        "description": "start of procedure accumulate(...)"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 217,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 90,
+        "column_number": -1,
+        "description": "start of procedure withLongCounters()"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 3,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 431,
+        "column_number": -1,
+        "description": "start of procedure longPathCounters()"
+      },
+      {
+        "level": 3,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 432,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": "start of procedure Counters$LongPathCounters()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 422,
+        "column_number": -1,
+        "description": "start of procedure longCounter()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "start of procedure Counters$LongCounter()"
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "return from a call to Counters$LongCounter.<init>()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": "return from a call to Counters$Counter Counters.longCounter()"
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 422,
+        "column_number": -1,
+        "description": "start of procedure longCounter()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "start of procedure Counters$LongCounter()"
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "return from a call to Counters$LongCounter.<init>()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": "return from a call to Counters$Counter Counters.longCounter()"
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 422,
+        "column_number": -1,
+        "description": "start of procedure longCounter()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "start of procedure Counters$LongCounter()"
+      },
+      {
+        "level": 6,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 231,
+        "column_number": -1,
+        "description": "return from a call to Counters$LongCounter.<init>()"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 423,
+        "column_number": -1,
+        "description": "return from a call to Counters$Counter Counters.longCounter()"
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 298,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 46,
+        "column_number": -1,
+        "description": "start of procedure Counters$AbstractPathCounters(...)"
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 47,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 48,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 49,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 5,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 50,
+        "column_number": -1,
+        "description": "return from a call to Counters$AbstractPathCounters.<init>(Counters$LongCounter,Counters$LongCounter,Counters$LongCounter)"
+      },
+      {
+        "level": 4,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 299,
+        "column_number": -1,
+        "description": "return from a call to Counters$LongPathCounters.<init>()"
+      },
+      {
+        "level": 3,
+        "filename": "src/main/java/org/apache/commons/io/file/Counters.java",
+        "line_number": 432,
+        "column_number": -1,
+        "description": "return from a call to Counters$PathCounters Counters.longPathCounters()"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": "Skipping AccumulatorPathVisitor(...): empty list of specs"
+      },
+      {
+        "level": 3,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 125,
+        "column_number": -1,
+        "description": "Definition of AccumulatorPathVisitor(...)"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 91,
+        "column_number": -1,
+        "description": "return from a call to AccumulatorPathVisitor AccumulatorPathVisitor.withLongCounters()"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 217,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1596,
+        "column_number": -1,
+        "description": "start of procedure toFileVisitOptionSet(...)"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1597,
+        "column_number": -1,
+        "description": "Taking false branch"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1597,
+        "column_number": -1,
+        "description": "return from a call to Set PathUtils.toFileVisitOptionSet(FileVisitOption[])"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 217,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1653,
+        "column_number": -1,
+        "description": "start of procedure visitFileTree(...)"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1655,
+        "column_number": -1,
+        "description": "Skipping walkFileTree(...): unknown method"
+      },
+      {
+        "level": 2,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1656,
+        "column_number": -1,
+        "description": "return from a call to FileVisitor PathUtils.visitFileTree(AccumulatorPathVisitor,Path,Set,int)"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 217,
+        "column_number": -1,
+        "description": "return from a call to AccumulatorPathVisitor PathUtils.accumulate(Path,int,FileVisitOption[])"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 129,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 178,
+        "column_number": -1,
+        "description": "start of procedure getDirList()"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 179,
+        "column_number": -1,
+        "description": "return from a call to List AccumulatorPathVisitor.getDirList()"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 129,
+        "column_number": -1,
+        "description": ""
+      }
+    ],
+    "key": "PathUtils.java|<init>|NULL_DEREFERENCE",
+    "node_key": "42f56fda1ad408e362508b93a175bb0c",
+    "hash": "473f5aca481a47526edeb601c5c62cf5",
+    "bug_type_hum": "Null Dereference"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Read/Write race. Non-private method `BoundedInputStream.skip(...)` reads without synchronization from `this.count`. Potentially races with write in method `BoundedInputStream.reset()`.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 259,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.BoundedInputStream.skip(long):long",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 259,
+        "column_number": -1,
+        "description": "<Read trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 259,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "<Write trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      }
+    ],
+    "key": "BoundedInputStream.java|skip|THREAD_SAFETY_VIOLATION",
+    "hash": "f6f413c60b0f695516b59026fdb9476a",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Unprotected write. Non-private method `BoundedInputStream.read(...)` writes to field `this.count` outside of synchronization.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 222,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.BoundedInputStream.read(byte[],int,int):int",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 222,
+        "column_number": -1,
+        "description": "<Write on unknown thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 222,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "<Write on background thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      }
+    ],
+    "key": "BoundedInputStream.java|read|THREAD_SAFETY_VIOLATION",
+    "hash": "cbbbd5e2bc1041f0f28cc9a908d31801",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Unprotected write. Non-private method `BoundedInputStream.read()` writes to field `this.count` outside of synchronization.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 182,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.BoundedInputStream.read():int",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 182,
+        "column_number": -1,
+        "description": "<Write on unknown thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 182,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "<Write on background thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      }
+    ],
+    "key": "BoundedInputStream.java|read|THREAD_SAFETY_VIOLATION",
+    "hash": "38445aed4526381f3466a11d047b8313",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Read/Write race. Non-private method `BoundedInputStream.getCount()` reads without synchronization from `this.count`. Potentially races with write in method `BoundedInputStream.reset()`.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 105,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.BoundedInputStream.getCount():long",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 105,
+        "column_number": -1,
+        "description": "<Read trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 105,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "<Write trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      }
+    ],
+    "key": "BoundedInputStream.java|getCount|THREAD_SAFETY_VIOLATION",
+    "hash": "baf774a0564f0e1acbb3100756248604",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Read/Write race. Non-private method `BoundedInputStream.available()` indirectly reads without synchronization from `this.count`. Potentially races with write in method `BoundedInputStream.reset()`.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 78,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.BoundedInputStream.available():int",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "<Read trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 78,
+        "column_number": -1,
+        "description": "call to boolean BoundedInputStream.isMaxLength()"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 119,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "<Write trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      }
+    ],
+    "key": "BoundedInputStream.java|available|THREAD_SAFETY_VIOLATION",
+    "hash": "2def63d581029f525f1d36dbf3612a0c",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Unprotected write. Non-private method `BoundedInputStream.skip(...)` writes to field `this.count` outside of synchronization.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 261,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.BoundedInputStream.skip(long):long",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 261,
+        "column_number": -1,
+        "description": "<Write on unknown thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 261,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "<Write on background thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 234,
+        "column_number": -1,
+        "description": "access to `this.count`"
+      }
+    ],
+    "key": "BoundedInputStream.java|skip|THREAD_SAFETY_VIOLATION",
+    "hash": "91465d793179e94cd1da514b78905e35",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Unprotected write. Non-private method `NullInputStream.skip(...)` indirectly writes to field `this.eof` outside of synchronization.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 348,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.NullInputStream.skip(long):long",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 348,
+        "column_number": -1,
+        "description": "<Write on unknown thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 348,
+        "column_number": -1,
+        "description": "call to int NullInputStream.doEndOfFile()"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 160,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "<Write on background thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      }
+    ],
+    "key": "NullInputStream.java|skip|THREAD_SAFETY_VIOLATION",
+    "hash": "0f95d3a78e3a300f1309e587404d83b2",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Read/Write race. Non-private method `NullInputStream.skip(...)` reads without synchronization from `this.eof`. Potentially races with write in method `NullInputStream.reset()`.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 344,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.NullInputStream.skip(long):long",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 344,
+        "column_number": -1,
+        "description": "<Read trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 344,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "<Write trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      }
+    ],
+    "key": "NullInputStream.java|skip|THREAD_SAFETY_VIOLATION",
+    "hash": "151fead60da92125c5d5c16f83c5600a",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Read/Write race. Non-private method `NullInputStream.read(...)` reads without synchronization from `this.eof`. Potentially races with write in method `NullInputStream.reset()`.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 290,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.NullInputStream.read(byte[],int,int):int",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 290,
+        "column_number": -1,
+        "description": "<Read trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 290,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "<Write trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      }
+    ],
+    "key": "NullInputStream.java|read|THREAD_SAFETY_VIOLATION",
+    "hash": "bfabce1969419bce0d827ad6e10106c1",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Read/Write race. Non-private method `NullInputStream.read()` reads without synchronization from `this.eof`. Potentially races with write in method `NullInputStream.reset()`.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 249,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.NullInputStream.read():int",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 249,
+        "column_number": -1,
+        "description": "<Read trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 249,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "<Write trace>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      }
+    ],
+    "key": "NullInputStream.java|read|THREAD_SAFETY_VIOLATION",
+    "hash": "b612f78d8526bfccdd55423d1df07f6d",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Unprotected write. Non-private method `NullInputStream.close()` writes to field `this.position` outside of synchronization.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 147,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.NullInputStream.close():void",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 147,
+        "column_number": -1,
+        "description": "<Write on unknown thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 147,
+        "column_number": -1,
+        "description": "access to `this.position`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 327,
+        "column_number": -1,
+        "description": "<Write on background thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 327,
+        "column_number": -1,
+        "description": "access to `this.position`"
+      }
+    ],
+    "key": "NullInputStream.java|close|THREAD_SAFETY_VIOLATION",
+    "hash": "3b184b1a33b4a2aea5a5ce804dac2073",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "THREAD_SAFETY_VIOLATION",
+    "qualifier": "Unprotected write. Non-private method `NullInputStream.close()` writes to field `this.eof` outside of synchronization.\n Reporting because another access to the same memory occurs on a background thread, although this access may not.",
+    "severity": "WARNING",
+    "line": 146,
+    "column": -1,
+    "procedure": "org.apache.commons.io.input.NullInputStream.close():void",
+    "procedure_start_line": 0,
+    "file": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 146,
+        "column_number": -1,
+        "description": "<Write on unknown thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 146,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "<Write on background thread>"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/input/NullInputStream.java",
+        "line_number": 328,
+        "column_number": -1,
+        "description": "access to `this.eof`"
+      }
+    ],
+    "key": "NullInputStream.java|close|THREAD_SAFETY_VIOLATION",
+    "hash": "4c8714937b2e264ed2f0b46e7e68da9e",
+    "bug_type_hum": "Thread Safety Violation"
+  },
+  {
+    "bug_type": "RESOURCE_LEAK",
+    "qualifier": "resource of type `java.io.RandomAccessFile` acquired by call to `create(...)` at line 262 is not released after line 272.\n**Note**: potential exception at line 264",
+    "severity": "ERROR",
+    "line": 272,
+    "column": -1,
+    "procedure": "org.apache.commons.io.filefilter.MagicNumberFileFilter.accept(java.io.File):boolean",
+    "procedure_start_line": 259,
+    "file": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+    "bug_trace": [
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 259,
+        "column_number": -1,
+        "description": "start of procedure accept(...)"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 260,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 260,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 260,
+        "column_number": -1,
+        "description": "Taking true branch"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 262,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/RandomAccessFileMode.java",
+        "line_number": 67,
+        "column_number": -1,
+        "description": "start of procedure create(...)"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/RandomAccessFileMode.java",
+        "line_number": 68,
+        "column_number": -1,
+        "description": "return from a call to RandomAccessFile RandomAccessFileMode.create(File)"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 263,
+        "column_number": -1,
+        "description": ""
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+        "line_number": 363,
+        "column_number": -1,
+        "description": "start of procedure byteArray(...)"
+      },
+      {
+        "level": 1,
+        "filename": "src/main/java/org/apache/commons/io/IOUtils.java",
+        "line_number": 364,
+        "column_number": -1,
+        "description": "return from a call to byte[] IOUtils.byteArray(int)"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 264,
+        "column_number": -1,
+        "description": "exception java.io.IOException"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 262,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      },
+      {
+        "level": 0,
+        "filename": "src/main/java/org/apache/commons/io/filefilter/MagicNumberFileFilter.java",
+        "line_number": 272,
+        "column_number": -1,
+        "description": "Switch condition is false. Skipping switch case"
+      }
+    ],
+    "key": "MagicNumberFileFilter.java|accept|RESOURCE_LEAK",
+    "node_key": "938719110654ddb2da0e23ba23928e97",
+    "hash": "9ab88dbde022aea7f70edf251866896f",
+    "bug_type_hum": "Resource Leak"
+  }
+]

@@ -1,0 +1,7 @@
+*
+!.gitignore
+!download.py
+!process.py
+!warnings.json
+!*.sarif
+!*/
