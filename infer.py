@@ -35,6 +35,7 @@ TOOL_SETTINGS = {
     # Add other tools here as needed
 }
 
+# infer
 def infer_run():
     subprocess.run(
         [
@@ -46,6 +47,14 @@ def infer_run():
         capture_output=not VERBOSE,
     )
 
+def compare_reports_infer(config, repo: str, base_report, compare_report, output_dir, cwd):
+    subprocess.run([
+        "infer", "reportdiff",
+        "--report-previous", os.path.join(cwd, str(base_report)),
+        "--report-current", os.path.join(cwd, str(compare_report)),
+    ], check=True, capture_output=not VERBOSE)
+
+# spotbugs
 def spotbugs_run():
     p1 = subprocess.Popen(["find", ".", "-name", "*class", "!", "-path", "*/opennlp-distr/*"], stdout=subprocess.PIPE)
     p2 = subprocess.Popen(["spotbugs", "-textui", "-xargs", "-sarif=spotbugs.sarif"], stdin=p1.stdout, stdout=subprocess.PIPE)
@@ -53,6 +62,11 @@ def spotbugs_run():
     p1.stdout.close()
     p2.communicate()
 
+def compare_reports_spots_bugs():
+    # TODO
+    os.abort()
+
+# codeql
 def codeql_run():
     # Create the database
     subprocess.run(
@@ -83,6 +97,11 @@ def codeql_run():
         capture_output=not VERBOSE,
     )
 
+def compare_reports_codeql():
+    # TODO
+    os.abort()
+
+# pmd
 def pmd_run():
     subprocess.run(
         [
@@ -92,47 +111,46 @@ def pmd_run():
         capture_output=not VERBOSE,
     )
 
-
-
-
-"""Sort tags"""
-def get_sorted_tags(tags: List[str]) -> List[str]:
-    return sorted(tags, key=lambda x: int(x.split("_")[1]))
-
-def set_java_home(repo: str):
-    java_home = JAVA_HOMES[repo]
-    os.environ["JAVA_HOME"] = os.getenv(java_home)
-
-def compare_reports_infer(config, repo: str, base_report, compare_report, output_dir, cwd):
-    subprocess.run([
-        "infer", "reportdiff",
-        "--report-previous", os.path.join(cwd, str(base_report)),
-        "--report-current", os.path.join(cwd, str(compare_report)),
-    ], check=True, capture_output=not VERBOSE)
-
-def compare_reports_spots_bugs():
-    # TODO
-    os.abort()
-
-def compare_reports_codeql():
-    # TODO
-    os.abort()
-
 def compare_reports_pmd():
     # TODO
     os.abort()
 
+# semgrep
+def semgrep_run():
+    subprocess.run(
+        [
+            "semgrep", "scan", ",", "--sarif-output=semgrep.sarif"
+        ],
+        check=True,
+        capture_output=not VERBOSE,
+    )
+
+def compare_reports_semgrep():
+    # TODO
+    os.abort()
+
+COMPARE_TOOL_FUNCTIONS = {
+    "infer": compare_reports_infer,
+    "spotbugs": compare_reports_spots_bugs,
+    "codeql": compare_reports_codeql,
+    "pmd": compare_reports_pmd,
+    "semgrep": compare_reports_semgrep,
+}
+
+TOOL_RUNNERS = {
+    "infer": infer_run,
+    "spotbugs": spotbugs_run,
+    "codeql": codeql_run,
+    "pmd": pmd_run,
+    "semgrep": semgrep_run,
+}
+
 def compare_tool_reports(tool: str, repo: str, base_report, compare_report, output_dir, cwd):
     config = TOOL_SETTINGS[tool]
-    if tool == "infer":
-        compare_reports_infer(config, repo, base_report, compare_report, output_dir, cwd)
-    elif tool == "spotbugs":
-        compare_reports_spots_bugs()
-    elif tool == "codeql":
-        compare_reports_codeql()
-    elif tool == "pmd":
-        compare_reports_pmd()
-    # ...extend for other tools...
+    compare_func = COMPARE_TOOL_FUNCTIONS.get(tool)
+    if not compare_func:
+        raise ValueError(f"Unknown tool: {tool}")
+    compare_func(config, repo, base_report, compare_report, output_dir, cwd)
 
 
 def compare_reports(tool: str, repo: str, base_tag: str, compare_tag: str) -> str:
@@ -193,12 +211,11 @@ def process_reports(tool: str, repo: str, tags: List[str]):
     with open(output_path, "w") as f:
         json.dump(combined_warnings, f, indent=2)
 
-TOOL_RUNNERS = {
-    "infer": infer_run,
-    "spotbugs": spotbugs_run,
-    "codeql": codeql_run,
-    "pmd": pmd_run
-}
+def set_java_home(repo: str):
+    java_home = JAVA_HOMES.get(repo)
+    if not java_home:
+        raise ValueError(f"Unknown repo: {repo}")
+    os.environ["JAVA_HOME"] = os.getenv(java_home)
 
 @app.command()
 def main(
