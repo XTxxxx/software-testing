@@ -111,7 +111,7 @@ def compare_reports_pmd():
 def semgrep_run():
     subprocess.run(
         [
-            "semgrep", "scan", ",", "--sarif-output=semgrep.sarif"
+            "semgrep", "scan", ".", "--sarif-output=semgrep.sarif"
         ],
         check=True,
         capture_output=not VERBOSE,
