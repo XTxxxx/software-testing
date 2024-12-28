@@ -27,14 +27,6 @@ JAVA_HOMES = {
     "ratis": "JAVA8_HOME"
 }
 
-TOOL_SETTINGS = {
-    "infer": {
-    },
-    "spotbugs": {
-    }
-    # Add other tools here as needed
-}
-
 # infer
 def infer_run():
     subprocess.run(
@@ -216,6 +208,9 @@ def set_java_home(repo: str):
     if not java_home:
         raise ValueError(f"Unknown repo: {repo}")
     os.environ["JAVA_HOME"] = os.getenv(java_home)
+
+def get_sorted_tags(tags: List[str]) -> List[str]:
+    return sorted(tags, key=lambda tag: int(tag.split("_")[-1]))
 
 @app.command()
 def main(
