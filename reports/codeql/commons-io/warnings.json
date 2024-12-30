@@ -1,0 +1,4789 @@
+[
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "CheckingInputStream should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyToFileTest.java",
+    "start_line": 34,
+    "end_line": 34,
+    "start_column": 19,
+    "end_column": 38,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyToFileTest.java",
+        "line_number": 34
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyToFileTest.java",
+        "line_number": 34
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyToFileTest.java",
+        "line_number": 34
+      }
+    ]
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "TesterFalseFileFilter should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+    "start_line": 27,
+    "end_line": 27,
+    "start_column": 11,
+    "end_column": 32,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+        "line_number": 27
+      }
+    ]
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "TesterTrueFileFilter should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+    "start_line": 57,
+    "end_line": 57,
+    "start_column": 11,
+    "end_column": 31,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+        "line_number": 57
+      }
+    ]
+  },
+  {
+    "type": "java/unused-reference-type",
+    "cwe": "CWE-561",
+    "message": "Unused class: ShorterFile is not referenced within this codebase. If not used as an external API it should be removed.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 129,
+    "end_line": 129,
+    "start_column": 26,
+    "end_column": 37,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 127
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 127
+      }
+    ]
+  },
+  {
+    "type": "java/unused-reference-type",
+    "cwe": "CWE-561",
+    "message": "Unused class: StreamIterator is not referenced within this codebase. If not used as an external API it should be removed.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/StreamIterator.java",
+    "start_line": 32,
+    "end_line": 32,
+    "start_column": 13,
+    "end_column": 27,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/StreamIterator.java",
+        "line_number": 32
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/StreamIterator.java",
+        "line_number": 32
+      }
+    ]
+  },
+  {
+    "type": "java/local-variable-is-never-read",
+    "cwe": "CWE-561",
+    "message": "Variable 'int filesCount' is never read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1935,
+    "end_line": 1935,
+    "start_column": 13,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1933
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1933
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1917
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1917
+      }
+    ]
+  },
+  {
+    "type": "java/local-variable-is-never-read",
+    "cwe": "CWE-561",
+    "message": "Variable 'int read' is never read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/AbstractInputStreamTest.java",
+    "start_line": 137,
+    "end_line": 137,
+    "start_column": 9,
+    "end_column": 18,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/AbstractInputStreamTest.java",
+        "line_number": 137
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/AbstractInputStreamTest.java",
+        "line_number": 137
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/AbstractInputStreamTest.java",
+        "line_number": 137
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/AbstractInputStreamTest.java",
+        "line_number": 137
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method copyDirectoryToDirectoryThrowsIllegalArgumentExceptionWithCorrectMessageWhenDstDirIsNotDirectory ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+    "start_line": 66,
+    "end_line": 66,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 66
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 66
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 66
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method copyDirectoryToDirectoryThrowsIllegalArgumentExceptionWithCorrectMessageWhenDstDirIsNotDirectory ignores exceptional return value of File.createNewFile.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+    "start_line": 68,
+    "end_line": 68,
+    "start_column": 9,
+    "end_column": 32,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 68
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 68
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 68
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method copyDirectoryToDirectoryThrowsNullPointerExceptionWithCorrectMessageWhenDstDirIsNull ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+    "start_line": 88,
+    "end_line": 88,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 88
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 88
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 88
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method copyDirectoryToDirectoryThrowsNullPointerExceptionWithCorrectMessageWhenSrcDirIsNull ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+    "start_line": 97,
+    "end_line": 97,
+    "start_column": 9,
+    "end_column": 37,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 97
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 97
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
+        "line_number": 97
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testCopyDirectoryPreserveDates ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 839,
+    "end_line": 839,
+    "start_column": 9,
+    "end_column": 32,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 837
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 837
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 821
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 821
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testCopyDirectoryToDirectory_NonExistingDest ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 933,
+    "end_line": 933,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 931
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 931
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 915
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 915
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testCopyDirectoryToExistingDest ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 969,
+    "end_line": 969,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 967
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 967
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 951
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 951
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testCopyDirectoryToNonExistingDest ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1027,
+    "end_line": 1027,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1025
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1025
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1009
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1009
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testForceDeleteAFile1 ignores exceptional return value of File.createNewFile.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1483,
+    "end_line": 1483,
+    "start_column": 9,
+    "end_column": 36,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1481
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1481
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1465
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1465
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testForceDeleteAFile2 ignores exceptional return value of File.createNewFile.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1492,
+    "end_line": 1492,
+    "start_column": 9,
+    "end_column": 36,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1490
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1490
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1474
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1474
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testForceMkdir ignores exceptional return value of File.createNewFile.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1543,
+    "end_line": 1543,
+    "start_column": 9,
+    "end_column": 33,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1541
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1541
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1525
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1525
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testListFiles ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1970,
+    "end_line": 1970,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1968
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1968
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1952
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1952
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testListFiles ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1971,
+    "end_line": 1971,
+    "start_column": 9,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1969
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1969
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1953
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1953
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testListFilesWithDirs ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2034,
+    "end_line": 2034,
+    "start_column": 9,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2032
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2032
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2016
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2016
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testListFilesWithDirs ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2035,
+    "end_line": 2035,
+    "start_column": 9,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2032
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2032
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2016
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2016
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testListFilesWithDirs ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2046,
+    "end_line": 2046,
+    "start_column": 13,
+    "end_column": 28,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2044
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2044
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2028
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2028
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testMoveDirectory_Errors ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2118,
+    "end_line": 2118,
+    "start_column": 9,
+    "end_column": 28,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2116
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2116
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2100
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2100
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testMoveDirectory_Errors ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2119,
+    "end_line": 2119,
+    "start_column": 9,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2117
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2117
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2101
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2101
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSizeOf ignores exceptional return value of File.createNewFile.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2493,
+    "end_line": 2493,
+    "start_column": 9,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2491
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2491
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2528
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2528
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSizeOfAsBigInteger ignores exceptional return value of File.createNewFile.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2516,
+    "end_line": 2516,
+    "start_column": 9,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2514
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2514
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2551
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2551
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSizeOfDirectory ignores exceptional return value of File.createNewFile.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2548,
+    "end_line": 2548,
+    "start_column": 9,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2546
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2546
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2583
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2583
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSizeOfDirectory ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2555,
+    "end_line": 2555,
+    "start_column": 9,
+    "end_column": 21,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2553
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2553
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2590
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2590
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSizeOfDirectoryAsBigInteger ignores exceptional return value of File.createNewFile.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2580,
+    "end_line": 2580,
+    "start_column": 9,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2578
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2578
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2615
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2615
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSizeOfDirectoryAsBigInteger ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2587,
+    "end_line": 2587,
+    "start_column": 9,
+    "end_column": 21,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2585
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2585
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2622
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2622
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSizeOfDirectoryAsBigInteger ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2595,
+    "end_line": 2595,
+    "start_column": 9,
+    "end_column": 21,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2585
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2585
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2622
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2622
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method accept ignores exceptional return value of ByteArrayInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/UncheckedIOTest.java",
+    "start_line": 50,
+    "end_line": 50,
+    "start_column": 29,
+    "end_column": 43,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/UncheckedIOTest.java",
+        "line_number": 50
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method run ignores exceptional return value of ByteArrayInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/UncheckedIOTest.java",
+    "start_line": 100,
+    "end_line": 100,
+    "start_column": 27,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/UncheckedIOTest.java",
+        "line_number": 100
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of InputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+    "start_line": 56,
+    "end_line": 56,
+    "start_column": 71,
+    "end_column": 95,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 56
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 56
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 56
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 56
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of InputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+    "start_line": 57,
+    "end_line": 57,
+    "start_column": 71,
+    "end_column": 101,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 57
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 57
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 57
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 57
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of InputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+    "start_line": 67,
+    "end_line": 67,
+    "start_column": 71,
+    "end_column": 85,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 67
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 67
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 67
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
+        "line_number": 67
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSkip ignores exceptional return value of InputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CharSequenceInputStreamTest.java",
+    "start_line": 420,
+    "end_line": 420,
+    "start_column": 13,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CharSequenceInputStreamTest.java",
+        "line_number": 479
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CharSequenceInputStreamTest.java",
+        "line_number": 479
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CharSequenceInputStreamTest.java",
+        "line_number": 480
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CharSequenceInputStreamTest.java",
+        "line_number": 480
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSkipping ignores exceptional return value of ProxyInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CountingInputStreamTest.java",
+    "start_line": 157,
+    "end_line": 157,
+    "start_column": 13,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CountingInputStreamTest.java",
+        "line_number": 157
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CountingInputStreamTest.java",
+        "line_number": 157
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CountingInputStreamTest.java",
+        "line_number": 157
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CountingInputStreamTest.java",
+        "line_number": 157
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testSkip ignores exceptional return value of InputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/NullInputStreamTest.java",
+    "start_line": 218,
+    "end_line": 218,
+    "start_column": 13,
+    "end_column": 26,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/NullInputStreamTest.java",
+        "line_number": 218
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 152,
+    "end_line": 152,
+    "start_column": 51,
+    "end_column": 83,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 152
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 153
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_ConstructorLjava_io_InputStreamI ignores exceptional return value of BufferedInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 186,
+    "end_line": 186,
+    "start_column": 9,
+    "end_column": 40,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 186
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 187
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_markI ignores exceptional return value of BufferedInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 203,
+    "end_line": 203,
+    "start_column": 9,
+    "end_column": 22,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 203
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 204
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_markI ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 205,
+    "end_line": 205,
+    "start_column": 9,
+    "end_column": 38,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 205
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 206
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_markI ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 207,
+    "end_line": 207,
+    "start_column": 9,
+    "end_column": 38,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 205
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 206
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_read$BII ignores exceptional return value of BufferedInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 296,
+    "end_line": 296,
+    "start_column": 9,
+    "end_column": 22,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 296
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 297
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_read$BII ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 298,
+    "end_line": 298,
+    "start_column": 9,
+    "end_column": 38,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 298
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 299
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 347,
+    "end_line": 347,
+    "start_column": 56,
+    "end_column": 78,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 347
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 348
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 349,
+    "end_line": 349,
+    "start_column": 61,
+    "end_column": 90,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 349
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 350
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 350,
+    "end_line": 350,
+    "start_column": 61,
+    "end_column": 89,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 350
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 351
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 351,
+    "end_line": 351,
+    "start_column": 61,
+    "end_column": 88,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 351
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 352
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 355,
+    "end_line": 355,
+    "start_column": 47,
+    "end_column": 69,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 355
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 356
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_reset ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 368,
+    "end_line": 368,
+    "start_column": 9,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 368
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 369
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_reset ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 370,
+    "end_line": 370,
+    "start_column": 9,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 368
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 369
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_reset_scenario1 ignores exceptional return value of BufferedInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 415,
+    "end_line": 415,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 415
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_reset_scenario2 ignores exceptional return value of BufferedInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 429,
+    "end_line": 429,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 429
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_skipJ ignores exceptional return value of BufferedInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 454,
+    "end_line": 454,
+    "start_column": 9,
+    "end_column": 22,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 454
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 455
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_skipJ ignores exceptional return value of BufferedInputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 455,
+    "end_line": 455,
+    "start_column": 9,
+    "end_column": 38,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 455
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 456
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method execute ignores exceptional return value of BufferedInputStream.skip.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+    "start_line": 461,
+    "end_line": 461,
+    "start_column": 51,
+    "end_column": 63,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 461
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
+        "line_number": 462
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method test_read$B ignores exceptional return value of InputStream.read.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedFilterInputStreamTest.java",
+    "start_line": 130,
+    "end_line": 130,
+    "start_column": 9,
+    "end_column": 22,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedFilterInputStreamTest.java",
+        "line_number": 130
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedFilterInputStreamTest.java",
+        "line_number": 132
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedFilterInputStreamTest.java",
+        "line_number": 132
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedFilterInputStreamTest.java",
+        "line_number": 132
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testDirectory ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+    "start_line": 89,
+    "end_line": 89,
+    "start_column": 9,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testDirectory ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+    "start_line": 90,
+    "end_line": 90,
+    "start_column": 9,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testDirectory ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+    "start_line": 91,
+    "end_line": 91,
+    "start_column": 9,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 89
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testDirectory ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+    "start_line": 129,
+    "end_line": 129,
+    "start_column": 9,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 129
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 129
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 129
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 129
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 129
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 129
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 129
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testFileCreate ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+    "start_line": 146,
+    "end_line": 146,
+    "start_column": 9,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 146
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 146
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 146
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 146
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 147
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 147
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 147
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testFileDelete ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+    "start_line": 206,
+    "end_line": 206,
+    "start_column": 9,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 206
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 206
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 206
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 206
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 208
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 208
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 208
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testFileUpdate ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+    "start_line": 266,
+    "end_line": 266,
+    "start_column": 9,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 266
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 266
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 266
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 266
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 269
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 269
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 269
+      }
+    ]
+  },
+  {
+    "type": "java/ignored-error-status-of-call",
+    "cwe": "CWE-391",
+    "message": "Method testObserveSingleFile ignores exceptional return value of File.mkdir.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+    "start_line": 322,
+    "end_line": 322,
+    "start_column": 9,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 322
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 322
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 322
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 322
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 326
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 326
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
+        "line_number": 326
+      }
+    ]
+  },
+  {
+    "type": "java/internal-representation-exposure",
+    "cwe": "CWE-485",
+    "message": "getFileList exposes the internal representation stored in field fileList. The value may be modified [after this call to getFileList](1).",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+    "start_line": 187,
+    "end_line": 187,
+    "start_column": 23,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 187
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 187
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 187
+      }
+    ]
+  },
+  {
+    "type": "java/unused-parameter",
+    "cwe": "CWE-561",
+    "message": "The parameter 'maxLength' is never used.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+    "start_line": 163,
+    "end_line": 163,
+    "start_column": 32,
+    "end_column": 52,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 163
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 163
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 163
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 163
+      }
+    ]
+  },
+  {
+    "type": "java/unused-parameter",
+    "cwe": "CWE-561",
+    "message": "The parameter 'count' is never used.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+    "start_line": 163,
+    "end_line": 163,
+    "start_column": 54,
+    "end_column": 70,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 163
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 163
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 163
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
+        "line_number": 163
+      }
+    ]
+  },
+  {
+    "type": "java/integer-multiplication-cast-to-long",
+    "cwe": "CWE-190",
+    "message": "Potential overflow in [int multiplication](1) before it is converted to long by use in an assignment context.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 992,
+    "end_line": 992,
+    "start_column": 36,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 990
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 990
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 974
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 974
+      }
+    ]
+  },
+  {
+    "type": "java/implicit-cast-in-compound-assignment",
+    "cwe": "CWE-190",
+    "message": "Implicit cast of source type long to narrower destination type [int](1).",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+    "start_line": 385,
+    "end_line": 385,
+    "start_column": 13,
+    "end_column": 26,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+        "line_number": 400
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+        "line_number": 400
+      }
+    ]
+  },
+  {
+    "type": "java/implicit-cast-in-compound-assignment",
+    "cwe": "CWE-190",
+    "message": "Implicit cast of source type long to narrower destination type [int](1).",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+    "start_line": 396,
+    "end_line": 396,
+    "start_column": 17,
+    "end_column": 37,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+        "line_number": 411
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+        "line_number": 411
+      }
+    ]
+  },
+  {
+    "type": "java/dereferenced-value-may-be-null",
+    "cwe": "CWE-476",
+    "message": "Variable [file](1) may be null at this access as suggested by [this](2) null guard.\nVariable [file](1) may be null at this access as suggested by [this](3) null guard.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+    "start_line": 109,
+    "end_line": 109,
+    "start_column": 46,
+    "end_column": 50,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+        "line_number": 109
+      }
+    ]
+  },
+  {
+    "type": "java/missing-space-in-concatenation",
+    "cwe": "CWE-unknown",
+    "message": "This string appears to be missing a space after 'you...'.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2781,
+    "end_line": 2781,
+    "start_column": 33,
+    "end_column": 43,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2792
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2792
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2829
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2829
+      }
+    ]
+  },
+  {
+    "type": "java/missing-space-in-concatenation",
+    "cwe": "CWE-unknown",
+    "message": "This string appears to be missing a space after 'you...'.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2814,
+    "end_line": 2814,
+    "start_column": 33,
+    "end_column": 43,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2792
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2792
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2829
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2829
+      }
+    ]
+  },
+  {
+    "type": "java/missing-space-in-concatenation",
+    "cwe": "CWE-unknown",
+    "message": "This string appears to be missing a space after 'you...'.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2851,
+    "end_line": 2851,
+    "start_column": 33,
+    "end_column": 95,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2862
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2862
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2899
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2899
+      }
+    ]
+  },
+  {
+    "type": "java/missing-space-in-concatenation",
+    "cwe": "CWE-unknown",
+    "message": "This string appears to be missing a space after 'you...'.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2912,
+    "end_line": 2912,
+    "start_column": 33,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2923
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2923
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2960
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2960
+      }
+    ]
+  },
+  {
+    "type": "java/missing-space-in-concatenation",
+    "cwe": "CWE-unknown",
+    "message": "This string appears to be missing a space after 'you...'.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2981,
+    "end_line": 2981,
+    "start_column": 33,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2923
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2923
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2960
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2960
+      }
+    ]
+  },
+  {
+    "type": "java/missing-space-in-concatenation",
+    "cwe": "CWE-unknown",
+    "message": "This string appears to be missing a space after 'you...'.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3012,
+    "end_line": 3012,
+    "start_column": 33,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2923
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2923
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2960
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2960
+      }
+    ]
+  },
+  {
+    "type": "java/missing-space-in-concatenation",
+    "cwe": "CWE-unknown",
+    "message": "This string appears to be missing a space after 'you...'.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3043,
+    "end_line": 3043,
+    "start_column": 33,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2992
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2923
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2960
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2960
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [PathUtils.readBasicFileAttributes](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
+    "start_line": 798,
+    "end_line": 798,
+    "start_column": 54,
+    "end_column": 80,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 816
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 816
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [PathUtils.readBasicFileAttributesUnchecked](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
+    "start_line": 1748,
+    "end_line": 1748,
+    "start_column": 70,
+    "end_column": 108,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1767
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1767
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
+        "line_number": 1772
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [PathUtils.readBasicFileAttributes](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/filefilter/PathVisitorFileFilter.java",
+    "start_line": 53,
+    "end_line": 53,
+    "start_column": 52,
+    "end_column": 91,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/filefilter/PathVisitorFileFilter.java",
+        "line_number": 53
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/filefilter/PathVisitorFileFilter.java",
+        "line_number": 53
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [PathUtils.readBasicFileAttributes](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/filefilter/PathVisitorFileFilter.java",
+    "start_line": 63,
+    "end_line": 63,
+    "start_column": 33,
+    "end_column": 72,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/filefilter/PathVisitorFileFilter.java",
+        "line_number": 63
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/filefilter/PathVisitorFileFilter.java",
+        "line_number": 63
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [BOMInputStream.BOMInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BOMInputStream.java",
+    "start_line": 130,
+    "end_line": 130,
+    "start_column": 20,
+    "end_column": 93,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [BufferedFileChannelInputStream.BufferedFileChannelInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BufferedFileChannelInputStream.java",
+    "start_line": 76,
+    "end_line": 76,
+    "start_column": 20,
+    "end_column": 94,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [MessageDigestCalculatingInputStream.MessageDigestCalculatingInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/MessageDigestCalculatingInputStream.java",
+    "start_line": 78,
+    "end_line": 78,
+    "start_column": 20,
+    "end_column": 104,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+    "start_line": 66,
+    "end_line": 66,
+    "start_column": 24,
+    "end_column": 87,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 80
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 80
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 80
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 80
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 92
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 92
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+    "start_line": 68,
+    "end_line": 68,
+    "start_column": 20,
+    "end_column": 127,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 82
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 82
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 82
+      },
+      {
+        "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 82
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReaderInputStream.ReaderInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/ReaderInputStream.java",
+    "start_line": 107,
+    "end_line": 107,
+    "start_column": 20,
+    "end_column": 111,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/ReversedLinesFileReader.java",
+    "start_line": 78,
+    "end_line": 78,
+    "start_column": 20,
+    "end_column": 101,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [UnsynchronizedByteArrayInputStream.UnsynchronizedByteArrayInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedByteArrayInputStream.java",
+    "start_line": 86,
+    "end_line": 86,
+    "start_column": 20,
+    "end_column": 102,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [XmlStreamReader.XmlStreamReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/XmlStreamReader.java",
+    "start_line": 130,
+    "end_line": 130,
+    "start_column": 23,
+    "end_column": 98,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [XmlStreamReader.XmlStreamReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/XmlStreamReader.java",
+    "start_line": 131,
+    "end_line": 131,
+    "start_column": 23,
+    "end_column": 115,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [LockableFileWriter.LockableFileWriter](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/output/LockableFileWriter.java",
+    "start_line": 82,
+    "end_line": 82,
+    "start_column": 20,
+    "end_column": 123,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [WriterOutputStream.WriterOutputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/main/java/org/apache/commons/io/output/WriterOutputStream.java",
+    "start_line": 106,
+    "end_line": 106,
+    "start_column": 20,
+    "end_column": 130,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileSystemUtils.freeSpace](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 31,
+    "end_column": 61,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 134
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileSystemUtils.freeSpaceKb](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+    "start_line": 125,
+    "end_line": 125,
+    "start_column": 29,
+    "end_column": 61,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 125
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 125
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 125
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 125
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 135
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileSystemUtils.freeSpace](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+    "start_line": 137,
+    "end_line": 137,
+    "start_column": 32,
+    "end_column": 61,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 137
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 137
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 137
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 137
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 147
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileSystemUtils.freeSpaceKb](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+    "start_line": 138,
+    "end_line": 138,
+    "start_column": 29,
+    "end_column": 60,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 138
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 138
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 138
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 138
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
+        "line_number": 148
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.readFileToString](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2455,
+    "end_line": 2455,
+    "start_column": 31,
+    "end_column": 63,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2453
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2453
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2472
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2472
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2765,
+    "end_line": 2765,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.write](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2767,
+    "end_line": 2767,
+    "start_column": 9,
+    "end_column": 63,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2778
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2778
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2815
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2815
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2777,
+    "end_line": 2777,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.write](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2779,
+    "end_line": 2779,
+    "start_column": 9,
+    "end_column": 62,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2790
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2790
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2827
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2827
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2798,
+    "end_line": 2798,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2810,
+    "end_line": 2810,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2833,
+    "end_line": 2833,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2846,
+    "end_line": 2846,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2892,
+    "end_line": 2892,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2809
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2907,
+    "end_line": 2907,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2809
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2776
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2961,
+    "end_line": 2961,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2903
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2809
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2976,
+    "end_line": 2976,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2903
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2809
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 2992,
+    "end_line": 2992,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2903
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2809
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3007,
+    "end_line": 3007,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2918
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2821
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3023,
+    "end_line": 3023,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2972
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2903
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3038,
+    "end_line": 3038,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2972
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2903
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3054,
+    "end_line": 3054,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2972
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2903
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3056,
+    "end_line": 3056,
+    "start_column": 9,
+    "end_column": 75,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3067
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3067
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3104
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3104
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3066,
+    "end_line": 3066,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2972
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2903
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3068,
+    "end_line": 3068,
+    "start_column": 9,
+    "end_column": 74,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3079
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3079
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3116
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3116
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3113,
+    "end_line": 3113,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3018
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2972
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2881
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3125,
+    "end_line": 3125,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3034
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2972
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2881
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3154,
+    "end_line": 3154,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3065
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2972
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2881
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [FileUtils.writeStringToFile](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 3166,
+    "end_line": 3166,
+    "start_column": 9,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 3077
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2987
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2894
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 2813
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [IOUtils.toByteArray](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/IOUtilsTest.java",
+    "start_line": 1476,
+    "end_line": 1476,
+    "start_column": 26,
+    "end_column": 105,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/IOUtilsTest.java",
+        "line_number": 1476
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+    "start_line": 48,
+    "end_line": 48,
+    "start_column": 56,
+    "end_column": 18,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+    "start_line": 56,
+    "end_line": 56,
+    "start_column": 56,
+    "end_column": 18,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+    "start_line": 102,
+    "end_line": 102,
+    "start_column": 60,
+    "end_column": 104,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 118
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 118
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 118
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 118
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 133
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+    "start_line": 151,
+    "end_line": 151,
+    "start_column": 56,
+    "end_column": 18,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 59
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 51
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+    "start_line": 173,
+    "end_line": 173,
+    "start_column": 56,
+    "end_column": 18,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 167
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 167
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 167
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 167
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 173
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 173
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 182
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+    "start_line": 188,
+    "end_line": 188,
+    "start_column": 56,
+    "end_column": 18,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 167
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 167
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 167
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 167
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 173
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 173
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 182
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [RandomAccessFileInputStream.RandomAccessFileInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+    "start_line": 205,
+    "end_line": 205,
+    "start_column": 61,
+    "end_column": 105,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 221
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 221
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 221
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 221
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 227
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 227
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
+        "line_number": 245
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 112,
+    "end_line": 112,
+    "start_column": 47,
+    "end_column": 107,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 112
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 112
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 112
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 112
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 111
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 111
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 35,
+    "end_column": 102,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 133,
+    "end_line": 133,
+    "start_column": 35,
+    "end_column": 102,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 142,
+    "end_line": 142,
+    "start_column": 35,
+    "end_column": 107,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 142
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 142
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 142
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 142
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 141
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 141
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 150,
+    "end_line": 150,
+    "start_column": 35,
+    "end_column": 107,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 142
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 142
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 142
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 142
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 141
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 141
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 164,
+    "end_line": 164,
+    "start_column": 35,
+    "end_column": 113,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 164
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 164
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 164
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 164
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 163
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 163
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 174,
+    "end_line": 174,
+    "start_column": 23,
+    "end_column": 100,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 174
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 174
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 174
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 174
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 173
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 173
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 182,
+    "end_line": 182,
+    "start_column": 23,
+    "end_column": 117,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 182
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 182
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 182
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 182
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 181
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 181
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 189,
+    "end_line": 189,
+    "start_column": 35,
+    "end_column": 133,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 189
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 189
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 189
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 189
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 188
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 188
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 197,
+    "end_line": 197,
+    "start_column": 35,
+    "end_column": 133,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 189
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 189
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 189
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 189
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 188
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 188
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 205,
+    "end_line": 205,
+    "start_column": 35,
+    "end_column": 102,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 213,
+    "end_line": 213,
+    "start_column": 35,
+    "end_column": 102,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 221,
+    "end_line": 221,
+    "start_column": 35,
+    "end_column": 102,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 124
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 123
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 229,
+    "end_line": 229,
+    "start_column": 35,
+    "end_column": 103,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 229
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 229
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 229
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 229
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 228
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 228
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 237,
+    "end_line": 237,
+    "start_column": 35,
+    "end_column": 117,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 237
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 237
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 237
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 237
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 236
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 236
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 246,
+    "end_line": 246,
+    "start_column": 35,
+    "end_column": 120,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 246
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 246
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 246
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 246
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 245
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 245
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+    "start_line": 255,
+    "end_line": 255,
+    "start_column": 35,
+    "end_column": 120,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 246
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 246
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 246
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 246
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 245
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
+        "line_number": 245
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+    "start_line": 126,
+    "end_line": 126,
+    "start_column": 84,
+    "end_column": 130,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 126
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 126
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 126
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 126
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 126
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 126
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+    "start_line": 127,
+    "end_line": 127,
+    "start_column": 19,
+    "end_column": 76,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 127
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 127
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 127
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 127
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 127
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
+        "line_number": 127
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+    "start_line": 41,
+    "end_line": 41,
+    "start_column": 64,
+    "end_column": 26,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+    "start_line": 52,
+    "end_line": 52,
+    "start_column": 64,
+    "end_column": 26,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+    "start_line": 68,
+    "end_line": 68,
+    "start_column": 64,
+    "end_column": 26,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 41
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+    "start_line": 83,
+    "end_line": 83,
+    "start_column": 19,
+    "end_column": 105,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 83
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 83
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 83
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 83
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 83
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 83
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReversedLinesFileReader.ReversedLinesFileReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+    "start_line": 90,
+    "end_line": 90,
+    "start_column": 19,
+    "end_column": 122,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 90
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 90
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 90
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 90
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 90
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
+        "line_number": 90
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReaderInputStream.ReaderInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/StringInputStream.java",
+    "start_line": 64,
+    "end_line": 64,
+    "start_column": 9,
+    "end_column": 50,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [ReaderInputStream.ReaderInputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/StringInputStream.java",
+    "start_line": 74,
+    "end_line": 74,
+    "start_column": 9,
+    "end_column": 50,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [XmlStreamReader.XmlStreamReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
+    "start_line": 382,
+    "end_line": 382,
+    "start_column": 42,
+    "end_column": 99,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [XmlStreamReader.XmlStreamReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
+    "start_line": 430,
+    "end_line": 430,
+    "start_column": 122,
+    "end_column": 145,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
+        "line_number": 441
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [XmlStreamReader.XmlStreamReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
+    "start_line": 508,
+    "end_line": 508,
+    "start_column": 42,
+    "end_column": 99,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [XmlStreamReader.XmlStreamReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
+    "start_line": 522,
+    "end_line": 522,
+    "start_column": 17,
+    "end_column": 47,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
+        "line_number": 533
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [XmlStreamReader.XmlStreamReader](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderUtilitiesTest.java",
+    "start_line": 36,
+    "end_line": 36,
+    "start_column": 13,
+    "end_column": 73,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DeferredFileOutputStream.DeferredFileOutputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+    "start_line": 267,
+    "end_line": 267,
+    "start_column": 47,
+    "end_column": 142,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 267
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 278
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 278
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 278
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DeferredFileOutputStream.DeferredFileOutputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+    "start_line": 285,
+    "end_line": 285,
+    "start_column": 56,
+    "end_column": 131,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 285
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 298
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 298
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 298
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DeferredFileOutputStream.DeferredFileOutputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+    "start_line": 360,
+    "end_line": 360,
+    "start_column": 47,
+    "end_column": 107,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 360
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 375
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 375
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 375
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DeferredFileOutputStream.DeferredFileOutputStream](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+    "start_line": 388,
+    "end_line": 388,
+    "start_column": 47,
+    "end_column": 126,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 388
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 404
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 404
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
+        "line_number": 404
+      }
+    ]
+  },
+  {
+    "type": "java/unsafe-get-resource",
+    "cwe": "CWE-unknown",
+    "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1318,
+    "end_line": 1318,
+    "start_column": 33,
+    "end_column": 69,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1308
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1308
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1292
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1292
+      }
+    ]
+  },
+  {
+    "type": "java/unsafe-get-resource",
+    "cwe": "CWE-unknown",
+    "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+    "start_line": 1322,
+    "end_line": 1322,
+    "start_column": 38,
+    "end_column": 82,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1312
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1312
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1296
+      },
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
+        "line_number": 1296
+      }
+    ]
+  },
+  {
+    "type": "java/non-serializable-inner-class",
+    "cwe": "CWE-unknown",
+    "message": "Serializable inner class of non-serializable class [IOFileFilterAbstractTest](1). Consider making the class static or implementing readObject() and writeObject().",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+    "start_line": 27,
+    "end_line": 27,
+    "start_column": 11,
+    "end_column": 32,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+        "line_number": 27
+      }
+    ]
+  },
+  {
+    "type": "java/non-serializable-inner-class",
+    "cwe": "CWE-unknown",
+    "message": "Serializable inner class of non-serializable class [IOFileFilterAbstractTest](1). Consider making the class static or implementing readObject() and writeObject().",
+    "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+    "start_line": 57,
+    "end_line": 57,
+    "start_column": 11,
+    "end_column": 31,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
+        "line_number": 57
+      }
+    ]
+  }
+]

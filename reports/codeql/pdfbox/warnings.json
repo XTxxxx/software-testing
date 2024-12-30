@@ -1,0 +1,391 @@
+[
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "OpaquePageDrawer should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%examples/src/main/java/org/apache/pdfbox/examples/printing/OpaquePDFRenderer.java",
+    "start_line": 101,
+    "end_line": 101,
+    "start_column": 19,
+    "end_column": 35,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%examples/src/main/java/org/apache/pdfbox/examples/printing/OpaquePDFRenderer.java",
+        "line_number": 101
+      },
+      {
+        "file": "%SRCROOT%examples/src/main/java/org/apache/pdfbox/examples/printing/OpaquePDFRenderer.java",
+        "line_number": 101
+      }
+    ]
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "TrueTypeEmbedderTester should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
+    "start_line": 384,
+    "end_line": 384,
+    "start_column": 19,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
+        "line_number": 384
+      },
+      {
+        "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
+        "line_number": 384
+      }
+    ]
+  },
+  {
+    "type": "java/local-variable-is-never-read",
+    "cwe": "CWE-561",
+    "message": "Variable 'String data' is never read.",
+    "file": "%SRCROOT%debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java",
+    "start_line": 1168,
+    "end_line": 1168,
+    "start_column": 9,
+    "end_column": 28,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java",
+        "line_number": 1168
+      },
+      {
+        "file": "%SRCROOT%debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java",
+        "line_number": 1192
+      }
+    ]
+  },
+  {
+    "type": "java/local-variable-is-never-read",
+    "cwe": "CWE-561",
+    "message": "Variable 'int coverageGlyphId' is never read.",
+    "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
+    "start_line": 251,
+    "end_line": 251,
+    "start_column": 13,
+    "end_column": 63,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
+        "line_number": 255
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
+        "line_number": 258
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
+        "line_number": 258
+      }
+    ]
+  },
+  {
+    "type": "java/local-variable-is-never-read",
+    "cwe": "CWE-561",
+    "message": "Variable 'SequenceTable sequenceTable' is never read.",
+    "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
+    "start_line": 252,
+    "end_line": 252,
+    "start_column": 13,
+    "end_column": 95,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
+        "line_number": 256
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
+        "line_number": 259
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
+        "line_number": 259
+      }
+    ]
+  },
+  {
+    "type": "java/local-variable-is-never-read",
+    "cwe": "CWE-561",
+    "message": "Variable 'Revisions<String> classNames' is never read.",
+    "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElementTest.java",
+    "start_line": 87,
+    "end_line": 87,
+    "start_column": 17,
+    "end_column": 81,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElementTest.java",
+        "line_number": 87
+      },
+      {
+        "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElementTest.java",
+        "line_number": 87
+      }
+    ]
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/filter/DCTFilter.java",
+    "start_line": 190,
+    "end_line": 190,
+    "start_column": 20,
+    "end_column": 69,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/filter/DCTFilter.java",
+        "line_number": 190
+      }
+    ]
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationLine.java",
+    "start_line": 141,
+    "end_line": 141,
+    "start_column": 40,
+    "end_column": 66,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/fdf/FDFAnnotationLine.java",
+    "start_line": 147,
+    "end_line": 147,
+    "start_column": 38,
+    "end_column": 64,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/abstract-to-concrete-cast",
+    "cwe": "CWE-485",
+    "message": "[List<PDAnnotation>](1) is cast to the concrete type [COSArrayList<>](2), losing abstraction.",
+    "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java",
+    "start_line": 444,
+    "end_line": 444,
+    "start_column": 16,
+    "end_column": 42,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java",
+        "line_number": 444
+      },
+      {
+        "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java",
+        "line_number": 445
+      }
+    ]
+  },
+  {
+    "type": "java/abstract-to-concrete-cast",
+    "cwe": "CWE-485",
+    "message": "[List<PDField>](1) is cast to the concrete type [COSArrayList<>](2), losing abstraction.",
+    "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java",
+    "start_line": 445,
+    "end_line": 445,
+    "start_column": 31,
+    "end_column": 60,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java",
+        "line_number": 445
+      },
+      {
+        "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java",
+        "line_number": 446
+      }
+    ]
+  },
+  {
+    "type": "java/internal-representation-exposure",
+    "cwe": "CWE-485",
+    "message": "getXrefTable exposes the internal representation stored in field xrefTable. The value may be modified [after this call to getXrefTable](1).\ngetXrefTable exposes the internal representation stored in field xrefTable. The value may be modified [after this call to getXrefTable](2).\ngetXrefTable exposes the internal representation stored in field xrefTable. The value may be modified [after this call to getXrefTable](3).\ngetXrefTable exposes the internal representation stored in field xrefTable. The value may be modified [after this call to getXrefTable](4).",
+    "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+    "start_line": 520,
+    "end_line": 520,
+    "start_column": 36,
+    "end_column": 48,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 512
+      },
+      {
+        "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 528
+      },
+      {
+        "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
+        "line_number": 528
+      }
+    ]
+  },
+  {
+    "type": "java/non-null-boxed-variable",
+    "cwe": "CWE-unknown",
+    "message": "The variable 'embeddingIsPermitted' is only assigned values of primitive type and is never 'null', but it is declared with the boxed type 'Boolean'.",
+    "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
+    "start_line": 423,
+    "end_line": 423,
+    "start_column": 9,
+    "end_column": 38,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
+        "line_number": 423
+      },
+      {
+        "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
+        "line_number": 423
+      }
+    ]
+  },
+  {
+    "type": "java/output-resource-leak",
+    "cwe": "CWE-404",
+    "message": "This FileOutputStream is not always closed on method exit.",
+    "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/cos/TestCOSIncrement.java",
+    "start_line": 329,
+    "end_line": 329,
+    "start_column": 38,
+    "end_column": 84,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/cos/TestCOSIncrement.java",
+        "line_number": 329
+      }
+    ]
+  },
+  {
+    "type": "java/inconsistent-javadoc-throws",
+    "cwe": "CWE-unknown",
+    "message": "Javadoc for GlyfSimpleDescript claims to throw IOException but this is impossible.",
+    "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/GlyfSimpleDescript.java",
+    "start_line": 46,
+    "end_line": 46,
+    "start_column": 5,
+    "end_column": 13,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/GlyfSimpleDescript.java",
+        "line_number": 46
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/GlyfSimpleDescript.java",
+        "line_number": 46
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [Object.toString](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/NameRecord.java",
+    "start_line": 183,
+    "end_line": 183,
+    "start_column": 19,
+    "end_column": 27,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/NameRecord.java",
+        "line_number": 183
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/NameRecord.java",
+        "line_number": 183
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/NameRecord.java",
+        "line_number": 183
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [Callable<Integer>.call](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java",
+    "start_line": 93,
+    "end_line": 93,
+    "start_column": 20,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java",
+        "line_number": 93
+      },
+      {
+        "file": "%SRCROOT%tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java",
+        "line_number": 101
+      }
+    ]
+  },
+  {
+    "type": "java/relative-path-command",
+    "cwe": "CWE-078",
+    "message": "Command with a relative path 'command.com' is executed.",
+    "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/util/autodetect/WindowsFontDirFinder.java",
+    "start_line": 50,
+    "end_line": 50,
+    "start_column": 36,
+    "end_column": 66,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/util/autodetect/WindowsFontDirFinder.java",
+        "line_number": 50
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/util/autodetect/WindowsFontDirFinder.java",
+        "line_number": 50
+      }
+    ]
+  },
+  {
+    "type": "java/relative-path-command",
+    "cwe": "CWE-078",
+    "message": "Command with a relative path 'cmd.exe' is executed.",
+    "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/util/autodetect/WindowsFontDirFinder.java",
+    "start_line": 54,
+    "end_line": 54,
+    "start_column": 36,
+    "end_column": 62,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/util/autodetect/WindowsFontDirFinder.java",
+        "line_number": 54
+      },
+      {
+        "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/util/autodetect/WindowsFontDirFinder.java",
+        "line_number": 54
+      }
+    ]
+  }
+]

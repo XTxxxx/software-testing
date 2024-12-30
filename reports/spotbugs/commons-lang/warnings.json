@@ -1,0 +1,83 @@
+[
+  {
+    "type": "EI_EXPOSE_REP2",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by incorporating reference to mutable object",
+    "file": "org/apache/commons/lang3/builder/DiffBuilder.java",
+    "start_line": 114,
+    "end_line": 114,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/lang3/builder/DiffBuilder.java",
+        "line_number": 144
+      },
+      {
+        "file": "org/apache/commons/lang3/builder/DiffBuilder.java",
+        "line_number": 144
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP2",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by incorporating reference to mutable object",
+    "file": "org/apache/commons/lang3/builder/EqualsBuilder.java",
+    "start_line": 260,
+    "end_line": 260,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/lang3/time/FastDateParser.java",
+    "start_line": 295,
+    "end_line": 295,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "CT_CONSTRUCTOR_THROW",
+    "cwe": "CWE-unknown",
+    "message": "Be wary of letting constructors throw exceptions.",
+    "file": "org/apache/commons/lang3/time/FastDatePrinter.java",
+    "start_line": 159,
+    "end_line": 159,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/lang3/time/FastDatePrinter.java",
+    "start_line": 607,
+    "end_line": 607,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "CT_CONSTRUCTOR_THROW",
+    "cwe": "CWE-unknown",
+    "message": "Be wary of letting constructors throw exceptions.",
+    "file": "org/apache/commons/lang3/time/GmtTimeZone.java",
+    "start_line": 46,
+    "end_line": 46,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  }
+]

@@ -1,0 +1,573 @@
+[
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/io/FileCleaningTracker.java",
+    "start_line": 217,
+    "end_line": 217,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/FileCleaningTracker.java",
+        "line_number": 217
+      },
+      {
+        "file": "org/apache/commons/io/FileCleaningTracker.java",
+        "line_number": 218
+      },
+      {
+        "file": "org/apache/commons/io/FileCleaningTracker.java",
+        "line_number": 218
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/io/IOExceptionList.java",
+    "start_line": 118,
+    "end_line": 118,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/IOExceptionList.java",
+        "line_number": 118
+      },
+      {
+        "file": "org/apache/commons/io/IOExceptionList.java",
+        "line_number": 118
+      },
+      {
+        "file": "org/apache/commons/io/IOExceptionList.java",
+        "line_number": 118
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/io/IOExceptionList.java",
+    "start_line": 129,
+    "end_line": 129,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/IOExceptionList.java",
+        "line_number": 118
+      },
+      {
+        "file": "org/apache/commons/io/IOExceptionList.java",
+        "line_number": 118
+      },
+      {
+        "file": "org/apache/commons/io/IOExceptionList.java",
+        "line_number": 118
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/io/file/AccumulatorPathVisitor.java",
+    "start_line": 179,
+    "end_line": 179,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 179
+      },
+      {
+        "file": "org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 179
+      },
+      {
+        "file": "org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 179
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/io/file/AccumulatorPathVisitor.java",
+    "start_line": 188,
+    "end_line": 188,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 179
+      },
+      {
+        "file": "org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 179
+      },
+      {
+        "file": "org/apache/commons/io/file/AccumulatorPathVisitor.java",
+        "line_number": 179
+      }
+    ]
+  },
+  {
+    "type": "CT_CONSTRUCTOR_THROW",
+    "cwe": "CWE-unknown",
+    "message": "Be wary of letting constructors throw exceptions.",
+    "file": "org/apache/commons/io/file/PathUtils.java",
+    "start_line": 127,
+    "end_line": 127,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/file/PathUtils.java",
+        "line_number": 127
+      },
+      {
+        "file": "org/apache/commons/io/file/PathUtils.java",
+        "line_number": 127
+      }
+    ]
+  },
+  {
+    "type": "SE_BAD_FIELD",
+    "cwe": "CWE-unknown",
+    "message": "Non-transient non-serializable instance field in serializable class",
+    "file": "org/apache/commons/io/filefilter/DelegateFileFilter.java",
+    "start_line": 0,
+    "end_line": 0,
+    "start_column": 0,
+    "end_column": 0,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/filefilter/DelegateFileFilter.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/filefilter/DelegateFileFilter.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/filefilter/DelegateFileFilter.java",
+        "line_number": 0
+      }
+    ]
+  },
+  {
+    "type": "SE_BAD_FIELD",
+    "cwe": "CWE-unknown",
+    "message": "Non-transient non-serializable instance field in serializable class",
+    "file": "org/apache/commons/io/filefilter/DelegateFileFilter.java",
+    "start_line": 0,
+    "end_line": 0,
+    "start_column": 0,
+    "end_column": 0,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/filefilter/DelegateFileFilter.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/filefilter/DelegateFileFilter.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/filefilter/DelegateFileFilter.java",
+        "line_number": 0
+      }
+    ]
+  },
+  {
+    "type": "SE_BAD_FIELD",
+    "cwe": "CWE-unknown",
+    "message": "Non-transient non-serializable instance field in serializable class",
+    "file": "org/apache/commons/io/filefilter/RegexFileFilter.java",
+    "start_line": 0,
+    "end_line": 0,
+    "start_column": 0,
+    "end_column": 0,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/filefilter/RegexFileFilter.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/filefilter/RegexFileFilter.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/filefilter/RegexFileFilter.java",
+        "line_number": 0
+      }
+    ]
+  },
+  {
+    "type": "IT_NO_SUCH_ELEMENT",
+    "cwe": "CWE-unknown",
+    "message": "Iterator next() method cannot throw NoSuchElementException",
+    "file": "org/apache/commons/io/function/IOStream.java",
+    "start_line": 97,
+    "end_line": 97,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/function/IOStream.java",
+        "line_number": 97
+      },
+      {
+        "file": "org/apache/commons/io/function/IOStream.java",
+        "line_number": 97
+      },
+      {
+        "file": "org/apache/commons/io/function/IOStream.java",
+        "line_number": 97
+      }
+    ]
+  },
+  {
+    "type": "CT_CONSTRUCTOR_THROW",
+    "cwe": "CWE-unknown",
+    "message": "Be wary of letting constructors throw exceptions.",
+    "file": "org/apache/commons/io/input/ByteBufferCleaner.java",
+    "start_line": 47,
+    "end_line": 47,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/ByteBufferCleaner.java",
+        "line_number": 47
+      },
+      {
+        "file": "org/apache/commons/io/input/ByteBufferCleaner.java",
+        "line_number": 47
+      }
+    ]
+  },
+  {
+    "type": "CT_CONSTRUCTOR_THROW",
+    "cwe": "CWE-unknown",
+    "message": "Be wary of letting constructors throw exceptions.",
+    "file": "org/apache/commons/io/input/ByteBufferCleaner.java",
+    "start_line": 66,
+    "end_line": 66,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/ByteBufferCleaner.java",
+        "line_number": 47
+      },
+      {
+        "file": "org/apache/commons/io/input/ByteBufferCleaner.java",
+        "line_number": 47
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/io/input/ObservableInputStream.java",
+    "start_line": 187,
+    "end_line": 187,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/ObservableInputStream.java",
+        "line_number": 187
+      },
+      {
+        "file": "org/apache/commons/io/input/ObservableInputStream.java",
+        "line_number": 187
+      },
+      {
+        "file": "org/apache/commons/io/input/ObservableInputStream.java",
+        "line_number": 187
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP2",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by incorporating reference to mutable object",
+    "file": "org/apache/commons/io/input/RandomAccessFileInputStream.java",
+    "start_line": 89,
+    "end_line": 89,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 103
+      },
+      {
+        "file": "org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 103
+      },
+      {
+        "file": "org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 103
+      },
+      {
+        "file": "org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 103
+      },
+      {
+        "file": "org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 115
+      },
+      {
+        "file": "org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 115
+      },
+      {
+        "file": "org/apache/commons/io/input/RandomAccessFileInputStream.java",
+        "line_number": 114
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP2",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by incorporating reference to mutable object",
+    "file": "org/apache/commons/io/input/ReaderInputStream.java",
+    "start_line": 123,
+    "end_line": 123,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "CT_CONSTRUCTOR_THROW",
+    "cwe": "CWE-unknown",
+    "message": "Be wary of letting constructors throw exceptions.",
+    "file": "org/apache/commons/io/input/ReversedLinesFileReader.java",
+    "start_line": 108,
+    "end_line": 108,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/ReversedLinesFileReader.java",
+        "line_number": 120
+      },
+      {
+        "file": "org/apache/commons/io/input/ReversedLinesFileReader.java",
+        "line_number": 120
+      },
+      {
+        "file": "org/apache/commons/io/input/ReversedLinesFileReader.java",
+        "line_number": 123
+      }
+    ]
+  },
+  {
+    "type": "CT_CONSTRUCTOR_THROW",
+    "cwe": "CWE-unknown",
+    "message": "Be wary of letting constructors throw exceptions.",
+    "file": "org/apache/commons/io/input/SequenceReader.java",
+    "start_line": 52,
+    "end_line": 52,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/SequenceReader.java",
+        "line_number": 52
+      }
+    ]
+  },
+  {
+    "type": "CT_CONSTRUCTOR_THROW",
+    "cwe": "CWE-unknown",
+    "message": "Be wary of letting constructors throw exceptions.",
+    "file": "org/apache/commons/io/input/SequenceReader.java",
+    "start_line": 62,
+    "end_line": 62,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/SequenceReader.java",
+        "line_number": 52
+      }
+    ]
+  },
+  {
+    "type": "SA_LOCAL_SELF_COMPARISON",
+    "cwe": "CWE-unknown",
+    "message": "Self comparison of value with itself",
+    "file": "org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+    "start_line": 321,
+    "end_line": 321,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+        "line_number": 336
+      },
+      {
+        "file": "org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
+        "line_number": 336
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP2",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by incorporating reference to mutable object",
+    "file": "org/apache/commons/io/input/UnsynchronizedByteArrayInputStream.java",
+    "start_line": 178,
+    "end_line": 178,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/input/UnsynchronizedByteArrayInputStream.java",
+        "line_number": 192
+      },
+      {
+        "file": "org/apache/commons/io/input/UnsynchronizedByteArrayInputStream.java",
+        "line_number": 192
+      },
+      {
+        "file": "org/apache/commons/io/input/UnsynchronizedByteArrayInputStream.java",
+        "line_number": 204
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/io/monitor/FileAlterationMonitor.java",
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationMonitor.java",
+        "line_number": 124
+      },
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationMonitor.java",
+        "line_number": 124
+      },
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationMonitor.java",
+        "line_number": 124
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by returning reference to mutable object",
+    "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+    "start_line": 397,
+    "end_line": 397,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 397
+      },
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 397
+      },
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 397
+      }
+    ]
+  },
+  {
+    "type": "SE_BAD_FIELD",
+    "cwe": "CWE-unknown",
+    "message": "Non-transient non-serializable instance field in serializable class",
+    "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+    "start_line": 0,
+    "end_line": 0,
+    "start_column": 0,
+    "end_column": 0,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 0
+      }
+    ]
+  },
+  {
+    "type": "SE_BAD_FIELD",
+    "cwe": "CWE-unknown",
+    "message": "Non-transient non-serializable instance field in serializable class",
+    "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+    "start_line": 0,
+    "end_line": 0,
+    "start_column": 0,
+    "end_column": 0,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 0
+      },
+      {
+        "file": "org/apache/commons/io/monitor/FileAlterationObserver.java",
+        "line_number": 0
+      }
+    ]
+  }
+]

@@ -138,26 +138,27 @@ TOOL_RUNNERS = {
 }
 
 def compare_tool_reports(tool: str, repo: str, base_report, compare_report, output_dir, cwd):
-    config = TOOL_SETTINGS[tool]
+    # config = TOOL_SETTINGS[tool]
     compare_func = COMPARE_TOOL_FUNCTIONS.get(tool)
     if not compare_func:
         raise ValueError(f"Unknown tool: {tool}")
-    compare_func(config, repo, base_report, compare_report, output_dir, cwd)
+    compare_func(repo, base_report, compare_report, output_dir, cwd)
 
 
 def compare_reports(tool: str, repo: str, base_tag: str, compare_tag: str) -> str:
-    config = TOOL_SETTINGS[tool]
-    base_path = Path(f"./repos/{tool}/{repo}/{base_tag}").glob(f"*/{config['report_dir']}/{config['report_file']}")
-    compare_path = Path(f"./repos/{tool}/{repo}/{compare_tag}").glob(f"*/{config['report_dir']}/{config['report_file']}")
-    base_report = next(base_path)
-    compare_report = next(compare_path)
+    base_path = Path(f"./repos/{repo}/{base_tag}")
+    compare_path = Path(f"./repos/{repo}/{compare_tag}")
+    
+    base_report = base_path.glob(f"*/{tool}.sarif")
+    compare_report = compare_path.glob(f"*/{tool}.sarif")
+    
     output_dir = Path(f"./reports/{repo}/{compare_tag}")
     output_dir.mkdir(parents=True, exist_ok=True)
     cwd = os.getcwd()
     os.chdir(output_dir.resolve())
-    compare_tool_reports(tool, repo, base_report, compare_report, output_dir, cwd)
+    # compare_tool_reports(tool, repo, base_report, compare_report, output_dir, cwd)
     os.chdir(cwd)
-    return str(output_dir / f"{config['report_dir']}" / "differential" / config['fixed_file'])
+    return str(output_dir / f"{tool}.json")
 
 def get_warning_key(warning):
     """Create a unique key for a warning based on its identifying attributes"""
@@ -199,7 +200,7 @@ def process_reports(tool: str, repo: str, tags: List[str]):
                 print(f"Error processing report {report}: {e}")
     
     # Save combined warnings
-    output_path = Path(f"./reports/{repo}/warnings.json")
+    output_path = Path(f"./reports/{tool}/{repo}/warnings.json")
     with open(output_path, "w") as f:
         json.dump(combined_warnings, f, indent=2)
 
@@ -233,7 +234,7 @@ def main(
 
     # Choose a repo in repos
     for repo in repos:
-        set_java_home(repo)
+        # set_java_home(repo)
         if VERBOSE:
             print(f"Set JAVA_HOME to {os.getenv('JAVA_HOME')}")
         tags = next(os.walk(f"./repos/{repo}"))[1]

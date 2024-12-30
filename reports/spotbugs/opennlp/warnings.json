@@ -1,0 +1,115 @@
+[
+  {
+    "type": "MS_PKGPROTECT",
+    "cwe": "CWE-unknown",
+    "message": "Field should be package protected",
+    "file": "opennlp/bratann/NameFinderAnnService.java",
+    "start_line": 0,
+    "end_line": 0,
+    "start_column": 0,
+    "end_column": 0,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "opennlp/bratann/NameFinderAnnService.java",
+        "line_number": 0
+      }
+    ]
+  },
+  {
+    "type": "MS_PKGPROTECT",
+    "cwe": "CWE-unknown",
+    "message": "Field should be package protected",
+    "file": "opennlp/bratann/NameFinderAnnService.java",
+    "start_line": 44,
+    "end_line": 44,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "opennlp/bratann/NameFinderAnnService.java",
+        "line_number": 47
+      }
+    ]
+  },
+  {
+    "type": "MS_PKGPROTECT",
+    "cwe": "CWE-unknown",
+    "message": "Field should be package protected",
+    "file": "opennlp/bratann/NameFinderAnnService.java",
+    "start_line": 45,
+    "end_line": 45,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "opennlp/bratann/NameFinderAnnService.java",
+        "line_number": 47
+      }
+    ]
+  },
+  {
+    "type": "DM_DEFAULT_ENCODING",
+    "cwe": "CWE-unknown",
+    "message": "Reliance on default encoding",
+    "file": "opennlp/dl/doccat/DocumentCategorizerDL.java",
+    "start_line": 233,
+    "end_line": 233,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "DM_DEFAULT_ENCODING",
+    "cwe": "CWE-unknown",
+    "message": "Reliance on default encoding",
+    "file": "opennlp/dl/namefinder/NameFinderDL.java",
+    "start_line": 397,
+    "end_line": 397,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "DM_DEFAULT_ENCODING",
+    "cwe": "CWE-unknown",
+    "message": "Reliance on default encoding",
+    "file": "opennlp/tools/parser/lang/en/HeadRules.java",
+    "start_line": 114,
+    "end_line": 114,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "opennlp/tools/parser/lang/en/HeadRules.java",
+        "line_number": 114
+      },
+      {
+        "file": "opennlp/tools/parser/lang/en/HeadRules.java",
+        "line_number": 113
+      }
+    ]
+  },
+  {
+    "type": "EI_EXPOSE_REP2",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by incorporating reference to mutable object",
+    "file": "opennlp/tools/sentdetect/DefaultEndOfSentenceScanner.java",
+    "start_line": 47,
+    "end_line": 47,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "opennlp/tools/sentdetect/DefaultEndOfSentenceScanner.java",
+        "line_number": 47
+      }
+    ]
+  }
+]

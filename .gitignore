@@ -2,6 +2,13 @@
 !.gitignore
 !download.py
 !process.py
+!compare.py
+!merge.py
+!uniform.py
+!warning.py
+!rule.py
 !warnings.json
 !*.sarif
 !*/
+!rules.csv
+!merged/*

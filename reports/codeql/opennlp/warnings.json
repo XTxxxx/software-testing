@@ -1,0 +1,1692 @@
+[
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "QuadraticFunction1 should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/ml/maxent/quasinewton/LineSearchTest.java",
+    "start_line": 173,
+    "end_line": 173,
+    "start_column": 16,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "QuadraticFunction2 should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/ml/maxent/quasinewton/LineSearchTest.java",
+    "start_line": 193,
+    "end_line": 193,
+    "start_column": 16,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "QuadraticFunction should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/ml/maxent/quasinewton/QNMinimizerTest.java",
+    "start_line": 52,
+    "end_line": 52,
+    "start_column": 16,
+    "end_column": 33,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "Rosenbrock should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/ml/maxent/quasinewton/QNMinimizerTest.java",
+    "start_line": 78,
+    "end_line": 78,
+    "start_column": 16,
+    "end_column": 26,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "DummyPOSTagger should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/postag/POSEvaluatorTest.java",
+    "start_line": 60,
+    "end_line": 60,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "DummyDetokenizer should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/tokenize/DetokenizerEvaluatorTest.java",
+    "start_line": 63,
+    "end_line": 63,
+    "start_column": 9,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "DummyTokenizer should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/tokenize/TokenizerEvaluatorTest.java",
+    "start_line": 65,
+    "end_line": 65,
+    "start_column": 9,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/non-static-nested-class",
+    "cwe": "CWE-unknown",
+    "message": "TestEventStream should be made static, since the enclosing instance is not used.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/AbstractEventStreamTest.java",
+    "start_line": 92,
+    "end_line": 92,
+    "start_column": 9,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/local-variable-is-never-read",
+    "cwe": "CWE-561",
+    "message": "Variable 'int totalNames' is never read.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/NameSampleCountersStream.java",
+    "start_line": 94,
+    "end_line": 94,
+    "start_column": 5,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/local-variable-is-never-read",
+    "cwe": "CWE-561",
+    "message": "Variable 'Dictionary dictionary' is never read.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/cmdline/tokenizer/TokenizerTrainerToolTest.java",
+    "start_line": 81,
+    "end_line": 81,
+    "start_column": 7,
+    "end_column": 82,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/cmdline/tokenizer/TokenizerTrainerToolTest.java",
+        "line_number": 82
+      }
+    ]
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 161,
+    "end_line": 161,
+    "start_column": 32,
+    "end_column": 69,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 161
+      }
+    ]
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 164,
+    "end_line": 164,
+    "start_column": 32,
+    "end_column": 67,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 164
+      }
+    ]
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 167,
+    "end_line": 167,
+    "start_column": 32,
+    "end_column": 69,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 161
+      }
+    ]
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 170,
+    "end_line": 170,
+    "start_column": 32,
+    "end_column": 71,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 170
+      }
+    ]
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PrefixFeatureGeneratorFactory.java",
+    "start_line": 47,
+    "end_line": 47,
+    "start_column": 22,
+    "end_column": 49,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PrefixFeatureGeneratorFactory.java",
+        "line_number": 47
+      }
+    ]
+  },
+  {
+    "type": "java/uncaught-number-format-exception",
+    "cwe": "CWE-248",
+    "message": "Potential uncaught 'java.lang.NumberFormatException'.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SuffixFeatureGeneratorFactory.java",
+    "start_line": 47,
+    "end_line": 47,
+    "start_column": 22,
+    "end_column": 49,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SuffixFeatureGeneratorFactory.java",
+        "line_number": 47
+      }
+    ]
+  },
+  {
+    "type": "java/class-name-matches-super-class",
+    "cwe": "CWE-unknown",
+    "message": "ArrayMath has the same name as its supertype [opennlp.tools.ml.ArrayMath](1).",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/ArrayMath.java",
+    "start_line": 24,
+    "end_line": 24,
+    "start_column": 14,
+    "end_column": 23,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/ml/maxent/quasinewton/ArrayMath.java",
+        "line_number": 24
+      }
+    ]
+  },
+  {
+    "type": "java/non-null-boxed-variable",
+    "cwe": "CWE-unknown",
+    "message": "The variable 'missingMass' is only assigned values of primitive type and is never 'null', but it is declared with the boxed type 'Double'.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/ngram/NGramUtils.java",
+    "start_line": 148,
+    "end_line": 148,
+    "start_column": 5,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/unused-parameter",
+    "cwe": "CWE-561",
+    "message": "The parameter 'ngramCounts' is never used.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+    "start_line": 204,
+    "end_line": 204,
+    "start_column": 22,
+    "end_column": 57,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorME.java",
+        "line_number": 204
+      }
+    ]
+  },
+  {
+    "type": "java/unused-parameter",
+    "cwe": "CWE-561",
+    "message": "The parameter 's' is never used.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+    "start_line": 309,
+    "end_line": 309,
+    "start_column": 39,
+    "end_column": 53,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+        "line_number": 309
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+        "line_number": 308
+      }
+    ]
+  },
+  {
+    "type": "java/unused-parameter",
+    "cwe": "CWE-561",
+    "message": "The parameter 'fromIndex' is never used.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+    "start_line": 309,
+    "end_line": 309,
+    "start_column": 55,
+    "end_column": 68,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+        "line_number": 309
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+        "line_number": 308
+      }
+    ]
+  },
+  {
+    "type": "java/unused-parameter",
+    "cwe": "CWE-561",
+    "message": "The parameter 'candidateIndex' is never used.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+    "start_line": 309,
+    "end_line": 309,
+    "start_column": 70,
+    "end_column": 88,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+        "line_number": 309
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceDetectorME.java",
+        "line_number": 308
+      }
+    ]
+  },
+  {
+    "type": "java/unused-parameter",
+    "cwe": "CWE-561",
+    "message": "The parameter 'properties' is never used.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CustomFeatureGenerator.java",
+    "start_line": 33,
+    "end_line": 33,
+    "start_column": 29,
+    "end_column": 59,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CustomFeatureGenerator.java",
+        "line_number": 33
+      }
+    ]
+  },
+  {
+    "type": "java/unused-parameter",
+    "cwe": "CWE-561",
+    "message": "The parameter 'resourceProvider' is never used.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CustomFeatureGenerator.java",
+    "start_line": 33,
+    "end_line": 33,
+    "start_column": 61,
+    "end_column": 110,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CustomFeatureGenerator.java",
+        "line_number": 33
+      }
+    ]
+  },
+  {
+    "type": "java/unused-container",
+    "cwe": "CWE-561",
+    "message": "The contents of this container are never accessed.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/ml/BeamSearchTest.java",
+    "start_line": 51,
+    "end_line": 51,
+    "start_column": 34,
+    "end_column": 49,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/input-resource-leak",
+    "cwe": "CWE-404",
+    "message": "This FileReader is not always closed on method exit.",
+    "file": "%SRCROOT%opennlp-dl/src/main/java/opennlp/dl/doccat/DocumentCategorizerDL.java",
+    "start_line": 233,
+    "end_line": 233,
+    "start_column": 44,
+    "end_column": 75,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/input-resource-leak",
+    "cwe": "CWE-404",
+    "message": "This FileReader is not always closed on method exit.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/parser/lang/en/HeadRules.java",
+    "start_line": 114,
+    "end_line": 114,
+    "start_column": 10,
+    "end_column": 34,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/parser/lang/en/HeadRules.java",
+        "line_number": 114
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/parser/lang/en/HeadRules.java",
+        "line_number": 113
+      }
+    ]
+  },
+  {
+    "type": "java/input-resource-leak",
+    "cwe": "CWE-404",
+    "message": "This InputStreamReader is not always closed on method exit.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/ml/PrepAttachDataUtil.java",
+    "start_line": 44,
+    "end_line": 44,
+    "start_column": 50,
+    "end_column": 99,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/ml/PrepAttachDataUtil.java",
+        "line_number": 44
+      }
+    ]
+  },
+  {
+    "type": "java/missing-space-in-concatenation",
+    "cwe": "CWE-unknown",
+    "message": "This string appears to be missing a space after 'manually.'.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 482,
+    "end_line": 482,
+    "start_column": 42,
+    "end_column": 79,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 482
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DetailedFMeasureEvaluatorParams.getDetailedF](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerCrossValidatorTool.java",
+    "start_line": 66,
+    "end_line": 66,
+    "start_column": 9,
+    "end_column": 30,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerCrossValidatorTool.java",
+        "line_number": 72
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DetailedFMeasureEvaluatorParams.getDetailedF](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+    "start_line": 71,
+    "end_line": 71,
+    "start_column": 9,
+    "end_column": 30,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/chunker/ChunkerEvaluatorTool.java",
+        "line_number": 76
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DetailedFMeasureEvaluatorParams.getDetailedF](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderCrossValidatorTool.java",
+    "start_line": 95,
+    "end_line": 95,
+    "start_column": 9,
+    "end_column": 30,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderCrossValidatorTool.java",
+        "line_number": 100
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DetailedFMeasureEvaluatorParams.getDetailedF](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+    "start_line": 84,
+    "end_line": 84,
+    "start_column": 9,
+    "end_column": 30,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/cmdline/namefind/TokenNameFinderEvaluatorTool.java",
+        "line_number": 89
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [SentenceModel.SentenceModel](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceModel.java",
+    "start_line": 82,
+    "end_line": 82,
+    "start_column": 5,
+    "end_column": 30,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceModel.java",
+        "line_number": 82
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceModel.java",
+        "line_number": 82
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [SentenceModel.SentenceModel](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceModel.java",
+    "start_line": 88,
+    "end_line": 88,
+    "start_column": 5,
+    "end_column": 76,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceModel.java",
+        "line_number": 88
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/SentenceModel.java",
+        "line_number": 88
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [SimpleTokenizer.SimpleTokenizer](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+    "start_line": 57,
+    "end_line": 57,
+    "start_column": 50,
+    "end_column": 71,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+        "line_number": 57
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/tokenize/SimpleTokenizer.java",
+        "line_number": 57
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [Class.newInstance](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/ext/ExtensionLoader.java",
+    "start_line": 65,
+    "end_line": 65,
+    "start_column": 22,
+    "end_column": 44,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [AggregatedFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 412,
+    "end_line": 412,
+    "start_column": 5,
+    "end_column": 58,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 412
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [CachedFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 413,
+    "end_line": 413,
+    "start_column": 5,
+    "end_column": 54,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 413
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [CharacterNgramFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 414,
+    "end_line": 414,
+    "start_column": 5,
+    "end_column": 62,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 414
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DefinitionFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 415,
+    "end_line": 415,
+    "start_column": 5,
+    "end_column": 58,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 415
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DictionaryFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 416,
+    "end_line": 416,
+    "start_column": 5,
+    "end_column": 58,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 416
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [DocumentBeginFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 417,
+    "end_line": 417,
+    "start_column": 5,
+    "end_column": 61,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 417
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [PreviousMapFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 418,
+    "end_line": 418,
+    "start_column": 5,
+    "end_column": 59,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 418
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [SentenceFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 419,
+    "end_line": 419,
+    "start_column": 5,
+    "end_column": 56,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 419
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [TokenClassFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 420,
+    "end_line": 420,
+    "start_column": 5,
+    "end_column": 58,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 420
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [TokenFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 421,
+    "end_line": 421,
+    "start_column": 5,
+    "end_column": 53,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 421
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [BigramNameFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 422,
+    "end_line": 422,
+    "start_column": 5,
+    "end_column": 58,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 422
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [TokenPatternFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 423,
+    "end_line": 423,
+    "start_column": 5,
+    "end_column": 60,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 423
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [PosTaggerFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 424,
+    "end_line": 424,
+    "start_column": 5,
+    "end_column": 57,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 424
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [PrefixFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 425,
+    "end_line": 425,
+    "start_column": 5,
+    "end_column": 54,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 425
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [SuffixFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 426,
+    "end_line": 426,
+    "start_column": 5,
+    "end_column": 54,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 426
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [WindowFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 427,
+    "end_line": 427,
+    "start_column": 5,
+    "end_column": 54,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 427
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [WordClusterFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 428,
+    "end_line": 428,
+    "start_column": 5,
+    "end_column": 59,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 428
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [BrownClusterTokenFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 429,
+    "end_line": 429,
+    "start_column": 5,
+    "end_column": 65,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 429
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [BrownClusterTokenClassFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 430,
+    "end_line": 430,
+    "start_column": 5,
+    "end_column": 70,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 430
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [BrownClusterBigramFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 431,
+    "end_line": 431,
+    "start_column": 5,
+    "end_column": 66,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 431
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [POSTaggerNameFeatureGeneratorFactory.register](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 433,
+    "end_line": 433,
+    "start_column": 5,
+    "end_column": 61,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 433
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [GeneratorFactory.createGenerator](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 589,
+    "end_line": 589,
+    "start_column": 12,
+    "end_column": 62,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 589
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [GeneratorFactory.extractArtifactSerializerMappingsClassicFormat](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 615,
+    "end_line": 615,
+    "start_column": 14,
+    "end_column": 69,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 615
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [POSTaggerFactory.create](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/postag/POSTaggerFactoryTest.java",
+    "start_line": 117,
+    "end_line": 117,
+    "start_column": 7,
+    "end_column": 47,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/postag/POSTaggerFactoryTest.java",
+        "line_number": 117
+      }
+    ]
+  },
+  {
+    "type": "java/deprecated-call",
+    "cwe": "CWE-477",
+    "message": "Invoking [POSTaggerFactory.create](1) should be avoided because it has been deprecated.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/postag/POSTaggerFactoryTest.java",
+    "start_line": 131,
+    "end_line": 131,
+    "start_column": 7,
+    "end_column": 78,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/postag/POSTaggerFactoryTest.java",
+        "line_number": 131
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [ObjectStreamFactory<NameSample,Parameters>.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/formats/brat/BratNameSampleStreamFactory.java",
+    "start_line": 95,
+    "end_line": 95,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [ObjectStream<MascDocument>.close](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+    "start_line": 228,
+    "end_line": 228,
+    "start_column": 15,
+    "end_column": 20,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 230
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [ObjectStream<MascDocument>.read](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+    "start_line": 214,
+    "end_line": 214,
+    "start_column": 23,
+    "end_column": 27,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 216
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [ObjectStream<MascDocument>.reset](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+    "start_line": 201,
+    "end_line": 201,
+    "start_column": 15,
+    "end_column": 20,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/formats/masc/MascDocumentStream.java",
+        "line_number": 203
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [AbstractTrainer.display](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/ml/maxent/GISTrainer.java",
+    "start_line": 670,
+    "end_line": 670,
+    "start_column": 18,
+    "end_column": 25,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [ArtifactSerializer<POSDictionary>.serialize](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerFactory.java",
+    "start_line": 324,
+    "end_line": 324,
+    "start_column": 17,
+    "end_column": 26,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerFactory.java",
+        "line_number": 324
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerFactory.java",
+        "line_number": 323
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [ArtifactSerializer<POSDictionary>.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerFactory.java",
+    "start_line": 320,
+    "end_line": 320,
+    "start_column": 26,
+    "end_column": 32,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerFactory.java",
+        "line_number": 320
+      },
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/postag/POSTaggerFactory.java",
+        "line_number": 319
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [EndOfSentenceScanner.getEndOfSentenceCharacters](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/DefaultEndOfSentenceScanner.java",
+    "start_line": 79,
+    "end_line": 79,
+    "start_column": 17,
+    "end_column": 43,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/sentdetect/DefaultEndOfSentenceScanner.java",
+        "line_number": 79
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/AggregatedFeatureGeneratorFactory.java",
+    "start_line": 44,
+    "end_line": 44,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/AggregatedFeatureGeneratorFactory.java",
+        "line_number": 44
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BigramNameFeatureGeneratorFactory.java",
+    "start_line": 35,
+    "end_line": 35,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BigramNameFeatureGeneratorFactory.java",
+        "line_number": 35
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterBigramFeatureGeneratorFactory.java",
+    "start_line": 40,
+    "end_line": 40,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterBigramFeatureGeneratorFactory.java",
+        "line_number": 40
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterTokenClassFeatureGeneratorFactory.java",
+    "start_line": 40,
+    "end_line": 40,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterTokenClassFeatureGeneratorFactory.java",
+        "line_number": 40
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterTokenFeatureGeneratorFactory.java",
+    "start_line": 40,
+    "end_line": 40,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/BrownClusterTokenFeatureGeneratorFactory.java",
+        "line_number": 40
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CachedFeatureGeneratorFactory.java",
+    "start_line": 41,
+    "end_line": 41,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CachedFeatureGeneratorFactory.java",
+        "line_number": 41
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CharacterNgramFeatureGeneratorFactory.java",
+    "start_line": 38,
+    "end_line": 38,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/CharacterNgramFeatureGeneratorFactory.java",
+        "line_number": 38
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DefinitionFeatureGeneratorFactory.java",
+    "start_line": 40,
+    "end_line": 40,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DefinitionFeatureGeneratorFactory.java",
+        "line_number": 40
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DictionaryFeatureGeneratorFactory.java",
+    "start_line": 42,
+    "end_line": 42,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DictionaryFeatureGeneratorFactory.java",
+        "line_number": 42
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DocumentBeginFeatureGeneratorFactory.java",
+    "start_line": 35,
+    "end_line": 35,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/DocumentBeginFeatureGeneratorFactory.java",
+        "line_number": 35
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+    "start_line": 371,
+    "end_line": 371,
+    "start_column": 37,
+    "end_column": 43,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/GeneratorFactory.java",
+        "line_number": 371
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/POSTaggerNameFeatureGeneratorFactory.java",
+    "start_line": 42,
+    "end_line": 42,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/POSTaggerNameFeatureGeneratorFactory.java",
+        "line_number": 42
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PosTaggerFeatureGeneratorFactory.java",
+    "start_line": 35,
+    "end_line": 35,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PosTaggerFeatureGeneratorFactory.java",
+        "line_number": 35
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PrefixFeatureGeneratorFactory.java",
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PrefixFeatureGeneratorFactory.java",
+        "line_number": 39
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PreviousMapFeatureGeneratorFactory.java",
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/PreviousMapFeatureGeneratorFactory.java",
+        "line_number": 39
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SentenceFeatureGeneratorFactory.java",
+    "start_line": 38,
+    "end_line": 38,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SentenceFeatureGeneratorFactory.java",
+        "line_number": 38
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SuffixFeatureGeneratorFactory.java",
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/SuffixFeatureGeneratorFactory.java",
+        "line_number": 39
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenClassFeatureGeneratorFactory.java",
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenClassFeatureGeneratorFactory.java",
+        "line_number": 39
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenFeatureGeneratorFactory.java",
+    "start_line": 35,
+    "end_line": 35,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenFeatureGeneratorFactory.java",
+        "line_number": 35
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenPatternFeatureGeneratorFactory.java",
+    "start_line": 38,
+    "end_line": 38,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TokenPatternFeatureGeneratorFactory.java",
+        "line_number": 38
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TrigramNameFeatureGeneratorFactory.java",
+    "start_line": 35,
+    "end_line": 35,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/TrigramNameFeatureGeneratorFactory.java",
+        "line_number": 35
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGeneratorFactory.java",
+    "start_line": 40,
+    "end_line": 40,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WindowFeatureGeneratorFactory.java",
+        "line_number": 40
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [XmlFeatureGeneratorFactory.create](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WordClusterFeatureGeneratorFactory.java",
+    "start_line": 42,
+    "end_line": 42,
+    "start_column": 35,
+    "end_column": 41,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/util/featuregen/WordClusterFeatureGeneratorFactory.java",
+        "line_number": 42
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [Iterator<Event>.next](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEventStream.java",
+    "start_line": 57,
+    "end_line": 57,
+    "start_column": 20,
+    "end_column": 24,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEventStream.java",
+        "line_number": 57
+      }
+    ]
+  },
+  {
+    "type": "java/missing-override-annotation",
+    "cwe": "CWE-unknown",
+    "message": "This method overrides [Iterator<Event>.hasNext](1); it is advisable to add an Override annotation.",
+    "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEventStream.java",
+    "start_line": 53,
+    "end_line": 53,
+    "start_column": 22,
+    "end_column": 29,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/main/java/opennlp/tools/langdetect/LanguageDetectorEventStream.java",
+        "line_number": 53
+      }
+    ]
+  },
+  {
+    "type": "java/unsafe-get-resource",
+    "cwe": "CWE-unknown",
+    "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/languagemodel/NgramLanguageModelTest.java",
+    "start_line": 139,
+    "end_line": 139,
+    "start_column": 31,
+    "end_column": 107,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/languagemodel/NgramLanguageModelTest.java",
+        "line_number": 139
+      }
+    ]
+  },
+  {
+    "type": "java/unsafe-get-resource",
+    "cwe": "CWE-unknown",
+    "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 41,
+    "end_column": 91,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+        "line_number": 39
+      }
+    ]
+  },
+  {
+    "type": "java/unsafe-get-resource",
+    "cwe": "CWE-unknown",
+    "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+    "start_line": 57,
+    "end_line": 57,
+    "start_column": 41,
+    "end_column": 81,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+        "line_number": 57
+      }
+    ]
+  },
+  {
+    "type": "java/unsafe-get-resource",
+    "cwe": "CWE-unknown",
+    "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+    "start_line": 85,
+    "end_line": 85,
+    "start_column": 41,
+    "end_column": 73,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+        "line_number": 85
+      }
+    ]
+  },
+  {
+    "type": "java/unsafe-get-resource",
+    "cwe": "CWE-unknown",
+    "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+    "start_line": 123,
+    "end_line": 123,
+    "start_column": 26,
+    "end_column": 88,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+        "line_number": 123
+      }
+    ]
+  },
+  {
+    "type": "java/unsafe-get-resource",
+    "cwe": "CWE-unknown",
+    "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+    "start_line": 135,
+    "end_line": 135,
+    "start_column": 26,
+    "end_column": 96,
+    "flag": false,
+    "error_trace": [
+      {
+        "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/featuregen/GeneratorFactoryClassicFormatTest.java",
+        "line_number": 135
+      }
+    ]
+  },
+  {
+    "type": "java/reference-equality-on-strings",
+    "cwe": "CWE-597",
+    "message": "String values compared with  == .",
+    "file": "%SRCROOT%opennlp-tools/src/test/java/opennlp/tools/util/StringListTest.java",
+    "start_line": 37,
+    "end_line": 37,
+    "start_column": 27,
+    "end_column": 59,
+    "flag": false,
+    "error_trace": []
+  }
+]

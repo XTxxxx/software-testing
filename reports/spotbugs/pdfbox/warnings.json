@@ -1,0 +1,26 @@
+[
+  {
+    "type": "EI_EXPOSE_REP2",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by incorporating reference to mutable object",
+    "file": "org/apache/pdfbox/contentstream/PDFStreamEngine.java",
+    "start_line": 1042,
+    "end_line": 1042,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  },
+  {
+    "type": "EI_EXPOSE_REP2",
+    "cwe": "CWE-374",
+    "message": "May expose internal representation by incorporating reference to mutable object",
+    "file": "org/apache/pdfbox/contentstream/PDFStreamEngine.java",
+    "start_line": 1058,
+    "end_line": 1058,
+    "start_column": null,
+    "end_column": null,
+    "flag": false,
+    "error_trace": []
+  }
+]
