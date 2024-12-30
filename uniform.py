@@ -21,7 +21,7 @@ class Warning:
         start_column: int,
         end_column: int,
         flag: bool,
-        error_trace: list[Trace]
+        tag_history: list[Trace]
     ):
         self.type = type
         self.cwe = cwe
@@ -32,7 +32,7 @@ class Warning:
         self.start_column = start_column
         self.end_column = end_column
         self.flag = flag
-        self.error_trace = error_trace
+        self.tag_history = tag_history
 
 def uniform(warnings, tool, rules):
     uni_warnings = []
@@ -56,7 +56,7 @@ def uniform(warnings, tool, rules):
         start_column = trace_base.start_column()
         end_column = trace_base.end_column()
         flag = False
-        error_trace = [
+        tag_history = [
             Trace(
                 trace.uri(),
                 trace.start_line()
@@ -73,7 +73,7 @@ def uniform(warnings, tool, rules):
             start_column,
             end_column,
             flag,
-            error_trace
+            tag_history
         ))
     return uni_warnings
 

@@ -14,8 +14,7 @@ def get_report(repo, tool):
 def same_warning(war1, war2):
     same = \
         war1["file"].split("/")[-1] == war2["file"].split("/")[-1] and \
-        war1["start_line"] == war2["start_line"] and \
-        war1["end_line"] == war2["end_line"]
+        abs(war1["start_line"] - war2["start_line"]) < 20
     return same
 
 if __name__ == "__main__":
@@ -33,8 +32,9 @@ if __name__ == "__main__":
                     if same_warning(warning, war):
                         dup += 1
                         hasSame = True
+                        # 3 tools have the same warning
                         if dup == 3:
-                            warning["flag"] = True
+                            war["flag"] = True
                         break
                 if not hasSame:
                     cur_warnings.append((warning, 1))

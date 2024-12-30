@@ -1,7 +1,7 @@
 [
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "OpaquePageDrawer should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%examples/src/main/java/org/apache/pdfbox/examples/printing/OpaquePDFRenderer.java",
     "start_line": 101,
@@ -9,7 +9,7 @@
     "start_column": 19,
     "end_column": 35,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%examples/src/main/java/org/apache/pdfbox/examples/printing/OpaquePDFRenderer.java",
         "line_number": 101
@@ -22,7 +22,7 @@
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "TrueTypeEmbedderTester should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
     "start_line": 384,
@@ -30,7 +30,7 @@
     "start_column": 19,
     "end_column": 41,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
         "line_number": 384
@@ -51,7 +51,7 @@
     "start_column": 9,
     "end_column": 28,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%debugger/src/main/java/org/apache/pdfbox/debugger/PDFDebugger.java",
         "line_number": 1168
@@ -72,7 +72,7 @@
     "start_column": 13,
     "end_column": 63,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
         "line_number": 255
@@ -97,7 +97,7 @@
     "start_column": 13,
     "end_column": 95,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/gsub/GlyphSubstitutionDataExtractor.java",
         "line_number": 256
@@ -122,7 +122,7 @@
     "start_column": 17,
     "end_column": 81,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/documentinterchange/logicalstructure/PDStructureElementTest.java",
         "line_number": 87
@@ -143,7 +143,7 @@
     "start_column": 20,
     "end_column": 69,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/filter/DCTFilter.java",
         "line_number": 190
@@ -160,7 +160,7 @@
     "start_column": 40,
     "end_column": 66,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/uncaught-number-format-exception",
@@ -172,7 +172,7 @@
     "start_column": 38,
     "end_column": 64,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/abstract-to-concrete-cast",
@@ -184,7 +184,7 @@
     "start_column": 16,
     "end_column": 42,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java",
         "line_number": 444
@@ -205,7 +205,7 @@
     "start_column": 31,
     "end_column": 60,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/pdmodel/PDDocument.java",
         "line_number": 445
@@ -226,7 +226,7 @@
     "start_column": 36,
     "end_column": 48,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%pdfbox/src/main/java/org/apache/pdfbox/cos/COSDocument.java",
         "line_number": 512
@@ -243,7 +243,7 @@
   },
   {
     "type": "java/non-null-boxed-variable",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-476",
     "message": "The variable 'embeddingIsPermitted' is only assigned values of primitive type and is never 'null', but it is declared with the boxed type 'Boolean'.",
     "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
     "start_line": 423,
@@ -251,7 +251,7 @@
     "start_column": 9,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/pdmodel/font/TestFontEmbedding.java",
         "line_number": 423
@@ -272,7 +272,7 @@
     "start_column": 38,
     "end_column": 84,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%pdfbox/src/test/java/org/apache/pdfbox/cos/TestCOSIncrement.java",
         "line_number": 329
@@ -281,7 +281,7 @@
   },
   {
     "type": "java/inconsistent-javadoc-throws",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-1029",
     "message": "Javadoc for GlyfSimpleDescript claims to throw IOException but this is impossible.",
     "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/GlyfSimpleDescript.java",
     "start_line": 46,
@@ -289,7 +289,7 @@
     "start_column": 5,
     "end_column": 13,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/GlyfSimpleDescript.java",
         "line_number": 46
@@ -302,7 +302,7 @@
   },
   {
     "type": "java/missing-override-annotation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-567",
     "message": "This method overrides [Object.toString](1); it is advisable to add an Override annotation.",
     "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/NameRecord.java",
     "start_line": 183,
@@ -310,7 +310,7 @@
     "start_column": 19,
     "end_column": 27,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/ttf/NameRecord.java",
         "line_number": 183
@@ -327,7 +327,7 @@
   },
   {
     "type": "java/missing-override-annotation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-567",
     "message": "This method overrides [Callable<Integer>.call](1); it is advisable to add an Override annotation.",
     "file": "%SRCROOT%tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java",
     "start_line": 93,
@@ -335,7 +335,7 @@
     "start_column": 20,
     "end_column": 24,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%tools/src/main/java/org/apache/pdfbox/tools/OverlayPDF.java",
         "line_number": 93
@@ -356,7 +356,7 @@
     "start_column": 36,
     "end_column": 66,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/util/autodetect/WindowsFontDirFinder.java",
         "line_number": 50
@@ -377,7 +377,7 @@
     "start_column": 36,
     "end_column": 62,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%fontbox/src/main/java/org/apache/fontbox/util/autodetect/WindowsFontDirFinder.java",
         "line_number": 54

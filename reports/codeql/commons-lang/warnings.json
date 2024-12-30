@@ -1,7 +1,7 @@
 [
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "TestClass should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsTest.java",
     "start_line": 48,
@@ -9,11 +9,11 @@
     "start_column": 19,
     "end_column": 28,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "DeeplyNested should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ClassUtilsTest.java",
     "start_line": 91,
@@ -21,11 +21,11 @@
     "start_column": 23,
     "end_column": 35,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "TestFixture should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderExcludeTest.java",
     "start_line": 35,
@@ -33,11 +33,11 @@
     "start_column": 11,
     "end_column": 22,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "TestFixture should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderExcludeWithAnnotationTest.java",
     "start_line": 32,
@@ -45,11 +45,11 @@
     "start_column": 11,
     "end_column": 22,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "TestFeature should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderIncludeTest.java",
     "start_line": 34,
@@ -57,11 +57,11 @@
     "start_column": 11,
     "end_column": 22,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "InspectingClient should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
     "start_line": 80,
@@ -69,11 +69,11 @@
     "start_column": 11,
     "end_column": 27,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "TestFixture should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
     "start_line": 40,
@@ -81,11 +81,11 @@
     "start_column": 11,
     "end_column": 22,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "MutatingClient should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ReflectionToStringBuilderMutateInspectConcurrencyTest.java",
     "start_line": 62,
@@ -93,11 +93,11 @@
     "start_column": 11,
     "end_column": 25,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "InheritedReflectionStaticFieldsFixture should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java",
     "start_line": 1261,
@@ -105,11 +105,11 @@
     "start_column": 11,
     "end_column": 49,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "SimpleReflectionStaticFieldsFixture should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java",
     "start_line": 1252,
@@ -117,11 +117,11 @@
     "start_column": 11,
     "end_column": 46,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "MultiLineTestObject should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java",
     "start_line": 1275,
@@ -129,11 +129,11 @@
     "start_column": 11,
     "end_column": 30,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "Inner should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java",
     "start_line": 366,
@@ -141,11 +141,11 @@
     "start_column": 15,
     "end_column": 20,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "ReflectionStaticFieldsFixture should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java",
     "start_line": 1238,
@@ -153,11 +153,11 @@
     "start_column": 11,
     "end_column": 40,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/chained-type-tests",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-20",
     "message": "This if block performs a chain of 8 type tests - consider alternatives, e.g. polymorphism or the visitor pattern.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
     "start_line": 639,
@@ -165,11 +165,11 @@
     "start_column": 9,
     "end_column": 46,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/chained-type-tests",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-20",
     "message": "This if block performs a chain of 10 type tests - consider alternatives, e.g. polymorphism or the visitor pattern.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 485,
@@ -177,7 +177,7 @@
     "start_column": 13,
     "end_column": 48,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/local-variable-is-never-read",
@@ -189,7 +189,7 @@
     "start_column": 9,
     "end_column": 34,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 793
@@ -210,7 +210,7 @@
     "start_column": 9,
     "end_column": 19,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 799
@@ -231,7 +231,7 @@
     "start_column": 9,
     "end_column": 33,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 822
@@ -252,7 +252,7 @@
     "start_column": 9,
     "end_column": 36,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 830
@@ -273,7 +273,7 @@
     "start_column": 9,
     "end_column": 32,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 846
@@ -294,7 +294,7 @@
     "start_column": 9,
     "end_column": 27,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 847
@@ -315,7 +315,7 @@
     "start_column": 9,
     "end_column": 62,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/time/FastDateFormatTest.java",
         "line_number": 297
@@ -336,7 +336,7 @@
     "start_column": 9,
     "end_column": 62,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/time/FastDateFormatTest.java",
         "line_number": 300
@@ -357,7 +357,7 @@
     "start_column": 89,
     "end_column": 110,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/SystemProperties.java",
         "line_number": 318
@@ -378,7 +378,7 @@
     "start_column": 90,
     "end_column": 109,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/SystemProperties.java",
         "line_number": 694
@@ -399,7 +399,7 @@
     "start_column": 16,
     "end_column": 34,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/uncaught-number-format-exception",
@@ -411,7 +411,7 @@
     "start_column": 16,
     "end_column": 35,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/uncaught-number-format-exception",
@@ -423,7 +423,7 @@
     "start_column": 16,
     "end_column": 35,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/uncaught-number-format-exception",
@@ -435,7 +435,7 @@
     "start_column": 16,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/uncaught-number-format-exception",
@@ -447,7 +447,7 @@
     "start_column": 31,
     "end_column": 86,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/uncaught-number-format-exception",
@@ -459,7 +459,7 @@
     "start_column": 66,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/uncaught-number-format-exception",
@@ -471,7 +471,7 @@
     "start_column": 73,
     "end_column": 89,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/uncaught-number-format-exception",
@@ -483,11 +483,11 @@
     "start_column": 59,
     "end_column": 85,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.toPrimitive(..) could be confused with overloaded method [toPrimitive](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 9459,
@@ -495,7 +495,7 @@
     "start_column": 26,
     "end_column": 37,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 9459
@@ -508,7 +508,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.toPrimitive(..) could be confused with overloaded method [toPrimitive](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 9410,
@@ -516,7 +516,7 @@
     "start_column": 26,
     "end_column": 37,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 9459
@@ -529,7 +529,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.toPrimitive(..) could be confused with overloaded method [toPrimitive](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 9361,
@@ -537,7 +537,7 @@
     "start_column": 25,
     "end_column": 36,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 9361
@@ -550,7 +550,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.toPrimitive(..) could be confused with overloaded method [toPrimitive](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 9312,
@@ -558,7 +558,7 @@
     "start_column": 27,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 9312
@@ -571,7 +571,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.toPrimitive(..) could be confused with overloaded method [toPrimitive](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 9263,
@@ -579,7 +579,7 @@
     "start_column": 28,
     "end_column": 39,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 9263
@@ -592,7 +592,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.toPrimitive(..) could be confused with overloaded method [toPrimitive](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 9126,
@@ -600,7 +600,7 @@
     "start_column": 29,
     "end_column": 40,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 9126
@@ -613,7 +613,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.\nMethod ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4591,
@@ -621,7 +621,7 @@
     "start_column": 28,
     "end_column": 39,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4591
@@ -634,7 +634,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4572,
@@ -642,7 +642,7 @@
     "start_column": 26,
     "end_column": 37,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4572
@@ -655,7 +655,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4534,
@@ -663,7 +663,7 @@
     "start_column": 29,
     "end_column": 40,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4534
@@ -676,7 +676,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4496,
@@ -684,7 +684,7 @@
     "start_column": 27,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4496
@@ -697,7 +697,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4458,
@@ -705,7 +705,7 @@
     "start_column": 28,
     "end_column": 39,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4458
@@ -718,7 +718,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4420,
@@ -726,7 +726,7 @@
     "start_column": 30,
     "end_column": 41,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4420
@@ -739,7 +739,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4401,
@@ -747,7 +747,7 @@
     "start_column": 31,
     "end_column": 42,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4401
@@ -760,7 +760,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4363,
@@ -768,7 +768,7 @@
     "start_column": 26,
     "end_column": 37,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4363
@@ -781,7 +781,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ArrayUtils.nullToEmpty(..) could be confused with overloaded method [nullToEmpty](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
     "start_line": 4325,
@@ -789,7 +789,7 @@
     "start_column": 29,
     "end_column": 40,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/ArrayUtils.java",
         "line_number": 4325
@@ -802,7 +802,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method CharUtils.unicodeEscaped(..) could be confused with overloaded method [unicodeEscaped](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/CharUtils.java",
     "start_line": 328,
@@ -810,11 +810,11 @@
     "start_column": 26,
     "end_column": 40,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method CharUtils.toString(..) could be confused with overloaded method [toString](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/CharUtils.java",
     "start_line": 287,
@@ -822,11 +822,11 @@
     "start_column": 26,
     "end_column": 34,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method CharUtils.toIntValue(..) could be confused with overloaded method [toIntValue](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/CharUtils.java",
     "start_line": 228,
@@ -834,11 +834,11 @@
     "start_column": 23,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method CharUtils.toIntValue(..) could be confused with overloaded method [toIntValue](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/CharUtils.java",
     "start_line": 206,
@@ -846,11 +846,11 @@
     "start_column": 23,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method DiffBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.\nMethod DiffBuilder.append(..) could be confused with overloaded method [append](2), since dispatch depends on static types.\nMethod DiffBuilder.append(..) could be confused with overloaded method [append](3), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
     "start_line": 769,
@@ -858,7 +858,7 @@
     "start_column": 27,
     "end_column": 33,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
         "line_number": 736
@@ -871,7 +871,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method DiffBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
     "start_line": 579,
@@ -879,7 +879,7 @@
     "start_column": 27,
     "end_column": 33,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
         "line_number": 622
@@ -892,7 +892,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method DiffBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
     "start_line": 503,
@@ -900,7 +900,7 @@
     "start_column": 27,
     "end_column": 33,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/DiffBuilder.java",
         "line_number": 546
@@ -913,7 +913,7 @@
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method EqualsBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
     "start_line": 1056,
@@ -921,11 +921,11 @@
     "start_column": 26,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method EqualsBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
     "start_line": 1025,
@@ -933,11 +933,11 @@
     "start_column": 26,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method EqualsBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
     "start_line": 994,
@@ -945,11 +945,11 @@
     "start_column": 26,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method EqualsBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
     "start_line": 963,
@@ -957,11 +957,11 @@
     "start_column": 26,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method EqualsBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
     "start_line": 932,
@@ -969,11 +969,11 @@
     "start_column": 26,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method EqualsBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
     "start_line": 870,
@@ -981,11 +981,11 @@
     "start_column": 26,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method EqualsBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.\nMethod EqualsBuilder.append(..) could be confused with overloaded method [append](2), since dispatch depends on static types.\nMethod EqualsBuilder.append(..) could be confused with overloaded method [append](3), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/EqualsBuilder.java",
     "start_line": 604,
@@ -993,11 +993,11 @@
     "start_column": 26,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1411,
@@ -1005,11 +1005,11 @@
     "start_column": 20,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1366,
@@ -1017,11 +1017,11 @@
     "start_column": 17,
     "end_column": 23,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1352,
@@ -1029,11 +1029,11 @@
     "start_column": 20,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1307,
@@ -1041,11 +1041,11 @@
     "start_column": 17,
     "end_column": 23,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1293,
@@ -1053,11 +1053,11 @@
     "start_column": 20,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1248,
@@ -1065,11 +1065,11 @@
     "start_column": 17,
     "end_column": 23,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1234,
@@ -1077,11 +1077,11 @@
     "start_column": 20,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendDetail(..) could be confused with overloaded method [appendDetail](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1214,
@@ -1089,11 +1089,11 @@
     "start_column": 20,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1175,
@@ -1101,11 +1101,11 @@
     "start_column": 20,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendDetail(..) could be confused with overloaded method [appendDetail](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1155,
@@ -1113,11 +1113,11 @@
     "start_column": 20,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1057,
@@ -1125,11 +1125,11 @@
     "start_column": 20,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendDetail(..) could be confused with overloaded method [appendDetail](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 1037,
@@ -1137,11 +1137,11 @@
     "start_column": 20,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](1), since dispatch depends on static types.\nMethod ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](2), since dispatch depends on static types.\nMethod ToStringStyle.appendSummary(..) could be confused with overloaded method [appendSummary](3), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 634,
@@ -1149,11 +1149,11 @@
     "start_column": 20,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.appendDetail(..) could be confused with overloaded method [appendDetail](1), since dispatch depends on static types.\nMethod ToStringStyle.appendDetail(..) could be confused with overloaded method [appendDetail](2), since dispatch depends on static types.\nMethod ToStringStyle.appendDetail(..) could be confused with overloaded method [appendDetail](3), since dispatch depends on static types.\nMethod ToStringStyle.appendDetail(..) could be confused with overloaded method [appendDetail](4), since dispatch depends on static types.\nMethod ToStringStyle.appendDetail(..) could be confused with overloaded method [appendDetail](5), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 597,
@@ -1161,11 +1161,11 @@
     "start_column": 20,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method ToStringStyle.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.\nMethod ToStringStyle.append(..) could be confused with overloaded method [append](2), since dispatch depends on static types.\nMethod ToStringStyle.append(..) could be confused with overloaded method [append](3), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/builder/ToStringStyle.java",
     "start_line": 443,
@@ -1173,11 +1173,11 @@
     "start_column": 17,
     "end_column": 23,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method GetMatchingMethodClass.testMethod3(..) could be confused with overloaded method [testMethod3](1), since dispatch depends on static types.\nMethod GetMatchingMethodClass.testMethod3(..) could be confused with overloaded method [testMethod3](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 1113,
@@ -1185,11 +1185,11 @@
     "start_column": 21,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method GetMatchingMethodClass.testMethod3(..) could be confused with overloaded method [testMethod3](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 1110,
@@ -1197,11 +1197,11 @@
     "start_column": 21,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method GetMatchingMethodClass.testMethod2(..) could be confused with overloaded method [testMethod2](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 1098,
@@ -1209,11 +1209,11 @@
     "start_column": 21,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method GetMatchingMethodClass.testMethod(..) could be confused with overloaded method [testMethod](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 1092,
@@ -1221,11 +1221,11 @@
     "start_column": 21,
     "end_column": 31,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method InheritanceBean.testTwo(..) could be confused with overloaded method [testTwo](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 983,
@@ -1233,11 +1233,11 @@
     "start_column": 21,
     "end_column": 28,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method InheritanceBean.testTwo(..) could be confused with overloaded method [testTwo](1), since dispatch depends on static types.\nMethod InheritanceBean.testTwo(..) could be confused with overloaded method [testTwo](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 977,
@@ -1245,11 +1245,11 @@
     "start_column": 21,
     "end_column": 28,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method InheritanceBean.testOne(..) could be confused with overloaded method [testOne](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 971,
@@ -1257,11 +1257,11 @@
     "start_column": 21,
     "end_column": 28,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method InheritanceBean.testOne(..) could be confused with overloaded method [testOne](1), since dispatch depends on static types.\nMethod InheritanceBean.testOne(..) could be confused with overloaded method [testOne](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 968,
@@ -1269,11 +1269,11 @@
     "start_column": 21,
     "end_column": 28,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method TestBean.foo(..) could be confused with overloaded method [foo](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 192,
@@ -1281,11 +1281,11 @@
     "start_column": 23,
     "end_column": 26,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method TestBean.foo(..) could be confused with overloaded method [foo](1), since dispatch depends on static types.\nMethod TestBean.foo(..) could be confused with overloaded method [foo](2), since dispatch depends on static types.\nMethod TestBean.foo(..) could be confused with overloaded method [foo](3), since dispatch depends on static types.\nMethod TestBean.foo(..) could be confused with overloaded method [foo](4), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 172,
@@ -1293,11 +1293,11 @@
     "start_column": 23,
     "end_column": 26,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method TestBean.foo(..) could be confused with overloaded method [foo](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 156,
@@ -1305,11 +1305,11 @@
     "start_column": 23,
     "end_column": 26,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method TestBean.foo(..) could be confused with overloaded method [foo](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 152,
@@ -1317,11 +1317,11 @@
     "start_column": 23,
     "end_column": 26,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method StrBuilder.equals(..) could be confused with overloaded method [equals](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/text/StrBuilder.java",
     "start_line": 2791,
@@ -1329,11 +1329,11 @@
     "start_column": 20,
     "end_column": 26,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method StrBuilder.insert(..) could be confused with overloaded method [insert](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/text/StrBuilder.java",
     "start_line": 1644,
@@ -1341,11 +1341,11 @@
     "start_column": 23,
     "end_column": 29,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method StrBuilder.insert(..) could be confused with overloaded method [insert](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/text/StrBuilder.java",
     "start_line": 1601,
@@ -1353,11 +1353,11 @@
     "start_column": 23,
     "end_column": 29,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method StrBuilder.appendln(..) could be confused with overloaded method [appendln](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/text/StrBuilder.java",
     "start_line": 1105,
@@ -1365,11 +1365,11 @@
     "start_column": 23,
     "end_column": 31,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method StrBuilder.append(..) could be confused with overloaded method [append](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/text/StrBuilder.java",
     "start_line": 848,
@@ -1377,11 +1377,11 @@
     "start_column": 23,
     "end_column": 29,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method DateUtils.iterator(..) could be confused with overloaded method [iterator](1), since dispatch depends on static types.\nMethod DateUtils.iterator(..) could be confused with overloaded method [iterator](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/time/DateUtils.java",
     "start_line": 1180,
@@ -1389,11 +1389,11 @@
     "start_column": 31,
     "end_column": 39,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method DateUtils.ceiling(..) could be confused with overloaded method [ceiling](1), since dispatch depends on static types.\nMethod DateUtils.ceiling(..) could be confused with overloaded method [ceiling](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/time/DateUtils.java",
     "start_line": 881,
@@ -1401,11 +1401,11 @@
     "start_column": 24,
     "end_column": 31,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method DateUtils.truncate(..) could be confused with overloaded method [truncate](1), since dispatch depends on static types.\nMethod DateUtils.truncate(..) could be confused with overloaded method [truncate](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/time/DateUtils.java",
     "start_line": 812,
@@ -1413,11 +1413,11 @@
     "start_column": 24,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method DateUtils.round(..) could be confused with overloaded method [round](1), since dispatch depends on static types.\nMethod DateUtils.round(..) could be confused with overloaded method [round](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/time/DateUtils.java",
     "start_line": 746,
@@ -1425,11 +1425,11 @@
     "start_column": 24,
     "end_column": 29,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method FastDatePrinter.format(..) could be confused with overloaded method [format](1), since dispatch depends on static types.\nMethod FastDatePrinter.format(..) could be confused with overloaded method [format](2), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/time/FastDatePrinter.java",
     "start_line": 438,
@@ -1437,11 +1437,11 @@
     "start_column": 12,
     "end_column": 18,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method FormatCache.getDateTimeInstance(..) could be confused with overloaded method [getDateTimeInstance](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/time/FormatCache.java",
     "start_line": 127,
@@ -1449,11 +1449,11 @@
     "start_column": 7,
     "end_column": 26,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method TestBean.privateStringStuff(..) could be confused with overloaded method [privateStringStuff](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 144,
@@ -1461,11 +1461,11 @@
     "start_column": 24,
     "end_column": 42,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method TestBean.privateStringStuff(..) could be confused with overloaded method [privateStringStuff](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 129,
@@ -1473,11 +1473,11 @@
     "start_column": 24,
     "end_column": 42,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/confusing-method-signature",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-683",
     "message": "Method TestBean.privateStringStuff(..) could be confused with overloaded method [privateStringStuff](1), since dispatch depends on static types.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/MethodUtilsTest.java",
     "start_line": 124,
@@ -1485,11 +1485,11 @@
     "start_column": 24,
     "end_column": 42,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/useless-tostring-call",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-398",
     "message": "Redundant call to 'toString' on a String object.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/ToStringBuilderTest.java",
     "start_line": 534,
@@ -1497,11 +1497,11 @@
     "start_column": 64,
     "end_column": 94,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/non-null-boxed-variable",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-476",
     "message": "The variable 'sameObject' is only assigned values of primitive type and is never 'null', but it is declared with the boxed type 'Integer'.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java",
     "start_line": 401,
@@ -1509,7 +1509,7 @@
     "start_column": 9,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/builder/DiffBuilderTest.java",
         "line_number": 401
@@ -1530,7 +1530,7 @@
     "start_column": 38,
     "end_column": 49,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1542,7 +1542,7 @@
     "start_column": 65,
     "end_column": 87,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1554,7 +1554,7 @@
     "start_column": 62,
     "end_column": 84,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1566,7 +1566,7 @@
     "start_column": 62,
     "end_column": 84,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1578,7 +1578,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1590,7 +1590,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1602,7 +1602,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1614,7 +1614,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1626,7 +1626,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1638,7 +1638,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1650,7 +1650,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1662,7 +1662,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1674,7 +1674,7 @@
     "start_column": 61,
     "end_column": 83,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1686,7 +1686,7 @@
     "start_column": 60,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1698,7 +1698,7 @@
     "start_column": 66,
     "end_column": 88,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1710,7 +1710,7 @@
     "start_column": 42,
     "end_column": 61,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1722,7 +1722,7 @@
     "start_column": 33,
     "end_column": 52,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1734,7 +1734,7 @@
     "start_column": 54,
     "end_column": 73,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1746,7 +1746,7 @@
     "start_column": 33,
     "end_column": 49,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1758,7 +1758,7 @@
     "start_column": 51,
     "end_column": 73,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1770,7 +1770,7 @@
     "start_column": 33,
     "end_column": 49,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1782,7 +1782,7 @@
     "start_column": 51,
     "end_column": 73,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1794,7 +1794,7 @@
     "start_column": 33,
     "end_column": 49,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1806,7 +1806,7 @@
     "start_column": 51,
     "end_column": 73,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1818,7 +1818,7 @@
     "start_column": 33,
     "end_column": 49,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1830,7 +1830,7 @@
     "start_column": 51,
     "end_column": 73,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1842,7 +1842,7 @@
     "start_column": 33,
     "end_column": 49,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1854,7 +1854,7 @@
     "start_column": 33,
     "end_column": 51,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1866,7 +1866,7 @@
     "start_column": 33,
     "end_column": 49,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1878,7 +1878,7 @@
     "start_column": 32,
     "end_column": 48,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1890,7 +1890,7 @@
     "start_column": 32,
     "end_column": 48,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1902,7 +1902,7 @@
     "start_column": 29,
     "end_column": 53,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1914,7 +1914,7 @@
     "start_column": 29,
     "end_column": 56,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1926,7 +1926,7 @@
     "start_column": 29,
     "end_column": 45,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1938,7 +1938,7 @@
     "start_column": 29,
     "end_column": 51,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1950,7 +1950,7 @@
     "start_column": 29,
     "end_column": 56,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1962,7 +1962,7 @@
     "start_column": 29,
     "end_column": 45,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1974,7 +1974,7 @@
     "start_column": 27,
     "end_column": 44,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1986,7 +1986,7 @@
     "start_column": 27,
     "end_column": 42,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -1998,7 +1998,7 @@
     "start_column": 44,
     "end_column": 61,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2010,7 +2010,7 @@
     "start_column": 27,
     "end_column": 42,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2022,7 +2022,7 @@
     "start_column": 27,
     "end_column": 44,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2034,7 +2034,7 @@
     "start_column": 27,
     "end_column": 41,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2046,7 +2046,7 @@
     "start_column": 27,
     "end_column": 41,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2058,7 +2058,7 @@
     "start_column": 27,
     "end_column": 39,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2070,7 +2070,7 @@
     "start_column": 27,
     "end_column": 41,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2082,7 +2082,7 @@
     "start_column": 27,
     "end_column": 42,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2094,7 +2094,7 @@
     "start_column": 27,
     "end_column": 38,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2106,7 +2106,7 @@
     "start_column": 29,
     "end_column": 45,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 250
@@ -2127,7 +2127,7 @@
     "start_column": 47,
     "end_column": 71,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 250
@@ -2148,7 +2148,7 @@
     "start_column": 73,
     "end_column": 92,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 250
@@ -2169,7 +2169,7 @@
     "start_column": 13,
     "end_column": 45,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 251
@@ -2190,7 +2190,7 @@
     "start_column": 47,
     "end_column": 71,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 251
@@ -2211,7 +2211,7 @@
     "start_column": 73,
     "end_column": 107,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 251
@@ -2232,7 +2232,7 @@
     "start_column": 13,
     "end_column": 45,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 252
@@ -2253,7 +2253,7 @@
     "start_column": 47,
     "end_column": 65,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 252
@@ -2274,7 +2274,7 @@
     "start_column": 67,
     "end_column": 93,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 252
@@ -2295,7 +2295,7 @@
     "start_column": 95,
     "end_column": 116,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 252
@@ -2316,7 +2316,7 @@
     "start_column": 13,
     "end_column": 48,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 253
@@ -2337,7 +2337,7 @@
     "start_column": 50,
     "end_column": 77,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 253
@@ -2358,7 +2358,7 @@
     "start_column": 79,
     "end_column": 116,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 253
@@ -2379,7 +2379,7 @@
     "start_column": 13,
     "end_column": 48,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/reflect/TypeUtilsTest.java",
         "line_number": 254
@@ -2400,7 +2400,7 @@
     "start_column": 57,
     "end_column": 72,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2412,7 +2412,7 @@
     "start_column": 35,
     "end_column": 56,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2424,7 +2424,7 @@
     "start_column": 43,
     "end_column": 57,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2436,7 +2436,7 @@
     "start_column": 43,
     "end_column": 57,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2448,7 +2448,7 @@
     "start_column": 43,
     "end_column": 57,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2460,7 +2460,7 @@
     "start_column": 43,
     "end_column": 58,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2472,7 +2472,7 @@
     "start_column": 43,
     "end_column": 54,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-parameter",
@@ -2484,7 +2484,7 @@
     "start_column": 59,
     "end_column": 94,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/inconsistent-equals-and-hashcode",
@@ -2496,7 +2496,7 @@
     "start_column": 18,
     "end_column": 37,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/constant-comparison",
@@ -2508,7 +2508,7 @@
     "start_column": 20,
     "end_column": 32,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/constant-comparison",
@@ -2520,7 +2520,7 @@
     "start_column": 36,
     "end_column": 47,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/constant-comparison",
@@ -2532,7 +2532,7 @@
     "start_column": 20,
     "end_column": 31,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/constant-comparison",
@@ -2544,7 +2544,7 @@
     "start_column": 35,
     "end_column": 61,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/constant-comparison",
@@ -2556,7 +2556,7 @@
     "start_column": 20,
     "end_column": 31,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/constant-comparison",
@@ -2568,7 +2568,7 @@
     "start_column": 35,
     "end_column": 58,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/dereferenced-value-may-be-null",
@@ -2580,7 +2580,7 @@
     "start_column": 17,
     "end_column": 23,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/dereferenced-value-may-be-null",
@@ -2592,7 +2592,7 @@
     "start_column": 60,
     "end_column": 69,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-format-argument",
@@ -2604,7 +2604,7 @@
     "start_column": 17,
     "end_column": 69,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/unused-format-argument",
@@ -2616,7 +2616,7 @@
     "start_column": 9,
     "end_column": 33,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2628,7 +2628,7 @@
     "start_column": 9,
     "end_column": 41,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2640,7 +2640,7 @@
     "start_column": 34,
     "end_column": 65,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 523
@@ -2661,7 +2661,7 @@
     "start_column": 69,
     "end_column": 100,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 526
@@ -2682,7 +2682,7 @@
     "start_column": 28,
     "end_column": 67,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 540
@@ -2703,7 +2703,7 @@
     "start_column": 30,
     "end_column": 78,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 558
@@ -2724,7 +2724,7 @@
     "start_column": 28,
     "end_column": 74,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 574
@@ -2745,7 +2745,7 @@
     "start_column": 26,
     "end_column": 64,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 590
@@ -2766,7 +2766,7 @@
     "start_column": 28,
     "end_column": 69,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 606
@@ -2787,7 +2787,7 @@
     "start_column": 30,
     "end_column": 76,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 622
@@ -2808,7 +2808,7 @@
     "start_column": 32,
     "end_column": 77,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 638
@@ -2829,7 +2829,7 @@
     "start_column": 24,
     "end_column": 73,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 528
@@ -2850,7 +2850,7 @@
     "start_column": 24,
     "end_column": 73,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 528
@@ -2871,7 +2871,7 @@
     "start_column": 24,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 532
@@ -2892,7 +2892,7 @@
     "start_column": 21,
     "end_column": 64,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 544
@@ -2913,7 +2913,7 @@
     "start_column": 21,
     "end_column": 74,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 550
@@ -2934,7 +2934,7 @@
     "start_column": 22,
     "end_column": 76,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 566
@@ -2955,7 +2955,7 @@
     "start_column": 65,
     "end_column": 109,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 576
@@ -2976,7 +2976,7 @@
     "start_column": 21,
     "end_column": 70,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 578
@@ -2997,7 +2997,7 @@
     "start_column": 21,
     "end_column": 70,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 578
@@ -3018,7 +3018,7 @@
     "start_column": 65,
     "end_column": 101,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 592
@@ -3039,7 +3039,7 @@
     "start_column": 20,
     "end_column": 62,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 594
@@ -3060,7 +3060,7 @@
     "start_column": 20,
     "end_column": 62,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 594
@@ -3081,7 +3081,7 @@
     "start_column": 20,
     "end_column": 64,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 598
@@ -3102,7 +3102,7 @@
     "start_column": 21,
     "end_column": 67,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 610
@@ -3123,7 +3123,7 @@
     "start_column": 21,
     "end_column": 67,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 610
@@ -3144,7 +3144,7 @@
     "start_column": 21,
     "end_column": 70,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 578
@@ -3165,7 +3165,7 @@
     "start_column": 22,
     "end_column": 80,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 630
@@ -3186,7 +3186,7 @@
     "start_column": 65,
     "end_column": 119,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 634
@@ -3207,7 +3207,7 @@
     "start_column": 23,
     "end_column": 74,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 642
@@ -3228,7 +3228,7 @@
     "start_column": 23,
     "end_column": 74,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 642
@@ -3249,7 +3249,7 @@
     "start_column": 23,
     "end_column": 78,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/ArrayUtilsAddTest.java",
         "line_number": 646
@@ -3270,7 +3270,7 @@
     "start_column": 43,
     "end_column": 96,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/RangeTest.java",
         "line_number": 120
@@ -3291,7 +3291,7 @@
     "start_column": 42,
     "end_column": 95,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/RangeTest.java",
         "line_number": 124
@@ -3312,7 +3312,7 @@
     "start_column": 44,
     "end_column": 97,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/RangeTest.java",
         "line_number": 128
@@ -3333,7 +3333,7 @@
     "start_column": 17,
     "end_column": 76,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/RangeTest.java",
         "line_number": 121
@@ -3354,7 +3354,7 @@
     "start_column": 16,
     "end_column": 75,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/RangeTest.java",
         "line_number": 125
@@ -3375,7 +3375,7 @@
     "start_column": 18,
     "end_column": 77,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/RangeTest.java",
         "line_number": 129
@@ -3396,7 +3396,7 @@
     "start_column": 32,
     "end_column": 66,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -3408,7 +3408,7 @@
     "start_column": 24,
     "end_column": 82,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -3420,7 +3420,7 @@
     "start_column": 17,
     "end_column": 47,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -3432,7 +3432,7 @@
     "start_column": 34,
     "end_column": 56,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -3444,7 +3444,7 @@
     "start_column": 96,
     "end_column": 118,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -3456,7 +3456,7 @@
     "start_column": 56,
     "end_column": 98,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -3468,11 +3468,11 @@
     "start_column": 13,
     "end_column": 63,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/iterator-remove-failure",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-670",
     "message": "This call may fail when iterating over [the collection](1), since it does not support element removal.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/lang3/concurrent/MultiBackgroundInitializerTest.java",
     "start_line": 264,
@@ -3480,11 +3480,11 @@
     "start_column": 59,
     "end_column": 69,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/missing-clone-method",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-567",
     "message": "No clone method, yet implements Cloneable.",
     "file": "%SRCROOT%src/main/java/org/apache/commons/lang3/time/GmtTimeZone.java",
     "start_line": 28,
@@ -3492,6 +3492,6 @@
     "start_column": 7,
     "end_column": 18,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   }
 ]

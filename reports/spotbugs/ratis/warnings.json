@@ -9,7 +9,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/grpc/metrics/GrpcServerMetrics.java",
         "line_number": 107
@@ -42,7 +42,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/netty/NettyRpcProxy.java",
         "line_number": 57
@@ -75,7 +75,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 40822
@@ -100,7 +100,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 40786,
@@ -108,7 +108,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 40786
@@ -141,7 +141,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 19899
@@ -166,7 +166,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 19863,
@@ -174,7 +174,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 19863
@@ -207,7 +207,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 19573
@@ -240,7 +240,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 19573
@@ -273,7 +273,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 17232
@@ -306,7 +306,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 17232
@@ -339,7 +339,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 18708
@@ -372,7 +372,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 17232
@@ -405,7 +405,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 17232
@@ -430,7 +430,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 18672,
@@ -438,7 +438,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 18672
@@ -471,7 +471,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 18049
@@ -504,7 +504,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 17899
@@ -537,7 +537,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 18049
@@ -570,7 +570,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 17899
@@ -603,7 +603,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 59694
@@ -628,7 +628,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 59658,
@@ -636,7 +636,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 59658
@@ -669,7 +669,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 26405
@@ -694,7 +694,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 26369,
@@ -702,7 +702,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 26369
@@ -735,7 +735,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 16953
@@ -760,7 +760,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 16917,
@@ -768,7 +768,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 16917
@@ -801,7 +801,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 16805
@@ -834,7 +834,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 16805
@@ -867,7 +867,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 35290
@@ -900,7 +900,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 34432
@@ -925,7 +925,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 35254,
@@ -933,7 +933,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 35254
@@ -966,7 +966,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 36043
@@ -999,7 +999,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 36043
@@ -1024,7 +1024,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 36965,
@@ -1032,7 +1032,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 36965
@@ -1081,7 +1081,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 36582
@@ -1114,7 +1114,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 36582
@@ -1147,7 +1147,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 35887
@@ -1172,7 +1172,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 35851,
@@ -1180,7 +1180,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 35851
@@ -1213,7 +1213,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 35770
@@ -1246,7 +1246,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 35770
@@ -1279,7 +1279,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 27878
@@ -1304,7 +1304,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 27842,
@@ -1312,7 +1312,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 27842
@@ -1345,7 +1345,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 14610
@@ -1370,7 +1370,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 14574,
@@ -1378,7 +1378,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 14574
@@ -1411,7 +1411,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 59223
@@ -1452,7 +1452,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 59187,
@@ -1460,7 +1460,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 59187
@@ -1493,7 +1493,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 59075
@@ -1526,7 +1526,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 59075
@@ -1559,7 +1559,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 28278
@@ -1600,7 +1600,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 28242,
@@ -1608,7 +1608,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 28242
@@ -1657,7 +1657,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 53686
@@ -1698,7 +1698,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 53650,
@@ -1706,7 +1706,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 53650
@@ -1755,7 +1755,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 62422
@@ -1788,7 +1788,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 62422
@@ -1813,7 +1813,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 63784,
@@ -1821,7 +1821,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63784
@@ -1854,7 +1854,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63703
@@ -1887,7 +1887,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63194
@@ -1936,7 +1936,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63313
@@ -1985,7 +1985,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63075
@@ -2018,7 +2018,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63703
@@ -2051,7 +2051,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63194
@@ -2100,7 +2100,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63194
@@ -2149,7 +2149,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 63075
@@ -2182,7 +2182,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 57042
@@ -2223,7 +2223,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 57006,
@@ -2231,7 +2231,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 57006
@@ -2280,7 +2280,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 56925
@@ -2313,7 +2313,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 56806
@@ -2346,7 +2346,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 56925
@@ -2379,7 +2379,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 56806
@@ -2412,7 +2412,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 62186
@@ -2445,7 +2445,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 61336
@@ -2478,7 +2478,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 61336
@@ -2503,7 +2503,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 62150,
@@ -2511,7 +2511,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 62150
@@ -2544,7 +2544,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 61829
@@ -2577,7 +2577,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 61829
@@ -2610,7 +2610,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 56248
@@ -2635,7 +2635,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 56212,
@@ -2643,7 +2643,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 56212
@@ -2676,7 +2676,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 56131
@@ -2709,7 +2709,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 56131
@@ -2742,7 +2742,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 55643
@@ -2767,7 +2767,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 55607,
@@ -2775,7 +2775,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 55607
@@ -2808,7 +2808,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 55244
@@ -2841,7 +2841,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 55244
@@ -2874,7 +2874,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 54525
@@ -2899,7 +2899,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 54489,
@@ -2907,7 +2907,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 54489
@@ -2940,7 +2940,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 54306
@@ -2973,7 +2973,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 54306
@@ -3006,7 +3006,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 24666
@@ -3031,7 +3031,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 24630,
@@ -3039,7 +3039,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 24630
@@ -3072,7 +3072,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 24350
@@ -3105,7 +3105,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 24350
@@ -3138,7 +3138,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 23548
@@ -3163,7 +3163,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 23512,
@@ -3171,7 +3171,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 23512
@@ -3204,7 +3204,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 22999
@@ -3237,7 +3237,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 22999
@@ -3270,7 +3270,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 22274
@@ -3295,7 +3295,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 22238,
@@ -3303,7 +3303,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 22238
@@ -3336,7 +3336,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 22141
@@ -3369,7 +3369,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 22141
@@ -3402,7 +3402,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 21617
@@ -3435,7 +3435,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 20282
@@ -3468,7 +3468,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 20282
@@ -3493,7 +3493,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 21581,
@@ -3501,7 +3501,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 21581
@@ -3534,7 +3534,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 21067
@@ -3567,7 +3567,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 21186
@@ -3600,7 +3600,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 21067
@@ -3633,7 +3633,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 21067
@@ -3666,7 +3666,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 49529
@@ -3707,7 +3707,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 49493,
@@ -3715,7 +3715,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 49493
@@ -3764,7 +3764,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 49130
@@ -3797,7 +3797,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 49130
@@ -3830,7 +3830,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 49929
@@ -3855,7 +3855,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 49893,
@@ -3863,7 +3863,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 49893
@@ -3896,7 +3896,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 50329
@@ -3921,7 +3921,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 50293,
@@ -3929,7 +3929,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 50293
@@ -3962,7 +3962,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 58556
@@ -3995,7 +3995,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 57797
@@ -4028,7 +4028,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 57797
@@ -4053,7 +4053,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 58520,
@@ -4061,7 +4061,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 58520
@@ -4094,7 +4094,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 38630
@@ -4119,7 +4119,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 38594,
@@ -4127,7 +4127,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 38594
@@ -4160,7 +4160,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 38497
@@ -4193,7 +4193,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 38497
@@ -4226,7 +4226,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 27478
@@ -4251,7 +4251,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 27442,
@@ -4259,7 +4259,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 27442
@@ -4292,7 +4292,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 37973
@@ -4333,7 +4333,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 37937,
@@ -4341,7 +4341,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 37937
@@ -4390,7 +4390,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 39278
@@ -4415,7 +4415,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 39242,
@@ -4423,7 +4423,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 39242
@@ -4456,7 +4456,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 42375
@@ -4489,7 +4489,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 42375
@@ -4522,7 +4522,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45249
@@ -4547,7 +4547,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 45213,
@@ -4555,7 +4555,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45213
@@ -4588,7 +4588,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 43439
@@ -4621,7 +4621,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 43320
@@ -4654,7 +4654,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 43439
@@ -4687,7 +4687,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 43320
@@ -4720,7 +4720,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 33992
@@ -4745,7 +4745,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 33956,
@@ -4753,7 +4753,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 33956
@@ -4786,7 +4786,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 32888
@@ -4819,7 +4819,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 32769
@@ -4852,7 +4852,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 32888
@@ -4885,7 +4885,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 32769
@@ -4918,7 +4918,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 13594
@@ -4943,7 +4943,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 13558,
@@ -4951,7 +4951,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 13558
@@ -4984,7 +4984,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 13415
@@ -5017,7 +5017,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 13415
@@ -5050,7 +5050,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 12125
@@ -5075,7 +5075,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 12089,
@@ -5083,7 +5083,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 12089
@@ -5116,7 +5116,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 11677
@@ -5149,7 +5149,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 11677
@@ -5182,7 +5182,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 25931
@@ -5207,7 +5207,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 25895,
@@ -5215,7 +5215,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 25895
@@ -5248,7 +5248,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 25146
@@ -5281,7 +5281,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 25146
@@ -5314,7 +5314,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 28749
@@ -5355,7 +5355,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 28713,
@@ -5363,7 +5363,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 28713
@@ -5412,7 +5412,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 16285
@@ -5437,7 +5437,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 16249,
@@ -5445,7 +5445,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 16249
@@ -5478,7 +5478,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 16106
@@ -5511,7 +5511,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 16106
@@ -5544,7 +5544,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 15546
@@ -5569,7 +5569,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 15510,
@@ -5577,7 +5577,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 15510
@@ -5610,7 +5610,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 15398
@@ -5643,7 +5643,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 15248
@@ -5676,7 +5676,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 15398
@@ -5709,7 +5709,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 15248
@@ -5742,7 +5742,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 61214
@@ -5783,7 +5783,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 61178,
@@ -5791,7 +5791,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 61178
@@ -5840,7 +5840,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 60589
@@ -5889,7 +5889,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 60589
@@ -5938,7 +5938,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 30769
@@ -5987,7 +5987,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 29919
@@ -6020,7 +6020,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 29919
@@ -6045,7 +6045,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 30733,
@@ -6053,7 +6053,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 30733
@@ -6102,7 +6102,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 30412
@@ -6135,7 +6135,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 30412
@@ -6168,7 +6168,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 31544
@@ -6201,7 +6201,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 30769
@@ -6250,7 +6250,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 30769
@@ -6291,7 +6291,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 31508,
@@ -6299,7 +6299,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 31508
@@ -6332,7 +6332,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 57797
@@ -6357,7 +6357,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 57674,
@@ -6365,7 +6365,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 57674
@@ -6398,7 +6398,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 57562
@@ -6447,7 +6447,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 57562
@@ -6496,7 +6496,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45731
@@ -6529,7 +6529,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45731
@@ -6562,7 +6562,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45731
@@ -6595,7 +6595,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45731
@@ -6628,7 +6628,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 47601
@@ -6661,7 +6661,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45691
@@ -6694,7 +6694,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45731
@@ -6727,7 +6727,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45625
@@ -6760,7 +6760,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 45691
@@ -6785,7 +6785,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 47565,
@@ -6793,7 +6793,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 47565
@@ -6826,7 +6826,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 46463
@@ -6859,7 +6859,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 46463
@@ -6892,7 +6892,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 12707
@@ -6917,7 +6917,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 12671,
@@ -6925,7 +6925,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 12671
@@ -6958,7 +6958,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 51630
@@ -6983,7 +6983,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 51594,
@@ -6991,7 +6991,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 51594
@@ -7024,7 +7024,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 51230
@@ -7049,7 +7049,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 51194,
@@ -7057,7 +7057,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 51194
@@ -7090,7 +7090,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 50972
@@ -7123,7 +7123,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 50972
@@ -7156,7 +7156,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 29220
@@ -7197,7 +7197,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 29184,
@@ -7205,7 +7205,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 29184
@@ -7254,7 +7254,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 53021
@@ -7279,7 +7279,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 52985,
@@ -7287,7 +7287,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 52985
@@ -7320,7 +7320,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 52904
@@ -7353,7 +7353,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 52904
@@ -7386,7 +7386,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 52424
@@ -7427,7 +7427,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 52388,
@@ -7435,7 +7435,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 52388
@@ -7484,7 +7484,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 52307
@@ -7517,7 +7517,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 52307
@@ -7550,7 +7550,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 40050
@@ -7575,7 +7575,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 40014,
@@ -7583,7 +7583,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 40014
@@ -7616,7 +7616,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 41668
@@ -7641,7 +7641,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 41632,
@@ -7649,7 +7649,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 41632
@@ -7682,7 +7682,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 48403
@@ -7707,7 +7707,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 48367,
@@ -7715,7 +7715,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 48367
@@ -7748,7 +7748,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 48286
@@ -7781,7 +7781,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 48167
@@ -7814,7 +7814,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 48286
@@ -7847,7 +7847,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 48167
@@ -7880,7 +7880,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 29797
@@ -7921,7 +7921,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/RaftProtos.java",
     "start_line": 29761,
@@ -7929,7 +7929,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/RaftProtos.java",
         "line_number": 29761
@@ -7978,7 +7978,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 20648
@@ -8003,7 +8003,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
     "start_line": 20612,
@@ -8011,7 +8011,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 20612
@@ -8044,7 +8044,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 20412
@@ -8077,7 +8077,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 20412
@@ -8110,7 +8110,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 21119
@@ -8135,7 +8135,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
     "start_line": 21083,
@@ -8143,7 +8143,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 21083
@@ -8176,7 +8176,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 17936
@@ -8201,7 +8201,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
     "start_line": 17900,
@@ -8209,7 +8209,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 17900
@@ -8242,7 +8242,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 18407
@@ -8267,7 +8267,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
     "start_line": 18371,
@@ -8275,7 +8275,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 18371
@@ -8308,7 +8308,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 16036
@@ -8333,7 +8333,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
     "start_line": 16000,
@@ -8341,7 +8341,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 16000
@@ -8374,7 +8374,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 16811
@@ -8407,7 +8407,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 16036
@@ -8440,7 +8440,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 16036
@@ -8465,7 +8465,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
     "start_line": 16775,
@@ -8473,7 +8473,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 16775
@@ -8506,7 +8506,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 19854
@@ -8531,7 +8531,7 @@
   },
   {
     "type": "MS_EXPOSE_REP",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-200",
     "message": "Public static method may expose internal representation by returning a mutable object or array",
     "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
     "start_line": 19818,
@@ -8539,7 +8539,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/proto/rmap/RMapProtos.java",
         "line_number": 19818
@@ -8572,7 +8572,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/server/impl/PendingRequest.java",
         "line_number": 75
@@ -8613,7 +8613,7 @@
   },
   {
     "type": "CT_CONSTRUCTOR_THROW",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-1074",
     "message": "Be wary of letting constructors throw exceptions.",
     "file": "org/apache/ratis/server/impl/ServerState.java",
     "start_line": 126,
@@ -8621,7 +8621,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/server/impl/ServerState.java",
         "line_number": 126
@@ -8654,7 +8654,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/ratis/server/metrics/RaftServerMetricsImpl.java",
         "line_number": 279

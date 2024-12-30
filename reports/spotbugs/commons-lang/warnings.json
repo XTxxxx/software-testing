@@ -9,7 +9,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "org/apache/commons/lang3/builder/DiffBuilder.java",
         "line_number": 144
@@ -30,7 +30,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "EI_EXPOSE_REP",
@@ -42,11 +42,11 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "CT_CONSTRUCTOR_THROW",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-1074",
     "message": "Be wary of letting constructors throw exceptions.",
     "file": "org/apache/commons/lang3/time/FastDatePrinter.java",
     "start_line": 159,
@@ -54,7 +54,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "EI_EXPOSE_REP",
@@ -66,11 +66,11 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "CT_CONSTRUCTOR_THROW",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-1074",
     "message": "Be wary of letting constructors throw exceptions.",
     "file": "org/apache/commons/lang3/time/GmtTimeZone.java",
     "start_line": 46,
@@ -78,6 +78,6 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   }
 ]

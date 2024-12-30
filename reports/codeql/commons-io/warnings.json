@@ -1,7 +1,7 @@
 [
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "CheckingInputStream should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyToFileTest.java",
     "start_line": 34,
@@ -9,7 +9,7 @@
     "start_column": 19,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyToFileTest.java",
         "line_number": 34
@@ -26,7 +26,7 @@
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "TesterFalseFileFilter should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
     "start_line": 27,
@@ -34,7 +34,7 @@
     "start_column": 11,
     "end_column": 32,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
         "line_number": 27
@@ -43,7 +43,7 @@
   },
   {
     "type": "java/non-static-nested-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-657",
     "message": "TesterTrueFileFilter should be made static, since the enclosing instance is not used.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
     "start_line": 57,
@@ -51,7 +51,7 @@
     "start_column": 11,
     "end_column": 31,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
         "line_number": 57
@@ -68,7 +68,7 @@
     "start_column": 26,
     "end_column": 37,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 127
@@ -89,7 +89,7 @@
     "start_column": 13,
     "end_column": 27,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/StreamIterator.java",
         "line_number": 32
@@ -110,7 +110,7 @@
     "start_column": 13,
     "end_column": 34,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1933
@@ -139,7 +139,7 @@
     "start_column": 9,
     "end_column": 18,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/AbstractInputStreamTest.java",
         "line_number": 137
@@ -168,7 +168,7 @@
     "start_column": 9,
     "end_column": 23,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
         "line_number": 66
@@ -193,7 +193,7 @@
     "start_column": 9,
     "end_column": 32,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
         "line_number": 68
@@ -218,7 +218,7 @@
     "start_column": 9,
     "end_column": 23,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
         "line_number": 88
@@ -243,7 +243,7 @@
     "start_column": 9,
     "end_column": 37,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTest.java",
         "line_number": 97
@@ -268,7 +268,7 @@
     "start_column": 9,
     "end_column": 32,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 837
@@ -297,7 +297,7 @@
     "start_column": 9,
     "end_column": 23,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 931
@@ -326,7 +326,7 @@
     "start_column": 9,
     "end_column": 23,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 967
@@ -355,7 +355,7 @@
     "start_column": 9,
     "end_column": 23,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1025
@@ -384,7 +384,7 @@
     "start_column": 9,
     "end_column": 36,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1481
@@ -413,7 +413,7 @@
     "start_column": 9,
     "end_column": 36,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1490
@@ -442,7 +442,7 @@
     "start_column": 9,
     "end_column": 33,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1541
@@ -471,7 +471,7 @@
     "start_column": 9,
     "end_column": 23,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1968
@@ -500,7 +500,7 @@
     "start_column": 9,
     "end_column": 24,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1969
@@ -529,7 +529,7 @@
     "start_column": 9,
     "end_column": 24,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2032
@@ -558,7 +558,7 @@
     "start_column": 9,
     "end_column": 24,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2032
@@ -587,7 +587,7 @@
     "start_column": 13,
     "end_column": 28,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2044
@@ -616,7 +616,7 @@
     "start_column": 9,
     "end_column": 28,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2116
@@ -645,7 +645,7 @@
     "start_column": 9,
     "end_column": 29,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2117
@@ -674,7 +674,7 @@
     "start_column": 9,
     "end_column": 29,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2491
@@ -703,7 +703,7 @@
     "start_column": 9,
     "end_column": 29,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2514
@@ -732,7 +732,7 @@
     "start_column": 9,
     "end_column": 29,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2546
@@ -761,7 +761,7 @@
     "start_column": 9,
     "end_column": 21,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2553
@@ -790,7 +790,7 @@
     "start_column": 9,
     "end_column": 29,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2578
@@ -819,7 +819,7 @@
     "start_column": 9,
     "end_column": 21,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2585
@@ -848,7 +848,7 @@
     "start_column": 9,
     "end_column": 21,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2585
@@ -877,7 +877,7 @@
     "start_column": 29,
     "end_column": 43,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/UncheckedIOTest.java",
         "line_number": 50
@@ -894,7 +894,7 @@
     "start_column": 27,
     "end_column": 41,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/UncheckedIOTest.java",
         "line_number": 100
@@ -911,7 +911,7 @@
     "start_column": 71,
     "end_column": 95,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
         "line_number": 56
@@ -940,7 +940,7 @@
     "start_column": 71,
     "end_column": 101,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
         "line_number": 57
@@ -969,7 +969,7 @@
     "start_column": 71,
     "end_column": 85,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/BrokenInputStreamTest.java",
         "line_number": 67
@@ -998,7 +998,7 @@
     "start_column": 13,
     "end_column": 24,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CharSequenceInputStreamTest.java",
         "line_number": 479
@@ -1027,7 +1027,7 @@
     "start_column": 13,
     "end_column": 29,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/CountingInputStreamTest.java",
         "line_number": 157
@@ -1056,7 +1056,7 @@
     "start_column": 13,
     "end_column": 26,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/NullInputStreamTest.java",
         "line_number": 218
@@ -1073,7 +1073,7 @@
     "start_column": 51,
     "end_column": 83,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 152
@@ -1094,7 +1094,7 @@
     "start_column": 9,
     "end_column": 40,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 186
@@ -1115,7 +1115,7 @@
     "start_column": 9,
     "end_column": 22,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 203
@@ -1136,7 +1136,7 @@
     "start_column": 9,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 205
@@ -1157,7 +1157,7 @@
     "start_column": 9,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 205
@@ -1178,7 +1178,7 @@
     "start_column": 9,
     "end_column": 22,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 296
@@ -1199,7 +1199,7 @@
     "start_column": 9,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 298
@@ -1220,7 +1220,7 @@
     "start_column": 56,
     "end_column": 78,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 347
@@ -1241,7 +1241,7 @@
     "start_column": 61,
     "end_column": 90,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 349
@@ -1262,7 +1262,7 @@
     "start_column": 61,
     "end_column": 89,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 350
@@ -1283,7 +1283,7 @@
     "start_column": 61,
     "end_column": 88,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 351
@@ -1304,7 +1304,7 @@
     "start_column": 47,
     "end_column": 69,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 355
@@ -1325,7 +1325,7 @@
     "start_column": 9,
     "end_column": 29,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 368
@@ -1346,7 +1346,7 @@
     "start_column": 9,
     "end_column": 29,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 368
@@ -1367,7 +1367,7 @@
     "start_column": 9,
     "end_column": 23,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 415
@@ -1384,7 +1384,7 @@
     "start_column": 9,
     "end_column": 23,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 429
@@ -1401,7 +1401,7 @@
     "start_column": 9,
     "end_column": 22,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 454
@@ -1422,7 +1422,7 @@
     "start_column": 9,
     "end_column": 38,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 455
@@ -1443,7 +1443,7 @@
     "start_column": 51,
     "end_column": 63,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStreamTest.java",
         "line_number": 461
@@ -1464,7 +1464,7 @@
     "start_column": 9,
     "end_column": 22,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/UnsynchronizedFilterInputStreamTest.java",
         "line_number": 130
@@ -1493,7 +1493,7 @@
     "start_column": 9,
     "end_column": 25,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
         "line_number": 89
@@ -1534,7 +1534,7 @@
     "start_column": 9,
     "end_column": 25,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
         "line_number": 89
@@ -1575,7 +1575,7 @@
     "start_column": 9,
     "end_column": 25,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
         "line_number": 89
@@ -1616,7 +1616,7 @@
     "start_column": 9,
     "end_column": 24,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
         "line_number": 129
@@ -1657,7 +1657,7 @@
     "start_column": 9,
     "end_column": 25,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
         "line_number": 146
@@ -1698,7 +1698,7 @@
     "start_column": 9,
     "end_column": 25,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
         "line_number": 206
@@ -1739,7 +1739,7 @@
     "start_column": 9,
     "end_column": 25,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
         "line_number": 266
@@ -1780,7 +1780,7 @@
     "start_column": 9,
     "end_column": 25,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/monitor/FileAlterationObserverTest.java",
         "line_number": 322
@@ -1821,7 +1821,7 @@
     "start_column": 23,
     "end_column": 34,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/AccumulatorPathVisitor.java",
         "line_number": 187
@@ -1846,7 +1846,7 @@
     "start_column": 32,
     "end_column": 52,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
         "line_number": 163
@@ -1875,7 +1875,7 @@
     "start_column": 54,
     "end_column": 70,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/BoundedInputStream.java",
         "line_number": 163
@@ -1904,7 +1904,7 @@
     "start_column": 36,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 990
@@ -1933,7 +1933,7 @@
     "start_column": 13,
     "end_column": 26,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
         "line_number": 400
@@ -1954,7 +1954,7 @@
     "start_column": 17,
     "end_column": 37,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/UnsynchronizedBufferedInputStream.java",
         "line_number": 411
@@ -1975,7 +1975,7 @@
     "start_column": 46,
     "end_column": 50,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
         "line_number": 109
@@ -1984,7 +1984,7 @@
   },
   {
     "type": "java/missing-space-in-concatenation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-223",
     "message": "This string appears to be missing a space after 'you...'.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 2781,
@@ -1992,7 +1992,7 @@
     "start_column": 33,
     "end_column": 43,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2792
@@ -2013,7 +2013,7 @@
   },
   {
     "type": "java/missing-space-in-concatenation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-223",
     "message": "This string appears to be missing a space after 'you...'.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 2814,
@@ -2021,7 +2021,7 @@
     "start_column": 33,
     "end_column": 43,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2792
@@ -2042,7 +2042,7 @@
   },
   {
     "type": "java/missing-space-in-concatenation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-223",
     "message": "This string appears to be missing a space after 'you...'.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 2851,
@@ -2050,7 +2050,7 @@
     "start_column": 33,
     "end_column": 95,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2862
@@ -2071,7 +2071,7 @@
   },
   {
     "type": "java/missing-space-in-concatenation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-223",
     "message": "This string appears to be missing a space after 'you...'.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 2912,
@@ -2079,7 +2079,7 @@
     "start_column": 33,
     "end_column": 34,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2923
@@ -2100,7 +2100,7 @@
   },
   {
     "type": "java/missing-space-in-concatenation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-223",
     "message": "This string appears to be missing a space after 'you...'.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 2981,
@@ -2108,7 +2108,7 @@
     "start_column": 33,
     "end_column": 34,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2923
@@ -2129,7 +2129,7 @@
   },
   {
     "type": "java/missing-space-in-concatenation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-223",
     "message": "This string appears to be missing a space after 'you...'.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 3012,
@@ -2137,7 +2137,7 @@
     "start_column": 33,
     "end_column": 34,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2923
@@ -2158,7 +2158,7 @@
   },
   {
     "type": "java/missing-space-in-concatenation",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-223",
     "message": "This string appears to be missing a space after 'you...'.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 3043,
@@ -2166,7 +2166,7 @@
     "start_column": 33,
     "end_column": 34,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2992
@@ -2195,7 +2195,7 @@
     "start_column": 54,
     "end_column": 80,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
         "line_number": 816
@@ -2216,7 +2216,7 @@
     "start_column": 70,
     "end_column": 108,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/file/PathUtils.java",
         "line_number": 1767
@@ -2241,7 +2241,7 @@
     "start_column": 52,
     "end_column": 91,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/filefilter/PathVisitorFileFilter.java",
         "line_number": 53
@@ -2262,7 +2262,7 @@
     "start_column": 33,
     "end_column": 72,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/filefilter/PathVisitorFileFilter.java",
         "line_number": 63
@@ -2283,7 +2283,7 @@
     "start_column": 20,
     "end_column": 93,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2295,7 +2295,7 @@
     "start_column": 20,
     "end_column": 94,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2307,7 +2307,7 @@
     "start_column": 20,
     "end_column": 104,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2319,7 +2319,7 @@
     "start_column": 24,
     "end_column": 87,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
         "line_number": 80
@@ -2356,7 +2356,7 @@
     "start_column": 20,
     "end_column": 127,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/main/java/org/apache/commons/io/input/RandomAccessFileInputStream.java",
         "line_number": 82
@@ -2385,7 +2385,7 @@
     "start_column": 20,
     "end_column": 111,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2397,7 +2397,7 @@
     "start_column": 20,
     "end_column": 101,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2409,7 +2409,7 @@
     "start_column": 20,
     "end_column": 102,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2421,7 +2421,7 @@
     "start_column": 23,
     "end_column": 98,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2433,7 +2433,7 @@
     "start_column": 23,
     "end_column": 115,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2445,7 +2445,7 @@
     "start_column": 20,
     "end_column": 123,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2457,7 +2457,7 @@
     "start_column": 20,
     "end_column": 130,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -2469,7 +2469,7 @@
     "start_column": 31,
     "end_column": 61,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
         "line_number": 124
@@ -2502,7 +2502,7 @@
     "start_column": 29,
     "end_column": 61,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
         "line_number": 125
@@ -2535,7 +2535,7 @@
     "start_column": 32,
     "end_column": 61,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
         "line_number": 137
@@ -2568,7 +2568,7 @@
     "start_column": 29,
     "end_column": 60,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileSystemUtilsTest.java",
         "line_number": 138
@@ -2601,7 +2601,7 @@
     "start_column": 31,
     "end_column": 63,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2453
@@ -2630,7 +2630,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2776
@@ -2659,7 +2659,7 @@
     "start_column": 9,
     "end_column": 63,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2778
@@ -2688,7 +2688,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2776
@@ -2717,7 +2717,7 @@
     "start_column": 9,
     "end_column": 62,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2790
@@ -2746,7 +2746,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2776
@@ -2775,7 +2775,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2776
@@ -2804,7 +2804,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2776
@@ -2833,7 +2833,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2776
@@ -2862,7 +2862,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2809
@@ -2891,7 +2891,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2809
@@ -2920,7 +2920,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2903
@@ -2949,7 +2949,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2903
@@ -2978,7 +2978,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2903
@@ -3007,7 +3007,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2918
@@ -3036,7 +3036,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2972
@@ -3065,7 +3065,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2972
@@ -3094,7 +3094,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2972
@@ -3123,7 +3123,7 @@
     "start_column": 9,
     "end_column": 75,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 3067
@@ -3152,7 +3152,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 2972
@@ -3181,7 +3181,7 @@
     "start_column": 9,
     "end_column": 74,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 3079
@@ -3210,7 +3210,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 3018
@@ -3239,7 +3239,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 3034
@@ -3268,7 +3268,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 3065
@@ -3297,7 +3297,7 @@
     "start_column": 9,
     "end_column": 79,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 3077
@@ -3326,7 +3326,7 @@
     "start_column": 26,
     "end_column": 105,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/IOUtilsTest.java",
         "line_number": 1476
@@ -3343,7 +3343,7 @@
     "start_column": 56,
     "end_column": 18,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
         "line_number": 51
@@ -3384,7 +3384,7 @@
     "start_column": 56,
     "end_column": 18,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
         "line_number": 51
@@ -3425,7 +3425,7 @@
     "start_column": 60,
     "end_column": 104,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
         "line_number": 118
@@ -3466,7 +3466,7 @@
     "start_column": 56,
     "end_column": 18,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
         "line_number": 59
@@ -3507,7 +3507,7 @@
     "start_column": 56,
     "end_column": 18,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
         "line_number": 167
@@ -3548,7 +3548,7 @@
     "start_column": 56,
     "end_column": 18,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
         "line_number": 167
@@ -3589,7 +3589,7 @@
     "start_column": 61,
     "end_column": 105,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/RandomAccessFileInputStreamTest.java",
         "line_number": 221
@@ -3630,7 +3630,7 @@
     "start_column": 47,
     "end_column": 107,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 112
@@ -3667,7 +3667,7 @@
     "start_column": 35,
     "end_column": 102,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 124
@@ -3704,7 +3704,7 @@
     "start_column": 35,
     "end_column": 102,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 124
@@ -3741,7 +3741,7 @@
     "start_column": 35,
     "end_column": 107,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 142
@@ -3778,7 +3778,7 @@
     "start_column": 35,
     "end_column": 107,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 142
@@ -3815,7 +3815,7 @@
     "start_column": 35,
     "end_column": 113,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 164
@@ -3852,7 +3852,7 @@
     "start_column": 23,
     "end_column": 100,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 174
@@ -3889,7 +3889,7 @@
     "start_column": 23,
     "end_column": 117,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 182
@@ -3926,7 +3926,7 @@
     "start_column": 35,
     "end_column": 133,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 189
@@ -3963,7 +3963,7 @@
     "start_column": 35,
     "end_column": 133,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 189
@@ -4000,7 +4000,7 @@
     "start_column": 35,
     "end_column": 102,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 124
@@ -4037,7 +4037,7 @@
     "start_column": 35,
     "end_column": 102,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 124
@@ -4074,7 +4074,7 @@
     "start_column": 35,
     "end_column": 102,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 124
@@ -4111,7 +4111,7 @@
     "start_column": 35,
     "end_column": 103,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 229
@@ -4148,7 +4148,7 @@
     "start_column": 35,
     "end_column": 117,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 237
@@ -4185,7 +4185,7 @@
     "start_column": 35,
     "end_column": 120,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 246
@@ -4222,7 +4222,7 @@
     "start_column": 35,
     "end_column": 120,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.java",
         "line_number": 246
@@ -4259,7 +4259,7 @@
     "start_column": 84,
     "end_column": 130,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
         "line_number": 126
@@ -4296,7 +4296,7 @@
     "start_column": 19,
     "end_column": 76,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.java",
         "line_number": 127
@@ -4333,7 +4333,7 @@
     "start_column": 64,
     "end_column": 26,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
         "line_number": 41
@@ -4362,7 +4362,7 @@
     "start_column": 64,
     "end_column": 26,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
         "line_number": 41
@@ -4391,7 +4391,7 @@
     "start_column": 64,
     "end_column": 26,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
         "line_number": 41
@@ -4420,7 +4420,7 @@
     "start_column": 19,
     "end_column": 105,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
         "line_number": 83
@@ -4457,7 +4457,7 @@
     "start_column": 19,
     "end_column": 122,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.java",
         "line_number": 90
@@ -4494,7 +4494,7 @@
     "start_column": 9,
     "end_column": 50,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -4506,7 +4506,7 @@
     "start_column": 9,
     "end_column": 50,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -4518,7 +4518,7 @@
     "start_column": 42,
     "end_column": 99,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -4530,7 +4530,7 @@
     "start_column": 122,
     "end_column": 145,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
         "line_number": 441
@@ -4547,7 +4547,7 @@
     "start_column": 42,
     "end_column": 99,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -4559,7 +4559,7 @@
     "start_column": 17,
     "end_column": 47,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/input/XmlStreamReaderTest.java",
         "line_number": 533
@@ -4576,7 +4576,7 @@
     "start_column": 13,
     "end_column": 73,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "java/deprecated-call",
@@ -4588,7 +4588,7 @@
     "start_column": 47,
     "end_column": 142,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
         "line_number": 267
@@ -4617,7 +4617,7 @@
     "start_column": 56,
     "end_column": 131,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
         "line_number": 285
@@ -4646,7 +4646,7 @@
     "start_column": 47,
     "end_column": 107,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
         "line_number": 360
@@ -4675,7 +4675,7 @@
     "start_column": 47,
     "end_column": 126,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/output/DeferredFileOutputStreamTest.java",
         "line_number": 388
@@ -4696,7 +4696,7 @@
   },
   {
     "type": "java/unsafe-get-resource",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-20",
     "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 1318,
@@ -4704,7 +4704,7 @@
     "start_column": 33,
     "end_column": 69,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1308
@@ -4725,7 +4725,7 @@
   },
   {
     "type": "java/unsafe-get-resource",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-20",
     "message": "The idiom getClass().getResource() is unsafe for classes that may be extended.",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
     "start_line": 1322,
@@ -4733,7 +4733,7 @@
     "start_column": 38,
     "end_column": 82,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/FileUtilsTest.java",
         "line_number": 1312
@@ -4754,7 +4754,7 @@
   },
   {
     "type": "java/non-serializable-inner-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-290",
     "message": "Serializable inner class of non-serializable class [IOFileFilterAbstractTest](1). Consider making the class static or implementing readObject() and writeObject().",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
     "start_line": 27,
@@ -4762,7 +4762,7 @@
     "start_column": 11,
     "end_column": 32,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
         "line_number": 27
@@ -4771,7 +4771,7 @@
   },
   {
     "type": "java/non-serializable-inner-class",
-    "cwe": "CWE-unknown",
+    "cwe": "CWE-290",
     "message": "Serializable inner class of non-serializable class [IOFileFilterAbstractTest](1). Consider making the class static or implementing readObject() and writeObject().",
     "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
     "start_line": 57,
@@ -4779,7 +4779,7 @@
     "start_column": 11,
     "end_column": 31,
     "flag": false,
-    "error_trace": [
+    "tag_history": [
       {
         "file": "%SRCROOT%src/test/java/org/apache/commons/io/filefilter/IOFileFilterAbstractTest.java",
         "line_number": 57

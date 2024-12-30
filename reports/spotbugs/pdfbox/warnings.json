@@ -9,7 +9,7 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   },
   {
     "type": "EI_EXPOSE_REP2",
@@ -21,6 +21,6 @@
     "start_column": null,
     "end_column": null,
     "flag": false,
-    "error_trace": []
+    "tag_history": []
   }
 ]
